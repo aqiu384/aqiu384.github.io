@@ -2957,9 +2957,9 @@ _FULL_SKILLS = {
         "target": "Party",
         "unique-cost": ""
     },
-    "MADNESS BITE": {
+    "Frenzied Chomp": {
         "alt_string": "020",
-        "comments": "70% Charm",
+        "comments": "Chance of poison, bind, or charm",
         "demons": {
             "Camazotz": 26,
             "Chupacabra": 23,
@@ -4250,7 +4250,7 @@ _FULL_SKILLS = {
     },
     "POISON MELODY": {
         "alt_string": "226",
-        "comments": "70% Poison, cold, and/or bind and tarunda",
+        "comments": "70% Poison, sick, and/or bind and tarunda",
         "demons": {
             "Krishna": 0
         },
@@ -4263,7 +4263,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "47"
     },
-    "PRAYER": {
+    "Salvation": {
         "alt_string": "170",
         "comments": "Recovers all HP",
         "demons": {
@@ -5333,7 +5333,7 @@ _FULL_SKILLS = {
         "target": "Universal",
         "unique-cost": ""
     },
-    "Skull Cleave": {
+    "Head Crush": {
         "alt_string": "018",
         "comments": "70% Daze",
         "demons": {

@@ -1632,7 +1632,7 @@ _FULL_COMPENDIUM = {
             "Hamaon": 0,
             "Light Pleroma": 31,
             "Resist Light": 30,
-            "Skull Cleave": 0
+            "Head Crush": 0
         },
         "stats": {
             "ag": 31,
@@ -2494,7 +2494,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Axel Claw": 27,
             "Life Drain": 0,
-            "MADNESS BITE": 26,
+            "Frenzied Chomp": 26,
             "Tetanus Cut": 0
         },
         "stats": {
@@ -2966,7 +2966,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dormina": 22,
             "Life Drain": 0,
-            "MADNESS BITE": 23,
+            "Frenzied Chomp": 23,
             "Sukukaja": 0
         },
         "stats": {
@@ -3746,7 +3746,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Bind Voice": 0,
-            "MADNESS BITE": 0,
+            "Frenzied Chomp": 0,
             "Sukukaja": 59,
             "Trafuri": 0
         },
@@ -3790,7 +3790,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Life Bonus": 9,
             "Lunge": 0,
-            "Skull Cleave": 10
+            "Head Crush": 10
         },
         "stats": {
             "ag": 13,
@@ -4215,7 +4215,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Needle Shot": 7,
-            "Skull Cleave": 0
+            "Head Crush": 0
         },
         "stats": {
             "ag": 9,
@@ -4646,7 +4646,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Acid Breath": 51,
             "Damascus Claw": 50,
-            "MADNESS BITE": 0,
+            "Frenzied Chomp": 0,
             "Tetanus Cut": 0
         },
         "stats": {
@@ -4681,7 +4681,7 @@ _FULL_COMPENDIUM = {
             "elec": "weak",
             "fire": "-",
             "force": "weak",
-            "gun": "null",
+            "gun": "-",
             "ice": "-",
             "light": "weak",
             "phys": "repel"
@@ -4901,7 +4901,7 @@ _FULL_COMPENDIUM = {
             "Life Surge": 53,
             "Mortal Jihad": 0,
             "Purple Smoke": 52,
-            "Skull Cleave": 0
+            "Head Crush": 0
         },
         "stats": {
             "ag": 42,
@@ -5288,7 +5288,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Axel Claw": 31,
-            "MADNESS BITE": 0,
+            "Frenzied Chomp": 0,
             "Retaliate": 32,
             "Sukunda": 0
         },
@@ -6154,7 +6154,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Great Logos": 87,
             "Hades Blast": 0,
-            "PRAYER": 0,
+            "Salvation": 0,
             "Repel Light": 89,
             "Riot Gun": 0,
             "Victory Cry": 88
@@ -8224,7 +8224,7 @@ _FULL_COMPENDIUM = {
             "Drain Dark": 91,
             "LUSTER MELODY": 89,
             "POISON MELODY": 0,
-            "PRAYER": 90,
+            "Salvation": 90,
             "Ziodyne": 0
         },
         "stats": {
@@ -9386,7 +9386,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Lunge": 0,
-            "MADNESS BITE": 11,
+            "Frenzied Chomp": 11,
             "Pulinpa": 0
         },
         "stats": {
@@ -9471,7 +9471,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Acid Breath": 47,
             "Axel Claw": 0,
-            "MADNESS BITE": 46,
+            "Frenzied Chomp": 46,
             "Toxic Sting": 0
         },
         "stats": {
@@ -10258,7 +10258,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dream Fist": 19,
             "Mazio": 20,
-            "Skull Cleave": 0,
+            "Head Crush": 0,
             "Zionga": 0
         },
         "stats": {
@@ -10640,7 +10640,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MADNESS BITE": 0,
+            "Frenzied Chomp": 0,
             "Patra": 30,
             "Tarunda": 0,
             "Wind Breath": 31
@@ -10727,7 +10727,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Bufula": 0,
             "Fatal Sword": 21,
-            "Skull Cleave": 0,
+            "Head Crush": 0,
             "Tarukaja": 20
         },
         "stats": {
@@ -11633,7 +11633,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Critical Wave": 15,
-            "Skull Cleave": 0
+            "Head Crush": 0
         },
         "stats": {
             "ag": 15,
@@ -13309,7 +13309,7 @@ _FULL_COMPENDIUM = {
             "Counter": 0,
             "Endure": 40,
             "Fatal Sword": 0,
-            "Skull Cleave": 0
+            "Head Crush": 0
         },
         "stats": {
             "ag": 45,
@@ -13566,7 +13566,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Doping": 91,
             "Great Logos": 0,
-            "PRAYER": 92,
+            "Salvation": 92,
             "Repel Dark": 93,
             "Shivering Taboo": 0
         },
@@ -13911,7 +13911,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "High Gun Pleroma": 97,
-            "PRAYER": 96,
+            "Salvation": 96,
             "Repel Elec": 95,
             "Riot Gun": 0,
             "Trisagion": 0
@@ -14127,7 +14127,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MADNESS BITE": 16,
+            "Frenzied Chomp": 16,
             "Mazan": 0,
             "Shibaboo": 0
         },
