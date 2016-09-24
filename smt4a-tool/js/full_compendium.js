@@ -200,7 +200,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Chakra Walk": 45,
-            "EARTHQUAKE": 0,
+            "Earthquake": 0,
             "Life Surge": 46
         },
         "stats": {
@@ -241,7 +241,7 @@ _FULL_COMPENDIUM = {
             "phys": "weak"
         },
         "skills": {
-            "MAGAON": 68,
+            "Magaon": 68,
             "Poison Breath": 0,
             "Tetrakarn": 0
         },
@@ -591,7 +591,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dia": 0,
             "Hama": 0,
-            "MAGAON": 12,
+            "Magaon": 12,
             "Patra": 11,
             "Rakukaja": 14
         },
@@ -764,7 +764,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "CRITICAL CHARGE": 52,
+            "Critical Eye": 52,
             "Me Patra": 51,
             "Nihil Claw": 0,
             "Shock": 0
@@ -893,9 +893,9 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "ICE AGE": 0,
+            "Ice Age": 0,
             "Repel Fire": 85,
-            "SMILE CHARGE": 84,
+            "Smile Charge": 84,
             "Titanomachia": 83,
             "Victory Cry": 0
         },
@@ -1067,7 +1067,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Blood Ritual": 61,
             "Bufudyne": 0,
-            "MAGAON": 0,
+            "Magaon": 0,
             "Sea of Chaos": 60
         },
         "stats": {
@@ -1154,7 +1154,7 @@ _FULL_COMPENDIUM = {
             "Charge": 33,
             "Counter": 0,
             "Javelin Rain": 34,
-            "MUSCLE PUNCH": 0
+            "Power Punch": 0
         },
         "stats": {
             "ag": 35,
@@ -1238,7 +1238,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "CRITICAL CHARGE": 44,
+            "Critical Eye": 44,
             "Maragion": 0,
             "Resist Gun": 45,
             "Titanomachia": 0
@@ -1502,7 +1502,7 @@ _FULL_COMPENDIUM = {
             "BAAL ELEC": 81,
             "Maragidyne": 0,
             "Null Fire": 82,
-            "PANIC PHYS": 0
+            "Mist Rush": 0
         },
         "stats": {
             "ag": 79,
@@ -2325,7 +2325,7 @@ _FULL_COMPENDIUM = {
             "ELEC BREAK": 85,
             "Maziodyne": 0,
             "Null Gun": 86,
-            "PANIC PHYS": 84
+            "Mist Rush": 84
         },
         "stats": {
             "ag": 85,
@@ -2409,7 +2409,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Acid Breath": 61,
-            "EARTHQUAKE": 60,
+            "Earthquake": 60,
             "Mediarama": 0,
             "Pandemic Bomb": 0
         },
@@ -2749,7 +2749,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Blight": 0,
-            "CRITICAL CHARGE": 54,
+            "Critical Eye": 54,
             "Dark Sword": 53,
             "Sea of Chaos": 0
         },
@@ -2839,7 +2839,7 @@ _FULL_COMPENDIUM = {
             "Hades Blast": 0,
             "ICE BREAK": 0,
             "Mabufudyne": 0,
-            "PANIC PHYS": 89
+            "Mist Rush": 89
         },
         "stats": {
             "ag": 94,
@@ -3054,7 +3054,7 @@ _FULL_COMPENDIUM = {
             "CLEOPATRA CHARM": 0,
             "CLEOPATRA LIGHT": 0,
             "Deadly Wind": 0,
-            "ICE AGE": 0,
+            "Ice Age": 0,
             "Light Pierce": 0,
             "Mediarahan": 0
         },
@@ -3182,7 +3182,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "CRITICAL CHARGE": 54,
+            "Critical Eye": 54,
             "Dark Sword": 52,
             "Floral Gust": 0,
             "Force Pleroma": 51,
@@ -3402,7 +3402,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "HYPNOTIC RAPHSODY": 0,
-            "SMILE CHARGE": 83,
+            "Smile Charge": 83,
             "SOUL DRAIN": 0
         },
         "stats": {
@@ -3532,7 +3532,7 @@ _FULL_COMPENDIUM = {
             "Breath": 78,
             "Desperate Hit": 77,
             "Iron Judgment": 0,
-            "SMILE CHARGE": 0
+            "Smile Charge": 0
         },
         "stats": {
             "ag": 75,
@@ -4044,7 +4044,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Draconic Reaction": 77,
-            "EARTHQUAKE": 0,
+            "Earthquake": 0,
             "Poison Breath": 0,
             "War Cry": 76
         },
@@ -4130,7 +4130,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Amazing Gnaw": 0,
-            "CRITICAL CHARGE": 71,
+            "Critical Eye": 71,
             "Nihil Claw": 0,
             "Phys Pleroma": 70
         },
@@ -4473,7 +4473,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Charge": 73,
-            "EARTHQUAKE": 0,
+            "Earthquake": 0,
             "Grand Tack": 74,
             "Rakukaja": 0
         },
@@ -4688,8 +4688,8 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Bind Voice": 0,
-            "CRITICAL CHARGE": 63,
-            "EARTHQUAKE": 64,
+            "Critical Eye": 63,
+            "Earthquake": 64,
             "Titanomachia": 0
         },
         "stats": {
@@ -4814,7 +4814,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Ally Counter": 62,
-            "EARTHQUAKE": 0,
+            "Earthquake": 0,
             "Shock": 0,
             "Titanomachia": 63
         },
@@ -4942,7 +4942,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Damascus Claw": 41,
-            "MUSCLE PUNCH": 0,
+            "Power Punch": 0,
             "Oni-Kagura": 0
         },
         "stats": {
@@ -5072,7 +5072,7 @@ _FULL_COMPENDIUM = {
             "Amrita": 0,
             "Dark Pleroma": 65,
             "Mudoon": 0,
-            "SMILE CHARGE": 0,
+            "Smile Charge": 0,
             "Samarecarm": 64
         },
         "stats": {
@@ -5417,7 +5417,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Ally Retaliate": 68,
-            "MUSCLE PUNCH": 0,
+            "Power Punch": 0,
             "Mazandyne": 0,
             "Rakunda": 67
         },
@@ -6586,7 +6586,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MUSCLE PUNCH": 0,
+            "Power Punch": 0,
             "Mudo": 0,
             "Oni-Kagura": 17
         },
@@ -7188,7 +7188,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Dekaja": 0,
-            "MAGAON": 41,
+            "Magaon": 41,
             "Mortal Jihad": 0,
             "Resist Phys": 42
         },
@@ -7274,7 +7274,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dark Sword": 0,
             "Life Surge": 76,
-            "PANIC PHYS": 0,
+            "Mist Rush": 0,
             "Phys Pleroma": 77
         },
         "stats": {
@@ -7489,7 +7489,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Ally Retaliate": 68,
             "Berserker God": 0,
-            "CRITICAL CHARGE": 0,
+            "Critical Eye": 0,
             "Estoma": 0,
             "Phys Pleroma": 69
         },
@@ -7875,7 +7875,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Charge": 44,
-            "MUSCLE PUNCH": 0,
+            "Power Punch": 0,
             "Mortal Jihad": 0,
             "Retaliate": 46
         },
@@ -7918,7 +7918,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Bufula": 0,
-            "CRITICAL CHARGE": 34,
+            "Critical Eye": 34,
             "Ice Breath": 31,
             "Ice Pleroma": 0,
             "King Bufula": 0,
@@ -8047,7 +8047,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MAGAON": 18,
+            "Magaon": 18,
             "Rakukaja": 0,
             "Zanma": 0
         },
@@ -8222,7 +8222,7 @@ _FULL_COMPENDIUM = {
             "DREAM MELODY": 0,
             "Deadly Wind": 88,
             "Drain Dark": 91,
-            "LUSTER MELODY": 89,
+            "Combat Tara": 89,
             "POISON MELODY": 0,
             "Salvation": 90,
             "Ziodyne": 0
@@ -8352,7 +8352,6 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Energy Drain": 45,
-            "Makarakarn": 0,
             "Tetrakarn": 0
         },
         "stats": {
@@ -8782,7 +8781,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Critical Wave": 0,
             "Light Life Aid": 24,
-            "MUSCLE PUNCH": 0
+            "Power Punch": 0
         },
         "stats": {
             "ag": 26,
@@ -9128,7 +9127,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Blight": 0,
             "Hellish Mask": 47,
-            "MAGAON": 46,
+            "Magaon": 46,
             "Pandemic Bomb": 0
         },
         "stats": {
@@ -9258,8 +9257,8 @@ _FULL_COMPENDIUM = {
             "Doping": 86,
             "Drain Ice": 85,
             "Hades Blast": 0,
-            "MAITREYA ALMGIHTY": 84,
-            "MIROKU BUFF": 0,
+            "Self-Righteous Vow": 84,
+            "Enlightenment": 0,
             "Makajamaon": 0
         },
         "stats": {
@@ -9600,12 +9599,12 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "ICE AGE": 95,
+            "Ice Age": 95,
             "Judgement Light": 94,
             "Megidolaon": 0,
             "Panic Voice": 0,
             "Repel Gun": 96,
-            "SMILE CHARGE": 0
+            "Smile Charge": 0
         },
         "stats": {
             "ag": 90,
@@ -10128,8 +10127,8 @@ _FULL_COMPENDIUM = {
             "Berserker God": 0,
             "Glacial Blast": 97,
             "MITHRA ALMIGHTY": 0,
-            "MITHRA WEAKNESS BUFF": 98,
-            "SMILE CHARGE": 0,
+            "Self-Righteous Vow": 98,
+            "Smile Charge": 0,
             "Tetracoerce": 0
         },
         "stats": {
@@ -10857,7 +10856,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Charge": 25,
             "Fang Breaker": 0,
-            "MUSCLE PUNCH": 0,
+            "Power Punch": 0,
             "Oni-Kagura": 24
         },
         "stats": {
@@ -11590,7 +11589,7 @@ _FULL_COMPENDIUM = {
             "Dark Sword": 0,
             "Death's Door": 81,
             "Null Gun": 83,
-            "PANIC PHYS": 80,
+            "Mist Rush": 80,
             "Sabbatma": 0,
             "Tetanus Cut": 0
         },
@@ -13180,7 +13179,7 @@ _FULL_COMPENDIUM = {
             "Agidyne": 0,
             "Maragidyne": 68,
             "Mazandyne": 69,
-            "SMILE CHARGE": 0,
+            "Smile Charge": 0,
             "Zandyne": 0
         },
         "stats": {
@@ -13611,8 +13610,8 @@ _FULL_COMPENDIUM = {
             "Elec Pleroma": 77,
             "Force Pleroma": 78,
             "SHEMYAZA ALMIGHTY": 79,
-            "TRUE ZANDYNE": 0,
-            "TRUE ZIODYNE": 0
+            "True Zandyne": 0,
+            "True Ziodyne": 0
         },
         "stats": {
             "ag": 75,
@@ -14000,7 +13999,7 @@ _FULL_COMPENDIUM = {
             "Draconic Reaction": 88,
             "Madness Nails": 87,
             "Panic Voice": 0,
-            "SET PHYS": 0,
+            "Rending Claws": 0,
             "War Cry": 86,
             "Zandyne": 0
         },
@@ -14300,7 +14299,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Blood Ritual": 63,
-            "CRITICAL CHARGE": 0,
+            "Critical Eye": 0,
             "Enduring Soul": 64,
             "Hades Blast": 0,
             "Life Aid": 0
@@ -14601,7 +14600,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dormina": 0,
             "Light Life Aid": 16,
-            "MAGAON": 15,
+            "Magaon": 15,
             "Oni-Kagura": 0,
             "Resist Light": 17
         },
@@ -14946,8 +14945,8 @@ _FULL_COMPENDIUM = {
             "Concentrate": 36,
             "Makajam": 35,
             "Null Mind": 36,
-            "SUKUNA HIKONA FORCE": 0,
-            "SUKUNA HIKONA ICE": 0
+            "Infernal Hail": 0,
+            "Needlestorm": 0
         },
         "stats": {
             "ag": 46,
@@ -15074,11 +15073,11 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "CRITICAL CHARGE": 85,
+            "Critical Eye": 85,
             "Deadly Wind": 0,
             "Drain Fire": 87,
             "High Phys Pleroma": 86,
-            "PANIC PHYS": 0
+            "Mist Rush": 0
         },
         "stats": {
             "ag": 79,
@@ -15507,7 +15506,7 @@ _FULL_COMPENDIUM = {
             "Ally Retaliate": 78,
             "Berserker God": 0,
             "Blood Ritual": 0,
-            "INTIMIDATING STANCE": 79,
+            "Imposing Stance": 79,
             "Mahamaon": 0
         },
         "stats": {
@@ -15808,8 +15807,8 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "CRITICAL CHARGE": 0,
-            "MUSCLE PUNCH": 39,
+            "Critical Eye": 0,
+            "Power Punch": 39,
             "Oni-Kagura": 0,
             "Retaliate": 40
         },
@@ -16027,7 +16026,7 @@ _FULL_COMPENDIUM = {
             "Debilitate": 0,
             "High Light Pleroma": 82,
             "Judgement Light": 0,
-            "SMILE CHARGE": 81
+            "Smile Charge": 81
         },
         "stats": {
             "ag": 78,
@@ -16155,7 +16154,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "EVIL MELODY": 0,
             "Great Logos": 99,
-            "SMILE CHARGE": 0,
+            "Smile Charge": 0,
             "SOUL DRAIN": 0
         },
         "stats": {
@@ -16240,7 +16239,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Ice Breath": 0,
-            "MAGAON": 32,
+            "Magaon": 32,
             "Me Patra": 31,
             "Media": 0
         },
@@ -16497,7 +16496,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Glacial Blast": 0,
-            "ICE AGE": 89,
+            "Ice Age": 89,
             "Life Surge": 90,
             "Poison Breath": 0,
             "Shivering Taboo": 91
@@ -16841,7 +16840,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MUSCLE PUNCH": 31,
+            "Power Punch": 31,
             "Mabufula": 0,
             "Oni-Kagura": 0,
             "Poison Breath": 31
@@ -16929,7 +16928,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "MAGAON": 39,
+            "Magaon": 39,
             "Makajam": 0,
             "Mazanma": 0,
             "Resist Elec": 40
@@ -17015,7 +17014,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "CRITICAL CHARGE": 58,
+            "Critical Eye": 58,
             "Charge": 0,
             "Mortal Jihad": 0,
             "Phys Pleroma": 60,
@@ -17145,7 +17144,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "MAGAON": 0,
+            "Magaon": 0,
             "Makajamaon": 73,
             "Me Patra": 72,
             "Tetrakarn": 0
@@ -17620,7 +17619,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Berserker God": 52,
-            "INTIMIDATING STANCE": 0,
+            "Imposing Stance": 0,
             "Javelin Rain": 0,
             "Null Nerve": 53,
             "Rakunda": 51

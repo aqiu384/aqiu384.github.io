@@ -718,7 +718,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "24"
     },
-    "CRITICAL CHARGE": {
+    "Critical Eye": {
         "alt_string": "180",
         "comments": "Guaruntees critical hit for next physical or gun attack",
         "demons": {
@@ -1456,7 +1456,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "EARTHQUAKE": {
+    "Earthquake": {
         "alt_string": "040",
         "comments": "60% Daze",
         "demons": {
@@ -2447,7 +2447,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "-1"
     },
-    "ICE AGE": {
+    "Ice Age": {
         "alt_string": "080",
         "demons": {
             "Apsu": 0,
@@ -2480,7 +2480,7 @@ _FULL_SKILLS = {
         "target": "Party",
         "unique-cost": ""
     },
-    "INTIMIDATING STANCE": {
+    "Imposing Stance": {
         "alt_string": "241",
         "comments": "Removes one press turn from the enemy during their next turn",
         "demons": {
@@ -2687,7 +2687,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "26"
     },
-    "LUSTER MELODY": {
+    "Combat Tara": {
         "alt_string": "198",
         "comments": "All 4 -kaja skills once",
         "demons": {
@@ -2980,7 +2980,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "MAGAON": {
+    "Magaon": {
         "alt_string": "206",
         "comments": "Removes smirk",
         "demons": {
@@ -3061,7 +3061,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "24"
     },
-    "MIROKU BUFF": {
+    "Enlightenment": {
         "alt_string": "212",
         "comments": "Changes weakness attributes to absorb for one turn",
         "demons": {
@@ -3090,7 +3090,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "36"
     },
-    "MITHRA WEAKNESS BUFF": {
+    "Self-Righteous Vow": {
         "alt_string": "328",
         "comments": "Increases attack for every time a weakness is exploited",
         "demons": {
@@ -3105,7 +3105,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": "0"
     },
-    "MUSCLE PUNCH": {
+    "Power Punch": {
         "alt_string": "023",
         "demons": {
             "Ares": 0,
@@ -3381,7 +3381,6 @@ _FULL_SKILLS = {
             "Azrael": 78,
             "Dantalion": 0,
             "Futotama": 53,
-            "Kukunochi": 0,
             "Lorelei": 54,
             "Marici": 76,
             "Maya": 0,
@@ -4228,7 +4227,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "PANIC PHYS": {
+    "Mist Rush": {
         "alt_string": "043",
         "comments": "70% Daze",
         "demons": {
@@ -5048,7 +5047,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "SET PHYS": {
+    "Rending Claws": {
         "alt_string": "013",
         "demons": {
             "Seth": 0
@@ -5076,7 +5075,7 @@ _FULL_SKILLS = {
         "target": "Multi",
         "unique-cost": "46"
     },
-    "SMILE CHARGE": {
+    "Smile Charge": {
         "alt_string": "205",
         "comments": "Bestows smirk. Cannot use when target is under effect of any ailment",
         "demons": {
@@ -5121,7 +5120,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "7"
     },
-    "SUKUNA HIKONA FORCE": {
+    "Needlestorm": {
         "alt_string": "112",
         "comments": "60% Daze",
         "demons": {
@@ -5136,7 +5135,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "23"
     },
-    "SUKUNA HIKONA ICE": {
+    "Infernal Hail": {
         "alt_string": "079",
         "comments": "Sukunda",
         "demons": {
@@ -5538,7 +5537,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "12"
     },
-    "TRUE ZANDYNE": {
+    "True Zandyne": {
         "alt_string": "105",
         "demons": {
             "Samyaza": 0
@@ -5552,7 +5551,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "22"
     },
-    "TRUE ZIODYNE": {
+    "True Ziodyne": {
         "alt_string": "092",
         "demons": {
             "Samyaza": 0
