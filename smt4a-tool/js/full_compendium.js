@@ -677,7 +677,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Dekunda": 91,
-            "EIGHT-COLOR ELEC": 93,
+            "Thunder Gods": 93,
             "Judgement Light": 92,
             "Makajamaon": 0,
             "Thunder Reign": 0
@@ -1888,7 +1888,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "EIGHT-COLOR ELEC": 81,
+            "Thunder Gods": 81,
             "High Dark Pleroma": 80,
             "Mamudoon": 0,
             "Null Force": 82,
@@ -2280,7 +2280,7 @@ _FULL_COMPENDIUM = {
             "Glacial Blast": 94,
             "Ice Pierce": 96,
             "Megidolaon": 95,
-            "SOUL DRAIN": 0,
+            "Soul Drain": 0,
             "Soul Divide": 0
         },
         "stats": {
@@ -2922,8 +2922,8 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "CHIRONNUPU BUFF": 0,
-            "CHIRONNUPU VOID AILMENT": 28,
+            "Enduring Cheer": 0,
+            "Warding Shout": 28,
             "Recarmdra": 27
         },
         "stats": {
@@ -3401,9 +3401,9 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "HYPNOTIC RAPHSODY": 0,
+            "Haunting Rhapsody": 0,
             "Smile Charge": 83,
-            "SOUL DRAIN": 0
+            "Soul Drain": 0
         },
         "stats": {
             "ag": 115,
@@ -6845,8 +6845,8 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Concentrate": 0,
-            "EIGHT-COLOR ELEC": 0,
-            "IZANAMI DARK": 0,
+            "Thunder Gods": 0,
+            "Dark Grudge": 0,
             "Repel Ice": 85,
             "Spring of Life": 83
         },
@@ -8219,11 +8219,11 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "DREAM MELODY": 0,
+            "Dream Raga": 0,
             "Deadly Wind": 88,
             "Drain Dark": 91,
             "Combat Tara": 89,
-            "POISON MELODY": 0,
+            "Venomous Raga": 0,
             "Salvation": 90,
             "Ziodyne": 0
         },
@@ -8352,6 +8352,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Energy Drain": 45,
+			"Makakaja": 0,
             "Tetrakarn": 0
         },
         "stats": {
@@ -9257,7 +9258,7 @@ _FULL_COMPENDIUM = {
             "Doping": 86,
             "Drain Ice": 85,
             "Hades Blast": 0,
-            "Self-Righteous Vow": 84,
+            "5.67 Billion Hands": 84,
             "Enlightenment": 0,
             "Makajamaon": 0
         },
@@ -9514,7 +9515,7 @@ _FULL_COMPENDIUM = {
             "Charge": 0,
             "Doping": 93,
             "Hell Thrust": 0,
-            "MARA-MARA DANCE": 0,
+            "Dance of Mara": 0,
             "Null Nerve": 94,
             "Repel Phys": 95
         },
@@ -9691,7 +9692,7 @@ _FULL_COMPENDIUM = {
             "Dark Sword": 88,
             "Hades Blast": 89,
             "Phys Pierce": 90,
-            "SOUL DRAIN": 0
+            "Soul Drain": 0
         },
         "stats": {
             "ag": 107,
@@ -10096,7 +10097,7 @@ _FULL_COMPENDIUM = {
             "st": 37
         }
     },
-    "Mithra": {
+    "Mitra-Buddha": {
         "affinities": {
             "ailment": 0,
             "almighty": 5,
@@ -10430,7 +10431,7 @@ _FULL_COMPENDIUM = {
             "Babylon Goblet": 0,
             "Death Lust": 0,
             "Invitation": 0,
-            "SOUL DRAIN": 0
+            "Soul Drain": 0
         },
         "stats": {
             "ag": 109,
@@ -12146,7 +12147,7 @@ _FULL_COMPENDIUM = {
             "Debilitate": 97,
             "Force Pierce": 98,
             "Pestilence": 0,
-            "SOUL DRAIN": 0
+            "Soul Drain": 0
         },
         "stats": {
             "ag": 115,
@@ -13435,7 +13436,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Fire Pierce": 94,
-            "SOUL DRAIN": 0,
+            "Soul Drain": 0,
             "TERRORBLADE": 93,
             "Terrorblade": 0,
             "Trisagion": 92
@@ -16155,7 +16156,7 @@ _FULL_COMPENDIUM = {
             "EVIL MELODY": 0,
             "Great Logos": 99,
             "Smile Charge": 0,
-            "SOUL DRAIN": 0
+            "Soul Drain": 0
         },
         "stats": {
             "ag": 116,
@@ -16887,7 +16888,7 @@ _FULL_COMPENDIUM = {
             "God's Bow": 0,
             "Heaven's Bow": 91,
             "Pierce Gun": 92,
-            "SOUL DRAIN": 0,
+            "Soul Drain": 0,
             "Thunder Reign": 90
         },
         "stats": {

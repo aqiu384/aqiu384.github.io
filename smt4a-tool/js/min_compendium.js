@@ -225,7 +225,7 @@ _MIN_COMPENDIUM = {
         "Beiji-Weng": 66,
         "Chernobog": 50,
         "Kartikeya": 78,
-        "Mithra": 96,
+        "Mitra-Buddha": 96,
         "Shiva": 95,
         "Susano-o": 84,
         "Tonatiuh": 37,

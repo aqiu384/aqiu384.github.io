@@ -381,7 +381,7 @@ _FULL_SKILLS = {
             "Lanling Wang": 46,
             "Lord Nandou": 49,
             "Marici": 0,
-            "Mithra": 0,
+            "Mitra-Buddha": 0,
             "Nergal": 83,
             "Oumitsunu": 0,
             "Pales": 75,
@@ -644,7 +644,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "CHIRONNUPU BUFF": {
+    "Enduring Cheer": {
         "alt_string": "213",
         "comments": "Grants endure for one turn",
         "demons": {
@@ -659,7 +659,7 @@ _FULL_SKILLS = {
         "target": "Party",
         "unique-cost": "18"
     },
-    "CHIRONNUPU VOID AILMENT": {
+    "Warding Shout": {
         "alt_string": "214",
         "comments": "Negates ailment affliction for one turn",
         "demons": {
@@ -919,7 +919,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": ""
     },
-    "DREAM MELODY": {
+    "Dream Raga": {
         "alt_string": "227",
         "comments": "70% Sleep, panic, and/or charm and rakunda",
         "demons": {
@@ -1476,7 +1476,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": ""
     },
-    "EIGHT-COLOR ELEC": {
+    "Thunder Gods": {
         "alt_string": "094",
         "demons": {
             "Aniel": 93,
@@ -1903,7 +1903,7 @@ _FULL_SKILLS = {
             "Beiji-Weng": 0,
             "Black Rider": 94,
             "Lucifer": 0,
-            "Mithra": 97,
+            "Mitra-Buddha": 97,
             "Vasuki": 0
         },
         "first_icon": "IceIcon_SMTIV.png",
@@ -2042,7 +2042,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "76"
     },
-    "HYPNOTIC RAPHSODY": {
+    "Haunting Rhapsody": {
         "alt_string": "228",
         "comments": "70% CHAOS and maximize debuffs",
         "demons": {
@@ -2496,7 +2496,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": ""
     },
-    "IZANAMI DARK": {
+    "Dark Grudge": {
         "alt_string": "131",
         "demons": {
             "Izanami": 0
@@ -3004,7 +3004,7 @@ _FULL_SKILLS = {
         "target": "Enemy",
         "unique-cost": ""
     },
-    "MAITREYA ALMGIHTY": {
+    "5.67 Billion Hands": {
         "alt_string": "146",
         "demons": {
             "Maitreya": 84
@@ -3018,7 +3018,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "41"
     },
-    "MARA-MARA DANCE": {
+    "Dance of Mara": {
         "alt_string": "232",
         "comments": "70% Charm",
         "demons": {
@@ -3079,7 +3079,7 @@ _FULL_SKILLS = {
     "MITHRA ALMIGHTY": {
         "alt_string": "159",
         "demons": {
-            "Mithra": 0
+            "Mitra-Buddha": 0
         },
         "first_icon": "AlmightyIcon_SMTIV.png",
         "hits": "1",
@@ -3094,7 +3094,7 @@ _FULL_SKILLS = {
         "alt_string": "328",
         "comments": "Increases attack for every time a weakness is exploited",
         "demons": {
-            "Mithra": 98
+            "Mitra-Buddha": 98
         },
         "first_icon": "PassiveIcon_SMTIV.png",
         "hits": "",
@@ -4247,7 +4247,7 @@ _FULL_SKILLS = {
         "target": "Multi",
         "unique-cost": ""
     },
-    "POISON MELODY": {
+    "Venomous Raga": {
         "alt_string": "226",
         "comments": "70% Poison, sick, and/or bind and tarunda",
         "demons": {
@@ -5084,7 +5084,7 @@ _FULL_SKILLS = {
             "Demonee-Ho": 0,
             "Guedhe": 0,
             "Mastema": 0,
-            "Mithra": 0,
+            "Mitra-Buddha": 0,
             "Quetzalcoatl": 0,
             "Tokisada": 81,
             "Trumpeter": 0
@@ -5098,7 +5098,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": ""
     },
-    "SOUL DRAIN": {
+    "Soul Drain": {
         "alt_string": "141",
         "comments": "Drains HP and MP",
         "demons": {
@@ -5117,7 +5117,7 @@ _FULL_SKILLS = {
         "power": "Heavy",
         "second_icon": "SmirkIcon_SMTIV.png",
         "smirk-effect": "Increased Attack",
-        "target": "All",
+        "target": "Single",
         "unique-cost": "7"
     },
     "Needlestorm": {
@@ -5691,7 +5691,7 @@ _FULL_SKILLS = {
         "alt_string": "203",
         "comments": "Cancels Tetrakarn effect",
         "demons": {
-            "Mithra": 0
+            "Mitra-Buddha": 0
         },
         "first_icon": "AuxilaryIcon_SMTIV.png",
         "hits": "",

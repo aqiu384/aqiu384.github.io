@@ -300,7 +300,7 @@ _SPECIAL_RECIPES = {
             "Throne"
         ]
     },
-    "Mithra": {
+    "Mitra-Buddha": {
         "accident": false,
         "ingredients": [
             "Maitreya",

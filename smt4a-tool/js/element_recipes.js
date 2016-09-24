@@ -91,7 +91,7 @@ _ELEMENT_RECIPES = {
     ],
     "Ares": [
         "Tonatiuh x Gnome",
-        "Mithra x Sylph"
+        "Mitra-Buddha x Sylph"
     ],
     "Asherah": [
         "Isis x Sylph",
@@ -1465,7 +1465,7 @@ _ELEMENT_RECIPES = {
     "Susano-o": [
         "Shiva x Gnome",
         "Kartikeya x Sylph",
-        "Mithra x Gnome"
+        "Mitra-Buddha x Gnome"
     ],
     "Take-Minakata": [
         "Oumitsunu x Salamander",
