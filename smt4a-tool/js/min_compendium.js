@@ -369,7 +369,7 @@ _MIN_COMPENDIUM = {
         "Sarasvati": 48,
         "Senri": 26
     },
-    "Original Angel": {
+    "Primal": {
         "Satan": 120
     },
     "Raptor": {

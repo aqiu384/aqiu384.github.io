@@ -1492,7 +1492,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "ELEC BREAK": {
+    "Will of Thunder": {
         "alt_string": "210",
         "comments": "Grants elec pierce for one turn",
         "demons": {
@@ -1681,7 +1681,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "-1"
     },
-    "FIRE BREAK": {
+    "Will of Flame": {
         "alt_string": "208",
         "comments": "Grants fire pierce for one turn",
         "demons": {
@@ -2464,7 +2464,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "ICE BREAK": {
+    "Will of Frost": {
         "alt_string": "209",
         "comments": "Grants ice pierce for one turn",
         "demons": {
@@ -5523,7 +5523,7 @@ _FULL_SKILLS = {
         "target": "Foes",
         "unique-cost": ""
     },
-    "TERRORBLADE": {
+    "Ruinous Brand": {
         "alt_string": "031",
         "demons": {
             "Red Rider": 93
@@ -5651,7 +5651,7 @@ _FULL_SKILLS = {
         "target": "Foes",
         "unique-cost": ""
     },
-    "Terrorblade": {
+    "Blade of Terror": {
         "alt_string": "036",
         "comments": "70% Panic",
         "demons": {
@@ -5861,7 +5861,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": ""
     },
-    "WIND BREAK": {
+    "Will of Wind": {
         "alt_string": "211",
         "comments": "Grants force pierce for one turn",
         "demons": {

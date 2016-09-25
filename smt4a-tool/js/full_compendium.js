@@ -414,7 +414,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "FIRE BREAK": 0,
+            "Will of Flame": 0,
             "Mana Surge": 80,
             "Mediarahan": 81,
             "Null Light": 82,
@@ -1975,7 +1975,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "FIRE BREAK": 72,
+            "Will of Flame": 72,
             "GOMORRAH FIRE": 0,
             "Mana Surge": 71,
             "Mortal Jihad": 0
@@ -2322,7 +2322,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Dark Sword": 0,
-            "ELEC BREAK": 85,
+            "Will of Thunder": 85,
             "Maziodyne": 0,
             "Null Gun": 86,
             "Mist Rush": 84
@@ -2837,7 +2837,7 @@ _FULL_COMPENDIUM = {
             "Debilitate": 88,
             "Drain Gun": 90,
             "Hades Blast": 0,
-            "ICE BREAK": 0,
+            "Will of Frost": 0,
             "Mabufudyne": 0,
             "Mist Rush": 89
         },
@@ -7705,7 +7705,7 @@ _FULL_COMPENDIUM = {
             "Dark Sword": 0,
             "Deadly Wind": 84,
             "Null Elec": 85,
-            "WIND BREAK": 83,
+            "Will of Wind": 83,
             "Zandyne": 0
         },
         "stats": {
@@ -11329,7 +11329,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Concentrate": 0,
             "Drain Force": 88,
-            "ELEC BREAK": 86,
+            "Will of Thunder": 86,
             "Gungnir": 0,
             "Phys Pleroma": 87,
             "Thunder Reign": 0
@@ -13437,8 +13437,8 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Fire Pierce": 94,
             "Soul Drain": 0,
-            "TERRORBLADE": 93,
-            "Terrorblade": 0,
+            "Ruinous Brand": 93,
+            "Blade of Terror": 0,
             "Trisagion": 92
         },
         "stats": {
@@ -13725,7 +13725,7 @@ _FULL_COMPENDIUM = {
             "recovery": 0
         },
         "level": 120,
-        "race": "Original Angel",
+        "race": "Primal",
         "resistances": {
             "dark": "absorb",
             "elec": "-",
@@ -14087,7 +14087,7 @@ _FULL_COMPENDIUM = {
             "Bufudyne": 0,
             "Makajamaon": 75,
             "Mazandyne": 0,
-            "WIND BREAK": 77
+            "Will of Wind": 77
         },
         "stats": {
             "ag": 85,
@@ -16284,7 +16284,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Bufudyne": 0,
             "Dekaja": 76,
-            "ICE BREAK": 77,
+            "Will of Frost": 77,
             "Makajamaon": 0
         },
         "stats": {
