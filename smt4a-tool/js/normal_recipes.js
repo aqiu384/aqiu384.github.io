@@ -899,7 +899,7 @@ _NORMAL_RECIPES = {
         "min_level": 87,
         "race": "Tyrant"
     },
-    "Marici": {
+    "Marishiten": {
         "max_level": 75,
         "min_level": 70,
         "race": "Kishin"

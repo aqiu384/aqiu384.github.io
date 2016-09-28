@@ -307,7 +307,7 @@ _MIN_COMPENDIUM = {
         "Bishamonten": 70,
         "Jikokuten": 65,
         "Koumokuten": 60,
-        "Marici": 75,
+        "Marishiten": 75,
         "Thor": 80,
         "Zhong Kui": 50,
         "Zouchouten": 55

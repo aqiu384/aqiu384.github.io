@@ -27,7 +27,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Amazing Gnaw": 66,
+            "Eat Whole": 66,
             "Hades Blast": 0,
             "Retaliate": 65,
             "War Cry": 0
@@ -70,8 +70,8 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "ADRAMELECH FIRE": 0,
-            "Amazing Gnaw": 69,
+            "Hellish Brand": 0,
+            "Eat Whole": 69,
             "Bloody Glee": 71,
             "Fire Pleroma": 70,
             "Madness Nails": 0
@@ -1412,7 +1412,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "AZRAEL DARK": 0,
+            "Blink of Death": 0,
             "Agidyne": 0,
             "Makarakarn": 78,
             "Null Dark": 80,
@@ -1499,7 +1499,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Ally Retaliate": 80,
-            "BAAL ELEC": 81,
+            "Vengeful Thunder": 81,
             "Maragidyne": 0,
             "Null Fire": 82,
             "Mist Rush": 0
@@ -1976,7 +1976,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Will of Flame": 72,
-            "GOMORRAH FIRE": 0,
+            "Fire of Lethargy": 0,
             "Mana Surge": 71,
             "Mortal Jihad": 0
         },
@@ -2535,7 +2535,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "Amazing Gnaw": 54,
+            "Eat Whole": 54,
             "Life Surge": 53,
             "Titanomachia": 0,
             "Ziodyne": 0
@@ -4129,7 +4129,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Amazing Gnaw": 0,
+            "Eat Whole": 0,
             "Critical Eye": 71,
             "Nihil Claw": 0,
             "Phys Pleroma": 70
@@ -9084,7 +9084,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Grand Tack": 74,
             "High Dark Pleroma": 76,
-            "LUCIFUGE DARK": 0,
+            "Light Devourer": 0,
             "Luster Candy": 0,
             "Mazandyne": 75
         },
@@ -9529,7 +9529,7 @@ _FULL_COMPENDIUM = {
             "st": 155
         }
     },
-    "Marici": {
+    "Marishiten": {
         "affinities": {
             "ailment": 0,
             "almighty": 2,
@@ -10127,7 +10127,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Berserker God": 0,
             "Glacial Blast": 97,
-            "MITHRA ALMIGHTY": 0,
+            "Severe Judgment": 0,
             "Self-Righteous Vow": 98,
             "Smile Charge": 0,
             "Tetracoerce": 0
@@ -11027,7 +11027,7 @@ _FULL_COMPENDIUM = {
             "phys": "resist"
         },
         "skills": {
-            "Amazing Gnaw": 63,
+            "Eat Whole": 63,
             "Grand Tack": 0,
             "Madness Nails": 61,
             "Poison Breath": 0
@@ -11843,7 +11843,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Amazing Gnaw": 53,
+            "Eat Whole": 53,
             "Fire Breath": 0,
             "Madness Nails": 54,
             "Nihil Claw": 0
@@ -13610,7 +13610,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Elec Pleroma": 77,
             "Force Pleroma": 78,
-            "SHEMYAZA ALMIGHTY": 79,
+            "Magic Torrent": 79,
             "True Zandyne": 0,
             "True Ziodyne": 0
         },
@@ -13740,7 +13740,7 @@ _FULL_COMPENDIUM = {
             "Akasha Arts": 0,
             "Almighty Pleroma": 0,
             "Luster Candy": 0,
-            "MEGIDDO ARC": 0,
+            "Megiddo Ark": 0,
             "Trisagion": 0
         },
         "stats": {
@@ -15375,7 +15375,7 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Amazing Gnaw": 0,
+            "Eat Whole": 0,
             "Beastly Reaction": 66,
             "Sukunda": 65,
             "Ziodyne": 0
@@ -16541,7 +16541,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Acid Breath": 0,
-            "Amazing Gnaw": 0,
+            "Eat Whole": 0,
             "Fog Breath": 75,
             "Life Surge": 76
         },

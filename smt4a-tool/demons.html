@@ -69,8 +69,9 @@
 		
 		function calculate_reverse_fusions(target_demon) {
 			var target_recipe = _NORMAL_RECIPES[target_demon];
-			var min_level = 2 * target_recipe.min_level;
-			var max_level = 2 * target_recipe.max_level;
+			var min_level = target_recipe.min_level == 1 ? 2 : 2 * target_recipe.min_level - 2;
+			var max_level = target_recipe.max_level == 99 ? 200 : 2 * target_recipe.max_level - 2;
+			
 			var target_combos = _REVERSE_FUSION_CHART[target_recipe.race];
 			var final_recipes;
 			
@@ -88,8 +89,8 @@
 				for (var first_demon in first_tribe) {
 					for (var second_demon in second_tribe) {
 						var new_demon = first_tribe[first_demon] + second_tribe[second_demon];
-						if (min_level <= new_demon && 
-							new_demon < max_level) 
+						if (min_level < new_demon && 
+							new_demon <= max_level) 
 						{
 							final_recipes.push(first_demon + " x " + second_demon);
 						}

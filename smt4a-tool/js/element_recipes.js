@@ -186,7 +186,7 @@ _ELEMENT_RECIPES = {
         "Oni x Aquans"
     ],
     "Bishamonten": [
-        "Marici x Sylph",
+        "Marishiten x Sylph",
         "Jikokuten x Gnome"
     ],
     "Black Maria": [
@@ -898,7 +898,7 @@ _ELEMENT_RECIPES = {
         "Lucifer x Undine",
         "Mephisto x Undine"
     ],
-    "Marici": [
+    "Marishiten": [
         "Bishamonten x Gnome",
         "Thor x Sylph"
     ],
@@ -1498,7 +1498,7 @@ _ELEMENT_RECIPES = {
         "Dakini x Aeros"
     ],
     "Thor": [
-        "Marici x Gnome"
+        "Marishiten x Gnome"
     ],
     "Thoth": [
         "Inti x Undine",

@@ -1,5 +1,5 @@
 _FULL_SKILLS = {
-    "ADRAMELECH FIRE": {
+    "Hellish Brand": {
         "alt_string": "066",
         "comments": "Dekaja",
         "demons": {
@@ -14,7 +14,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "12"
     },
-    "AZRAEL DARK": {
+    "Blink of Death": {
         "alt_string": "127",
         "comments": "Rakunda",
         "demons": {
@@ -193,7 +193,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": ""
     },
-    "Amazing Gnaw": {
+    "Eat Whole": {
         "alt_string": "038",
         "comments": "Drains HP",
         "demons": {
@@ -305,7 +305,7 @@ _FULL_SKILLS = {
         "target": "Multi",
         "unique-cost": ""
     },
-    "BAAL ELEC": {
+    "Vengeful Thunder": {
         "alt_string": "093",
         "comments": "60% Bind",
         "demons": {
@@ -380,7 +380,7 @@ _FULL_SKILLS = {
             "Kanseiteikun": 0,
             "Lanling Wang": 46,
             "Lord Nandou": 49,
-            "Marici": 0,
+            "Marishiten": 0,
             "Mitra-Buddha": 0,
             "Nergal": 83,
             "Oumitsunu": 0,
@@ -503,7 +503,7 @@ _FULL_SKILLS = {
     },
     "Blood Ritual": {
         "alt_string": "196",
-        "comments": "Luster Candy by 1 level, reduces HP to 1",
+        "comments": "Luster Candy to self by 1 level, reduces HP to 1",
         "demons": {
             "Aramisaki": 61,
             "Attis": 0,
@@ -1882,7 +1882,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": ""
     },
-    "GOMORRAH FIRE": {
+    "Fire of Lethargy": {
         "alt_string": "067",
         "comments": "Rakunda + Sukunda",
         "demons": {
@@ -2044,7 +2044,7 @@ _FULL_SKILLS = {
     },
     "Haunting Rhapsody": {
         "alt_string": "228",
-        "comments": "70% CHAOS and maximize debuffs",
+        "comments": "70% Panic and debilitate",
         "demons": {
             "David": 0
         },
@@ -2672,7 +2672,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "18"
     },
-    "LUCIFUGE DARK": {
+    "Light Devourer": {
         "alt_string": "130",
         "comments": "Drains HP",
         "demons": {
@@ -3033,7 +3033,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "15"
     },
-    "MEGIDDO ARC": {
+    "Megiddo Ark": {
         "alt_string": "162",
         "demons": {
             "Satan": 0
@@ -3063,7 +3063,7 @@ _FULL_SKILLS = {
     },
     "Enlightenment": {
         "alt_string": "212",
-        "comments": "Changes weakness attributes to absorb for one turn",
+        "comments": "Changes weakness attributes to absorb for one turn, luster candy and induce smirk to self when corresponding element absorbed",
         "demons": {
             "Maitreya": 0
         },
@@ -3076,7 +3076,7 @@ _FULL_SKILLS = {
         "target": "Self",
         "unique-cost": "2"
     },
-    "MITHRA ALMIGHTY": {
+    "Severe Judgment": {
         "alt_string": "159",
         "demons": {
             "Mitra-Buddha": 0
@@ -3092,7 +3092,7 @@ _FULL_SKILLS = {
     },
     "Self-Righteous Vow": {
         "alt_string": "328",
-        "comments": "Increases attack for every time a weakness is exploited",
+        "comments": "Luster candy to self when weakness is exploited",
         "demons": {
             "Mitra-Buddha": 98
         },
@@ -3382,7 +3382,7 @@ _FULL_SKILLS = {
             "Dantalion": 0,
             "Futotama": 53,
             "Lorelei": 54,
-            "Marici": 76,
+            "Marishiten": 76,
             "Maya": 0,
             "Oberon": 66,
             "Pallas Athena": 0,
@@ -3901,7 +3901,7 @@ _FULL_SKILLS = {
             "Alilat": 0,
             "Black Rider": 95,
             "Huang Long": 0,
-            "Marici": 77,
+            "Marishiten": 77,
             "Mastema": 0,
             "Maya": 0,
             "Metatron": 0,
@@ -3914,7 +3914,7 @@ _FULL_SKILLS = {
         "power": "Heavy",
         "second_icon": null,
         "smirk-effect": "",
-        "target": "Single",
+        "target": "All",
         "unique-cost": ""
     },
     "Mortal Jihad": {
@@ -3990,7 +3990,7 @@ _FULL_SKILLS = {
             "Erlkonig": 73,
             "Kangiten": 81,
             "Lucifer": 0,
-            "Marici": 0,
+            "Marishiten": 0,
             "Xi Wangmu": 0
         },
         "first_icon": "GunIcon_SMTIV.png",
@@ -4581,7 +4581,7 @@ _FULL_SKILLS = {
     },
     "Raging Hellfire": {
         "alt_string": "068",
-        "comments": "User becomes weak to fire",
+        "comments": "User becomes weak to ice",
         "demons": {
             "Inanna": 0
         },
@@ -5061,7 +5061,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": "9"
     },
-    "SHEMYAZA ALMIGHTY": {
+    "Magic Torrent": {
         "alt_string": "143",
         "demons": {
             "Samyaza": 79
