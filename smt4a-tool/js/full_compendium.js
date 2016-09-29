@@ -329,7 +329,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Concentrate": 85,
             "Diarahan": 0,
-            "Makaracoerce": 86,
+            "Makarabreak": 86,
             "Megidolaon": 0,
             "Null Phys": 87
         },
@@ -10130,7 +10130,7 @@ _FULL_COMPENDIUM = {
             "Severe Judgment": 0,
             "Self-Righteous Vow": 98,
             "Smile Charge": 0,
-            "Tetracoerce": 0
+            "Tetrabreak": 0
         },
         "stats": {
             "ag": 107,

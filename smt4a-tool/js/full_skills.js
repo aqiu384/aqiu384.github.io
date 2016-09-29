@@ -3358,7 +3358,7 @@ _FULL_SKILLS = {
         "target": "Party",
         "unique-cost": ""
     },
-    "Makaracoerce": {
+    "Makarabreak": {
         "alt_string": "204",
         "comments": "Cancels Makarakarn effect",
         "demons": {
@@ -5687,7 +5687,7 @@ _FULL_SKILLS = {
         "target": "Single",
         "unique-cost": ""
     },
-    "Tetracoerce": {
+    "Tetrabreak": {
         "alt_string": "203",
         "comments": "Cancels Tetrakarn effect",
         "demons": {

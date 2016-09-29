@@ -149,6 +149,13 @@
 				generate_icon_img(skill.first_icon) + 
 				generate_icon_img(skill.second_icon);
 			properties[1].innerHTML = name;
+			
+			if (skill["unique-cost"] != "") {
+				properties[1].setAttribute("style", "color:red");
+			} else {
+				properties[1].setAttribute("style", "");
+			}
+			
 			properties[2].innerHTML = skill['mp-cost'];
 			properties[3].innerHTML = ((skill.hits != "") ?
 					skill.hits + ' ' + skill.power + ' hit(s) to ' + skill.target + ' ' + 

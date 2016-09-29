@@ -5,7 +5,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.2/jquery.floatThead.min.js"></script>
 	
 	<script src="js/smtiva_common.js"></script>
-	<script src="js/eng_compendium.js"></script>
 	<script src="js/full_skills.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="css/smtiva-comp.css">
@@ -46,6 +45,13 @@
 			
 			properties[0].innerHTML = icons;
 			properties[1].innerHTML = skill_name;
+			
+			if (skill["unique-cost"] != "") {
+				properties[1].setAttribute("style", "color:red");
+			} else {
+				properties[1].setAttribute("style", "");
+			}
+			
 			properties[2].innerHTML = skill["mp-cost"];
 			properties[3].innerHTML = skill.power;
 			properties[4].innerHTML = skill.hits;
@@ -56,11 +62,20 @@
 				comments = comments + skill.comments + " ";
 			}
 			if (skill["smirk-effect"] != "") {
-				comments = comments + skill["smirk-effect"] + ' under smirk';
+				comments = comments + skill["smirk-effect"] + " under smirk";
 			}
 			
 			properties[6].innerHTML = comments;
-			properties[7].innerHTML = Object.keys(skill.demons).map(generate_demon_link).join(', ');
+			
+			var demon_list = []
+			for (var demon in skill.demons) {
+				demon_list.push(generate_demon_link(demon) + 
+					(skill.demons[demon] == 0 ? "" : 
+					" (" + skill.demons[demon] + ")"));
+			}
+			
+			demon_list.sort()
+			properties[7].innerHTML = demon_list.join(', ');
 		}
 	
 		function load_demons(skill_list) {
@@ -69,7 +84,7 @@
 			}
 			
 			var demon_table_body = document.getElementById("demon-table-body");
-			var demon_template = document.getElementById('demon-table-row');
+			var demon_template = document.getElementById("demon-table-row");
 			var demon_properties = demon_template.content.querySelectorAll("td");
 			
 			for (var skill in skill_list) {
