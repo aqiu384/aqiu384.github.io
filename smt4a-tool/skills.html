@@ -12,6 +12,7 @@
 	<template id="demon-table-row">
       <tr>
         <td>Icons</td>
+		<td>Rank</td>
 		<td>Name</td>
 		<td>MP-Cost</td>
 		<td>Power</td>
@@ -44,18 +45,19 @@
 			}
 			
 			properties[0].innerHTML = icons;
-			properties[1].innerHTML = skill_name;
+			properties[1].innerHTML = (skill.rank == 0 ? "" : skill.rank);
+			properties[2].innerHTML = skill_name;
 			
 			if (skill["unique-cost"] != "") {
-				properties[1].setAttribute("style", "color:red");
+				properties[2].setAttribute("style", "color:red");
 			} else {
-				properties[1].setAttribute("style", "");
+				properties[2].setAttribute("style", "");
 			}
 			
-			properties[2].innerHTML = skill["mp-cost"];
-			properties[3].innerHTML = skill.power;
-			properties[4].innerHTML = skill.hits;
-			properties[5].innerHTML = skill.target;
+			properties[3].innerHTML = skill["mp-cost"];
+			properties[4].innerHTML = skill.power;
+			properties[5].innerHTML = skill.hits;
+			properties[6].innerHTML = skill.target;
 			var comments = "";
 			
 			if ("comments" in skill) {
@@ -65,7 +67,7 @@
 				comments = comments + skill["smirk-effect"] + " under smirk";
 			}
 			
-			properties[6].innerHTML = comments;
+			properties[7].innerHTML = comments;
 			
 			var demon_list = []
 			for (var demon in skill.demons) {
@@ -75,7 +77,7 @@
 			}
 			
 			demon_list.sort()
-			properties[7].innerHTML = demon_list.join(', ');
+			properties[8].innerHTML = demon_list.join(', ');
 		}
 	
 		function load_demons(skill_list) {
@@ -117,6 +119,7 @@
 		<thead>
 			<tr>
 				<th>Type</th>
+				<th>Rank</th>
 				<th>Skill <a href="index.html">(Demons)</a></th>
 				<th>MP-Cost</th>
 				<th>Power</th>

@@ -634,7 +634,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "High Light Pleroma": 84,
-            "Judgement Light": 0,
+            "Judgment Light": 0,
             "Luster Candy": 0,
             "Mediarahan": 83
         },
@@ -678,7 +678,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dekunda": 91,
             "Thunder Gods": 93,
-            "Judgement Light": 92,
+            "Judgment Light": 92,
             "Makajamaon": 0,
             "Thunder Reign": 0
         },
@@ -722,7 +722,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dark Pleroma": 63,
             "Dekunda": 61,
-            "Judgement Light": 0,
+            "Judgment Light": 0,
             "Light Pleroma": 62,
             "Mamudoon": 0
         },
@@ -1196,7 +1196,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Diarama": 52,
             "Grand Tack": 0,
-            "Judgement": 53,
+            "Judgment": 53,
             "Maragion": 0,
             "Samarecarm": 54
         },
@@ -3050,9 +3050,9 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "CLEOPATRA AURORA": 0,
-            "CLEOPATRA CHARM": 0,
-            "CLEOPATRA LIGHT": 0,
+            "Adaptive Tactics": 0,
+            "Alluring Banter": 0,
+            "Dazzle Ray": 0,
             "Deadly Wind": 0,
             "Ice Age": 0,
             "Light Pierce": 0,
@@ -6630,7 +6630,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Concentrate": 46,
             "Hamaon": 0,
-            "Judgement": 0,
+            "Judgment": 0,
             "Samarecarm": 47
         },
         "stats": {
@@ -6716,7 +6716,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Ally Retaliate": 71,
             "Bufudyne": 0,
-            "Judgement": 70,
+            "Judgment": 70,
             "Mahamaon": 69,
             "Panic Voice": 0
         },
@@ -6801,10 +6801,10 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Bufudyne": 79,
+            "Null Force": 78,
+            "Eternal Rest": 0,
             "Lullaby": 0,
-            "Mamudoon": 0,
-            "Null Light": 78
+            "Samarecarm": 77
         },
         "stats": {
             "ag": 78,
@@ -9601,7 +9601,7 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Ice Age": 95,
-            "Judgement Light": 94,
+            "Judgment Light": 94,
             "Megidolaon": 0,
             "Panic Voice": 0,
             "Repel Gun": 96,
@@ -9908,9 +9908,9 @@ _FULL_COMPENDIUM = {
         },
         "skills": {
             "Dark Pierce": 0,
-            "HATE GLOW": 0,
+            "Growing Hate": 0,
             "Hades Blast": 0,
-            "MEPHISTO DARK": 0,
+            "Fear Darkness": 0,
             "Mamudoon": 0
         },
         "stats": {
@@ -10041,7 +10041,7 @@ _FULL_COMPENDIUM = {
             "Almighty Pleroma": 99,
             "Dekaja": 0,
             "Fire of Sinai": 0,
-            "Judgement Light": 0,
+            "Judgment Light": 0,
             "Megidolaon": 0
         },
         "stats": {
@@ -11546,7 +11546,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Agidyne": 0,
             "Bufudyne": 60,
-            "Judgement": 61,
+            "Judgment": 61,
             "Recarmdra": 0
         },
         "stats": {
@@ -14648,7 +14648,7 @@ _FULL_COMPENDIUM = {
             "Drain Elec": 89,
             "High Light Pleroma": 88,
             "Holy Wrath": 0,
-            "Judgement Light": 0
+            "Judgment Light": 0
         },
         "stats": {
             "ag": 92,
@@ -16026,7 +16026,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Debilitate": 0,
             "High Light Pleroma": 82,
-            "Judgement Light": 0,
+            "Judgment Light": 0,
             "Smile Charge": 81
         },
         "stats": {
