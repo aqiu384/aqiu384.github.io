@@ -1766,7 +1766,7 @@ _FULL_SKILLS = {
         "target": "All",
         "unique-cost": "88"
     },
-    "FIERCE STANCE": {
+    "Pressuring Stance": {
         "alt_string": "242",
         "comments": "Removes two press turns from the enemy during their next turn",
         "demons": {},
