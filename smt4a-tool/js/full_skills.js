@@ -87,7 +87,7 @@ _FULL_SKILLS = {
             "Loki": 59,
             "Lord Nandou": 0,
             "Master Therion": 0,
-            "Omoteotl": 0,
+            "Ometeotl": 0,
             "Orochi": 0,
             "Quetzalcoatl": 0,
             "Throne": 0,
@@ -278,8 +278,7 @@ _FULL_SKILLS = {
             "Night Stalker": 23,
             "Orias": 41,
             "Toubyou": 16,
-            "Yamawaro": 34,
-            "Yatagarasu": 0
+            "Yamawaro": 34
         },
         "first_icon": "PassiveIcon_SMTIV.png",
         "hits": "",
@@ -643,7 +642,7 @@ _FULL_SKILLS = {
             "Illuyanka": 0,
             "Israfel": 0,
             "Loki": 0,
-            "Omoteotl": 60,
+            "Ometeotl": 60,
             "Orochi": 0,
             "Persephone": 0,
             "Sarasvati": 0,
@@ -1373,7 +1372,6 @@ _FULL_SKILLS = {
         "alt_string": "258",
         "comments": "Absorbs fire damage",
         "demons": {
-            "Kangiten": 82,
             "Susano-o": 87
         },
         "first_icon": "PassiveIcon_SMTIV.png",
@@ -2101,7 +2099,7 @@ _FULL_SKILLS = {
             "Sphinx": 72,
             "Wild Hunt": 56,
             "Xiuhtecuhtli": 50,
-            "Yatagarasu": 64,
+            "Yatagarasu": 53,
             "Yggdrasil": 0,
             "Zouchouten": 57
         },
@@ -2825,7 +2823,7 @@ _FULL_SKILLS = {
             "Asherah": 53,
             "Ishtar": 0,
             "Israfel": 70,
-            "Omoteotl": 61
+            "Ometeotl": 61
         },
         "first_icon": "AlmightyIcon_SMTIV.png",
         "hits": "1",
@@ -3644,7 +3642,8 @@ _FULL_SKILLS = {
             "Gemori": 0,
             "Quetzalcoatl": 68,
             "Surt": 0,
-            "Throne": 65
+            "Throne": 65,
+            "Yatagarasu": 54
         },
         "first_icon": "FireIcon_SMTIV.png",
         "hits": "1",
@@ -4133,7 +4132,6 @@ _FULL_SKILLS = {
         "demons": {
             "Barbatos": 72,
             "Erlkonig": 73,
-            "Kangiten": 81,
             "Lucifer": 0,
             "Marishiten": 0,
             "Xi Wangmu": 0
@@ -4291,7 +4289,8 @@ _FULL_SKILLS = {
         "alt_string": "260",
         "comments": "Nullifies ice damage",
         "demons": {
-            "Arahabaki": 62
+            "Arahabaki": 62,
+            "Kangiten": 82
         },
         "first_icon": "PassiveIcon_SMTIV.png",
         "hits": "",
@@ -4913,7 +4912,7 @@ _FULL_SKILLS = {
             "Attis": 0,
             "Chironnupu": 27,
             "Kingu": 40,
-            "Omoteotl": 0,
+            "Ometeotl": 0,
             "Orochi": 53,
             "Prometheus": 0,
             "Rangda": 70,
@@ -5236,7 +5235,8 @@ _FULL_SKILLS = {
             "Beelzebub": 0,
             "Huang Di": 0,
             "Merkabah": 0,
-            "Seraph": 0
+            "Seraph": 0,
+            "Kangiten": 81
         },
         "first_icon": "GunIcon_SMTIV.png",
         "hits": "1",

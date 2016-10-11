@@ -7444,9 +7444,9 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Drain Fire": 82,
+            "Null Ice": 82,
             "Invitation": 0,
-            "Myriad Arrows": 81,
+            "Riot Gun": 81,
             "Samarecarm": 0
         },
         "stats": {
@@ -11516,7 +11516,7 @@ _FULL_COMPENDIUM = {
             "st": 50
         }
     },
-    "Omoteotl": {
+    "Ometeotl": {
         "affinities": {
             "ailment": 0,
             "almighty": 0,
@@ -17218,7 +17218,7 @@ _FULL_COMPENDIUM = {
             "phys": 0,
             "recovery": 0
         },
-        "level": 62,
+        "level": 52,
         "race": "Avian",
         "resistances": {
             "dark": "-",
@@ -17231,8 +17231,8 @@ _FULL_COMPENDIUM = {
             "phys": "-"
         },
         "skills": {
-            "Attack Knowhow": 0,
-            "Grand Tack": 64,
+            "Maragidyne": 54,
+            "Grand Tack": 53,
             "Gun Pleroma": 0,
             "Maragion": 0
         },

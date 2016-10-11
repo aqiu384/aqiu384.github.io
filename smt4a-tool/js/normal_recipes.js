@@ -376,7 +376,7 @@ _NORMAL_RECIPES = {
     },
     "Feng Huang": {
         "max_level": 63,
-        "min_level": 62,
+        "min_level": 52,
         "race": "Avian"
     },
     "Fenrir": {
@@ -1084,7 +1084,7 @@ _NORMAL_RECIPES = {
         "min_level": 21,
         "race": "Kunitsu"
     },
-    "Omoteotl": {
+    "Ometeotl": {
         "max_level": 59,
         "min_level": 53,
         "race": "Deity"
@@ -1665,7 +1665,7 @@ _NORMAL_RECIPES = {
         "race": "Brute"
     },
     "Yatagarasu": {
-        "max_level": 62,
+        "max_level": 52,
         "min_level": 42,
         "race": "Avian"
     },

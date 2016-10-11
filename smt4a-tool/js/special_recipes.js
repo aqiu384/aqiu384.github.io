@@ -270,7 +270,7 @@ _SPECIAL_RECIPES = {
     "Matador": {
         "accident": false,
         "ingredients": [
-            "Qing Niuguai",
+            "Qing Niugai",
             "Stonka",
             "Catoblepas",
             "Macabre"

@@ -22,7 +22,7 @@ _MIN_COMPENDIUM = {
         "Suparna": 15,
         "Thunderbird": 42,
         "Vidofnir": 34,
-        "Yatagarasu": 62
+        "Yatagarasu": 52
     },
     "Beast": {
         "Ammut": 64,
@@ -62,7 +62,7 @@ _MIN_COMPENDIUM = {
         "Mahamayuri": 67,
         "Maitreya": 83,
         "Odin": 85,
-        "Omoteotl": 59,
+        "Ometeotl": 59,
         "Osiris": 53,
         "Prometheus": 40,
         "Thoth": 30
