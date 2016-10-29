@@ -3366,7 +3366,7 @@ _FULL_SKILLS = {
         "alt_string": "221",
         "comments": "50% Mute",
         "demons": {
-            "Dantalion": 0,
+            "Dantalian": 0,
             "Dis": 0,
             "High Pixie": 0,
             "Lachesis": 0,
@@ -3389,7 +3389,7 @@ _FULL_SKILLS = {
         "demons": {
             "Aniel": 0,
             "Cherub": 72,
-            "Dantalion": 56,
+            "Dantalian": 56,
             "Maitreya": 0,
             "Master Therion": 0,
             "Shax": 75,
@@ -3414,7 +3414,7 @@ _FULL_SKILLS = {
         "demons": {
             "Bai Suzhen": 22,
             "Brigid": 34,
-            "Dantalion": 0,
+            "Dantalian": 0,
             "Daphne": 18,
             "Fortuna": 13,
             "Gu Huo Niao": 17,
@@ -3459,7 +3459,7 @@ _FULL_SKILLS = {
         "demons": {
             "Arahabaki": 0,
             "Azrael": 78,
-            "Dantalion": 0,
+            "Dantalian": 0,
             "Futotama": 53,
             "Lorelei": 54,
             "Marishiten": 76,
@@ -5269,7 +5269,7 @@ _FULL_SKILLS = {
         "demons": {
             "Ame no Uzume": 0,
             "Baphomet": 27,
-            "Dantalion": 55,
+            "Dantalian": 55,
             "Futotama": 52,
             "Hel": 44,
             "Nebiros": 0,
@@ -5536,7 +5536,7 @@ _FULL_SKILLS = {
             "Medusa": 0
         },
         "first_icon": "GunIcon_SMTIV.png",
-        "hits": "1~3",
+        "hits": "2~3",
         "mp-cost": "24",
         "power": "Heavy",
         "rank": 0,

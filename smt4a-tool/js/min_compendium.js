@@ -145,7 +145,7 @@ _MIN_COMPENDIUM = {
         "Barbatos": 69,
         "Bifrons": 20,
         "Botis": 83,
-        "Dantalion": 53,
+        "Dantalian": 53,
         "Decarabia": 5,
         "Gemori": 58,
         "Halphas": 24,

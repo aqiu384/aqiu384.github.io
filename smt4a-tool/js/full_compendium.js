@@ -3286,7 +3286,7 @@ _FULL_COMPENDIUM = {
             "st": 96
         }
     },
-    "Dantalion": {
+    "Dantalian": {
         "affinities": {
             "ailment": 3,
             "almighty": 0,

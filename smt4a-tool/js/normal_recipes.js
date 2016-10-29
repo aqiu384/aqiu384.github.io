@@ -299,7 +299,7 @@ _NORMAL_RECIPES = {
         "min_level": 59,
         "race": "Femme"
     },
-    "Dantalion": {
+    "Dantalian": {
         "max_level": 53,
         "min_level": 46,
         "race": "Fallen"

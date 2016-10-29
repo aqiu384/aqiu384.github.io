@@ -299,7 +299,7 @@ _ELEMENT_RECIPES = {
         "Rangda x Aquans",
         "Rangda x Aeros"
     ],
-    "Dantalion": [
+    "Dantalian": [
         "Gemori x Aeros",
         "Gemori x Erthys",
         "Nebiros x Flaemis",
@@ -416,8 +416,8 @@ _ELEMENT_RECIPES = {
         "Feng Huang x Sylph"
     ],
     "Gemori": [
-        "Dantalion x Flaemis",
-        "Dantalion x Aquans",
+        "Dantalian x Flaemis",
+        "Dantalian x Aquans",
         "Murmur x Aeros",
         "Murmur x Erthys"
     ],
@@ -1025,8 +1025,8 @@ _ELEMENT_RECIPES = {
         "Ictinike x Undine"
     ],
     "Nebiros": [
-        "Dantalion x Aeros",
-        "Dantalion x Erthys",
+        "Dantalian x Aeros",
+        "Dantalian x Erthys",
         "Orias x Flaemis",
         "Orias x Aquans"
     ],
