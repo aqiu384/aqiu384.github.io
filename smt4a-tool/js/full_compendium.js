@@ -1103,7 +1103,7 @@ _FULL_COMPENDIUM = {
             "fire": "-",
             "force": "-",
             "gun": "-",
-            "ice": "-",
+            "ice": "weak",
             "light": "null",
             "phys": "-"
         },
