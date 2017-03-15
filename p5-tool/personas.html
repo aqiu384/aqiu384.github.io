@@ -1,0 +1,298 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Persona 5 Compendium</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.2/jquery.floatThead.min.js"></script>
+	
+	<script src="js/full_skills.js"></script>
+	<script src="js/persona5_common.js"></script>
+	<script src="js/full_compendium.js"></script>
+	<script src="js/min_compendium.js"></script>
+	<script src="js/normal_recipes.js"></script>
+	<script src="js/special_recipes.js"></script>
+	<script src="js/reverse_fusion_chart.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/persona5-comp.css">
+	
+	<template id="persona-table-row">
+	<tr>
+		<td>First Arcana</td>
+		<td>First Level</td>
+		<td>First Ingredient</td>
+		<td>Second Arcana</td>
+		<td>Second Level</td>
+		<td>Second Ingredient</td>
+	</tr>
+    </template>
+	
+	<template id="persona-skills-row">
+	<tr>
+		<td>Type</td>
+		<td>Name</td>
+		<td>Cost</td>
+		<td>Effect</td>
+		<td>Level</td>
+	</tr>
+    </template>
+	
+	<script type="text/javascript">
+	$.urlParam = function(name){
+		var results = decodeURI(window.location.href);
+		results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(results);
+		if (results == null) {
+			return null;
+		}
+		else {
+			return results[1] || 0;
+		}
+	}
+	
+	$.fn.dataTableExt.oSort['learned-skill-levels-pre'] = function(a) {
+		return a == "Innate" ? 0 : parseInt(a);
+	}
+	
+	$(document).ready(function() {
+		function supports_templating() {
+			return 'content' in document.createElement('template');
+		}
+		
+		function fill_fusion_recipe(recipe, recipe_template) {
+			var ingredients = recipe.split(" x ");
+			recipe_template[0].innerHTML = _FULL_COMPENDIUM[ingredients[0]].arcana;
+			recipe_template[1].innerHTML = _FULL_COMPENDIUM[ingredients[0]].lvl;
+			recipe_template[2].innerHTML = generate_persona_link(ingredients[0])
+			recipe_template[3].innerHTML = _FULL_COMPENDIUM[ingredients[1]].arcana;
+			recipe_template[4].innerHTML = _FULL_COMPENDIUM[ingredients[1]].lvl;
+			recipe_template[5].innerHTML = generate_persona_link(ingredients[1]);
+		}
+		
+		function calculate_reverse_fusions(target_persona) {
+			var target_recipe = _NORMAL_RECIPES[target_persona];
+			var min_level = target_recipe.min == 1 ? 2 : 2 * target_recipe.min - 2;
+			var max_level = target_recipe.max == 99 ? 200 : 2 * target_recipe.max - 2;
+			
+			var target_combos = _REVERSE_FUSION_CHART[target_recipe.arcana];
+			var final_recipes;
+			
+			final_recipes = [];
+		
+			for (var i = 0; i < target_combos.length; i++) {
+				var ingredients = target_combos[i].split(" x ");
+				var first_tribe = _MIN_COMPENDIUM[ingredients[0]];
+				var second_tribe = _MIN_COMPENDIUM[ingredients[1]];
+				
+				for (var first_persona in first_tribe) {
+					for (var second_persona in second_tribe) {
+						var new_persona = first_tribe[first_persona] + second_tribe[second_persona];
+						if (min_level < new_persona && 
+							new_persona <= max_level) 
+						{
+							final_recipes.push(first_persona + " x " + second_persona);
+						}
+					}
+				}
+			}
+			
+			return final_recipes;
+		}
+		
+		function load_reverse_fusions(persona) {
+			var persona_table_body = document.getElementById("persona-table-body");
+			var persona_template = document.getElementById('persona-table-row');
+			var recipe_template = persona_template.content.querySelectorAll("td");
+		
+			if (!supports_templating() || persona == null || persona=="") {
+				$("#persona-not-found").show();
+			}	
+			else if (persona in _SPECIAL_RECIPES) {
+				var special_recipe_message = _SPECIAL_RECIPES[persona].map(generate_persona_link).join(' x ');
+				
+				$("#special-recipes").find("td").html(special_recipe_message);
+				$("#special-recipes").show();
+			}
+			else if (persona in _NORMAL_RECIPES) {
+				var reverse_recipes = calculate_reverse_fusions(persona);
+				
+				for (var i = 0; i < reverse_recipes.length; i++) {
+					fill_fusion_recipe(reverse_recipes[i], recipe_template);
+					persona_table_body.appendChild(document.importNode(persona_template.content, true));
+				}
+				
+				$("#normal-recipes").show();
+			} else {
+				$("#special-recipes").find("td").html("Could not compute persona fusion.");
+				$("#special-recipes").show();
+			}
+		}
+		
+		function fill_persona_skills(name, level, properties) {
+			var skill = _FULL_SKILLS[name];
+			properties[0].innerHTML = generate_element_icon(skill.element); 
+			properties[1].innerHTML = name;
+			properties[2].innerHTML = generate_skill_cost(skill);
+			properties[3].innerHTML = skill.effect;
+			properties[4].innerHTML = (level == 0) ? "Innate" : level;
+		}
+		
+		function load_persona_profile(persona) {
+			var profile = _FULL_COMPENDIUM[persona];
+			$("#persona-profile-title").html("Level " + 
+				String(profile.lvl) + ' ' + 
+				profile.arcana + ' ' + persona); 
+			
+			parse_stats(profile, $("#base-stats").find("td"), 0);
+			parse_elemental_resistances(profile, $("#elemental-resistances").find("td"), 0);
+			
+			var persona_table_body = $("#persona-skills").find("tbody")[0];
+			var persona_template = document.getElementById('persona-skills-row');
+			var persona_properties = persona_template.content.querySelectorAll("td");
+			
+			for (var skill in profile.skills) {
+				fill_persona_skills(skill, profile.skills[skill], persona_properties);
+				persona_table_body.appendChild(document.importNode(persona_template.content, true));
+			}
+		}
+		
+		var curr_persona = $.urlParam('persona');
+		
+		if (!supports_templating() || 
+			curr_persona == null || 
+			curr_persona == "" || 
+			!(curr_persona in _FULL_COMPENDIUM)) 
+		{
+			$("#persona-not-found").show();
+		} else {
+			load_persona_profile(curr_persona);
+			load_reverse_fusions(curr_persona);
+		}
+		
+		$("#persona-skills").DataTable({
+			paging: false,
+			info: false,
+			bFilter: false,
+			bAutoWidth: false,
+			order: [[4, "asc"]],
+			columnDefs: [
+                { type: "learned-skill-levels", targets: 4 },
+            ]
+		});
+		
+		var persona_table = $("#normal-recipes");
+		persona_table.DataTable({
+			paging: false,
+			info: false,
+			bFilter: false,
+			bAutoWidth: false,
+		});
+		persona_table.floatThead();
+	});
+	</script>
+</head>
+<body>
+	<div class="persona-profile"> 
+		<table id="base-stats" class="persona-stats">
+		<thead>
+			<tr>
+				<th id="persona-profile-title" colspan="5"></th>
+			</tr>
+			<tr>
+				<th width="10%">St</th>
+				<th width="10%">Ma</th>
+				<th width="10%">En</th>
+				<th width="10%">Ag</th>
+				<th width="10%">Lu</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+		</table>
+		<table id="elemental-resistances" class="persona-stats">
+		<thead>
+			<tr>
+				<th colspan="10">Elemental Resistances</th>
+			</tr>
+			<tr>
+				<th><img src="img/icons/phys.png"></th>
+				<th><img src="img/icons/ranged.png"></th>
+				<th><img src="img/icons/fire.png"></th>
+				<th><img src="img/icons/ice.png"></th>
+				<th><img src="img/icons/electric.png"></th>
+				<th><img src="img/icons/wind.png"></th>
+				<th><img src="img/icons/psy.png"></th>
+				<th><img src="img/icons/nuclear.png"></th>
+				<th><img src="img/icons/bless.png"></th>
+				<th><img src="img/icons/curse.png"></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+		</table>
+		
+		<table id="persona-skills" class="persona-stats">
+		<thead>
+			<tr>
+				<th colspan="5">Skills</th>
+			</tr>
+			<tr>
+				<th width="5%">Type</th>
+				<th width="5%">Name</th>
+				<th width="5%">Cost</th>
+				<th width="80%">Effect</th>
+				<th width="5%">Level</th>
+			</tr>
+		</thead>
+		<tbody></tbody>
+		</table>
+		
+		<table hidden id="special-recipes" class="persona-stats">
+		<thead>
+			<tr>
+				<th><a href="index.html">(Personas)</a> Special Condition <a href="skills.html">(Skills)</a></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+			</tr>
+		</tbody>
+		</table>
+		
+		<table id="normal-recipes" hidden class="persona-stats">
+		<thead>
+			<tr>
+				<th colspan="6"><a href="index.html">(Personas)</a> Fusion Recipes <a href="skills.html">(Skills)</a></th>
+			</tr>
+			<tr>
+				<th>Arcana</th>
+				<th>Level</th>
+				<th>Ingredient</th>
+				<th>Arcana</th>
+				<th>Level</th>
+				<th>Ingredient</th>
+			</tr>
+		</thead>
+		<tbody id="persona-table-body"></tbody>
+		</table>
+		<h6><a href="https://www.youtube.com/watch?v=DdOjKDSHuKw">https://www.youtube.com/watch?v=DdOjKDSHuKw</a><h6>
+	</div>
+</body>  

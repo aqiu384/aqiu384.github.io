@@ -1,0 +1,136 @@
+<head>
+<meta charset="UTF-8"></meta> 
+	<title>Persona 5 Compendium</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/floatthead/1.4.2/jquery.floatThead.min.js"></script>
+	
+	<script src="js/persona5_common.js"></script>
+	<script src="js/full_compendium.js"></script>
+	<script src="js/special_recipes.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/persona5-comp.css">
+	
+	<template id="persona-table-row">
+      <tr>
+		<td>Arcana</td>
+		<td>Name</td>
+		<td>Level</td>
+
+        <td>St</td>
+        <td>Ma</td>
+        <td>En</td>
+        <td>Ag</td>
+        <td>Lu</td>
+
+		<td>Phys</td>
+		<td>Ranged</td>
+		<td>Fire</td>
+		<td>Ice</td>
+		<td>Electric</td>
+		<td>Wind</td>
+		<td>Psy</td>
+		<td>Nuclear</td>
+        <td>Light</td>
+        <td>Cursed</td>
+      </tr>
+    </template>
+	
+	<script type="text/javascript">
+    $.fn.dataTableExt.oSort['arcanas-pre'] = function(a) {
+        return _ARCANA_ORDER[a];
+    }
+
+	$.fn.dataTableExt.oSort['elemental-resistances-pre'] = function(a) {
+		return $.inArray(a, ["Dr", "Rp", "Nu", "Rs", "-", "Wk", "??"]);
+	}
+	
+	$.fn.dataTableExt.oSort['elemental-affinities-pre'] = function(a) {
+		return a == "-" ? 0 : parseInt(a);
+	}
+	
+	$(document).ready(function() {
+		function parse_persona_info(persona_name, persona, properties) {
+			properties[0].innerHTML = persona.arcana;
+			properties[1].innerHTML = persona.lvl;
+			properties[2].innerHTML = generate_persona_link(persona_name);
+		}
+		
+		function fill_persona_properties(persona_name, persona, properties) {
+			parse_persona_info(persona_name, persona, properties);
+			
+			var index = 3;
+            parse_stats(persona, properties, index);
+
+            index += 5;
+			parse_elemental_resistances(persona, properties, index);
+		}
+	
+		function load_personas(compendium) {
+			if (!supports_templating()) {
+				return;
+			}
+			
+			var persona_table_body = document.getElementById("persona-table-body");
+			var persona_template = document.getElementById('persona-table-row');
+			var persona_properties = persona_template.content.querySelectorAll("td");
+			
+			for (var persona in compendium) {
+				fill_persona_properties(persona, compendium[persona], persona_properties);
+				persona_table_body.appendChild(document.importNode(persona_template.content, true));
+			}
+		}
+		
+		load_personas(_FULL_COMPENDIUM);
+		
+		var persona_table = $("#persona-compendium");
+		
+		persona_table.DataTable({
+			paging: false,
+			info: false,
+			bFilter: false,
+			columnDefs: [
+				{ targets: [0], orderData: [0, 1] },
+                { type: "arcanas", targets: [0] },
+                { type: "elemental-resistances", targets: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17] }
+            ]
+		});
+		persona_table.floatThead();
+	});
+	</script>
+</head>
+<body>
+	<div class="persona-compendium">
+		<table class="persona-stats" id="persona-compendium">
+		<thead>
+			<tr>
+				<th class="sorter-false" colspan="3">Persona <a href="skills.html">(Skills)</a></th>
+				<th class="sorter-false" colspan="5">Stats</th>
+				<th class="sorter-false" colspan="10">Elemental Resistances</th>
+			</tr>
+			<tr>
+				<th>Arcana</th>
+				<th>Lvl</th>
+				<th>Name</th>
+                <th>St</th>
+                <th>Ma</th>
+                <th>En</th>
+                <th>Ag</th>
+                <th>Lu</th>
+				<th><img src="img/icons/phys.png"></th>
+				<th><img src="img/icons/ranged.png"></th>
+				<th><img src="img/icons/fire.png"></th>
+				<th><img src="img/icons/ice.png"></th>
+				<th><img src="img/icons/electric.png"></th>
+				<th><img src="img/icons/wind.png"></th>
+				<th><img src="img/icons/psy.png"></th>
+				<th><img src="img/icons/nuclear.png"></th>
+				<th><img src="img/icons/bless.png"></th>
+				<th><img src="img/icons/curse.png"></th>
+			</tr>
+		</thead>
+		<tbody id="persona-table-body"></tbody>
+		</table>
+		<h6><a href="https://www.youtube.com/watch?v=DdOjKDSHuKw">https://www.youtube.com/watch?v=DdOjKDSHuKw</a><h6>
+	</div>
+</body>  
