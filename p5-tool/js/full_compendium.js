@@ -333,7 +333,7 @@ _FULL_COMPENDIUM = {
             "Makouha": 0,
             "Mudoon": 0,
             "Null Fear": 39,
-            "Resist Light": 41
+            "Resist Bless": 41
         },
         "st": "23",
         "wind": "-"
@@ -1729,9 +1729,9 @@ _FULL_COMPENDIUM = {
         "ranged": "-",
         "shadow": "-",
         "skills": {
-            "Absorb Light": 255,
+            "Absorb Bless": 77,
             "Auto-Maraku": 76,
-            "Light Amp": 74,
+            "Bless Amp": 74,
             "Makougaon": 0,
             "Mediarahan": 0,
             "Salvation": 79,
@@ -1761,7 +1761,7 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Diarahan": 45,
-            "Light Boost": 44,
+            "Bless Boost": 44,
             "Makouga": 0,
             "Me Patra": 46,
             "Null Rage": 47,
@@ -3708,7 +3708,7 @@ _FULL_COMPENDIUM = {
             "Dodge Electric": 0,
             "Dodge Fire": 0,
             "Dodge Ice": 0,
-            "Dodge Light": 0,
+            "Dodge Bless": 0,
             "Dodge Nuclear": 0,
             "Dodge Psy": 0,
             "Dodge Wind": 0
@@ -4288,7 +4288,7 @@ _FULL_COMPENDIUM = {
             "Null Dizzy": 42,
             "Psyo": 39,
             "Rampage": 0,
-            "Tetra Break": 255
+            "Tetra Break": 40
         },
         "st": "24",
         "wind": "-"
@@ -4343,7 +4343,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Bufula": 0,
             "Devil Smile": 0,
-            "Dodge Light": 35,
+            "Dodge Bless": 35,
             "Freeze Boost": 34,
             "Mabufula": 37,
             "Masukunda": 0,
@@ -4800,7 +4800,7 @@ _FULL_COMPENDIUM = {
             "Dancing Blades": 0,
             "Divine Judgement": 95,
             "Hama Boost": 92,
-            "Light Amp": 94,
+            "Bless Amp": 94,
             "Mahamaon": 0,
             "Makougaon": 0,
             "Megidolaon": 91,
@@ -4863,7 +4863,7 @@ _FULL_COMPENDIUM = {
             "Dekunda": 35,
             "Diarama": 0,
             "Kouga": 0,
-            "Light Boost": 36,
+            "Bless Boost": 36,
             "Mahama": 0,
             "Makouga": 34,
             "Thermopylae": 38
@@ -5070,7 +5070,7 @@ _FULL_COMPENDIUM = {
             "Mabufudyne": 0,
             "Mamudoon": 0,
             "Mudo Boost": 0,
-            "Null Light": 83
+            "Null Bless": 83
         },
         "st": "55",
         "wind": "-"
@@ -5220,7 +5220,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Curse Amp": 65,
             "Eigaon": 0,
-            "Evade Light": 66,
+            "Evade Bless": 66,
             "Maeigaon": 64,
             "Mamudoon": 0,
             "Marin Karin": 0,
@@ -6055,7 +6055,7 @@ _FULL_COMPENDIUM = {
             "Curse Boost": 55,
             "Deathbound": 58,
             "Eigaon": 0,
-            "Evade Light": 57,
+            "Evade Bless": 57,
             "Megidola": 54
         },
         "st": "34",
@@ -6291,7 +6291,7 @@ _FULL_COMPENDIUM = {
         "ranged": "-",
         "shadow": "　",
         "skills": {
-            "Light Boost": 34,
+            "Bless Boost": 34,
             "Mabaisudi": 32,
             "Makajamon": 0,
             "Makouga": 0,
@@ -7755,7 +7755,7 @@ _FULL_COMPENDIUM = {
             "Evade Curseness": 75,
             "Hama Boost": 0,
             "Invigorate 3": 0,
-            "Light Amp": 74,
+            "Bless Amp": 74,
             "Mahamaon": 0,
             "Makougaon": 73
         },

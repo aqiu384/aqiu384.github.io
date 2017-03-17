@@ -119,5 +119,83 @@ _SPECIAL_RECIPES = {
         "Arahabaki",
         "Yatagarasu",
         "Futsunushi"
+    ],
+    "Izanagi": [
+        "DLC Only"
+    ],
+    "Izanagi Picaro": [
+        "DLC Only"
+    ],
+    "Orpheus": [
+        "DLC Only"
+    ],
+    "Orpheus Picaro": [
+        "DLC Only"
+    ],
+    "Ariadne": [
+        "DLC Only"
+    ],
+    "Ariadne Picaro": [
+        "DLC Only"
+    ],
+    "Asterius": [
+        "DLC Only"
+    ],
+    "Asterius Picaro": [
+        "DLC Only"
+    ],
+    "Thanatos": [
+        "DLC Only"
+    ],
+    "Thanatos Picaro": [
+        "DLC Only"
+    ],
+    "Magatsu-Izanagi": [
+        "DLC Only"
+    ],
+    "Magatsu-Izanagi Picaro": [
+        "DLC Only"
+    ],
+    "Kaguya": [
+        "DLC Only"
+    ],
+    "Kaguya Picaro": [
+        "DLC Only"
+    ],
+    "Tsukiyomi": [
+        "DLC Only"
+    ],
+    "Tsukiyomi Picaro": [
+        "DLC Only"
+    ],
+    "Messiah": [
+        "DLC Only"
+    ],
+    "Messiah Picaro": [
+        "DLC Only"
+    ],
+    "Crystal Skull": [
+        "Recruitment Only"
+    ],
+    "Hope Diamond": [
+        "Recruitment Only"
+    ],
+    "Emperor's Amulet": [
+        "Recruitment Only"
+    ],
+    "Orlov": [
+        "Recruitment Only"
+    ],
+    "Koh-i-Noor": [
+        "Recruitment Only"
+    ],
+    "Stone of Scone": [
+        "Recruitment Only"
+    ],
+    "The Queen's Necklace": [
+        "Recruitment Only"
+    ],
+    "Regent": [
+        "Recruitment Only"
     ]
 }

@@ -11,7 +11,9 @@
 	<script src="js/min_compendium.js"></script>
 	<script src="js/normal_recipes.js"></script>
 	<script src="js/special_recipes.js"></script>
+    <script src="js/element_recipes.js"></script>
 	<script src="js/reverse_fusion_chart.js"></script>
+    <script src="js/element_fusion_chart.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="css/persona5-comp.css">
 	
@@ -47,7 +49,12 @@
 			return results[1] || 0;
 		}
 	}
-	
+
+    $.fn.dataTableExt.oSort['arcanas-pre'] = function(a) {
+        return _ARCANA_ORDER[a];
+    }
+
+
 	$.fn.dataTableExt.oSort['learned-skill-levels-pre'] = function(a) {
 		return a == "Innate" ? 0 : parseInt(a);
 	}
@@ -96,6 +103,25 @@
 			
 			return final_recipes;
 		}
+
+        function calculate_element_fusions(target_persona) {
+            var target_arcana = _NORMAL_RECIPES[target_persona].arcana;
+            var target_combos = _ELEMENT_RECIPES[target_persona];
+            var target_elements = _ELEMENT_FUSION_CHART[target_arcana];
+
+            final_recipes = [];
+
+            for (var i = 0; i < target_combos.length; i++) {
+                var ingredients = target_combos[i].split(" x ");
+                var elements = target_elements[ingredients[1]];
+
+                for (j = 0; j < elements.length; j++) {
+                    final_recipes.push(ingredients[0] + " x " + elements[j]);
+                }
+            }
+
+            return final_recipes;
+        }
 		
 		function load_reverse_fusions(persona) {
 			var persona_table_body = document.getElementById("persona-table-body");
@@ -119,6 +145,13 @@
 					persona_table_body.appendChild(document.importNode(persona_template.content, true));
 				}
 				
+				var element_recipes = calculate_element_fusions(persona);
+				
+				for (var i = 0; i < element_recipes.length; i++) {
+					fill_fusion_recipe(element_recipes[i], recipe_template);
+					persona_table_body.appendChild(document.importNode(persona_template.content, true));
+				}
+
 				$("#normal-recipes").show();
 			} else {
 				$("#special-recipes").find("td").html("Could not compute persona fusion.");
@@ -184,6 +217,10 @@
 			info: false,
 			bFilter: false,
 			bAutoWidth: false,
+            columnDefs: [
+                { targets: [0], orderData: [0, 1] },
+                { type: "arcanas", targets: [0, 3] }
+            ]
 		});
 		persona_table.floatThead();
 	});

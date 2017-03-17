@@ -31,7 +31,7 @@ _FULL_SKILLS = {
         "effect": "Absorb Bless attacks.",
         "element": "passive",
         "personas": {
-            "Cybele": 255
+            "Cybele": 77
         }
     },
     "Absorb Nuclear": {
@@ -3531,7 +3531,7 @@ _FULL_SKILLS = {
         "personas": {
             "Fuu-Ki": 0,
             "Hanuman": 67,
-            "Legion": 255,
+            "Legion": 40,
             "Mara": 0,
             "Mithras": 41,
             "Yurlungur": 47
