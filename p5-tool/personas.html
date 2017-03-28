@@ -75,11 +75,34 @@
 		}
 		
 		function calculate_reverse_fusions(target_persona) {
+            var arcana = _FULL_COMPENDIUM[target_persona].arcana;
+            var level = _FULL_COMPENDIUM[target_persona].lvl;
+            var arcana_ranking = _NORMAL_RECIPES[arcana];
+
+            var min = arcana_ranking[arcana_ranking.length - 2];
+            var mid = 99;
+            var max = 99;
+            var next_max = 99;
+
+            for (var i = 1; i < arcana_ranking.length - 1; i++) {
+                if (arcana_ranking[i] == level) {
+                    var min = arcana_ranking[i - 1];
+                    var mid = arcana_ranking[i];
+                    var max = arcana_ranking[i + 1];
+
+                    if (i < arcana_ranking.length - 2) {
+                        next_max = arcana_ranking[i + 2];
+                    }
+
+                    break;
+                }
+            }
+
 			var target_recipe = _NORMAL_RECIPES[target_persona];
-			var min_level = target_recipe.min == 1 ? 2 : 2 * target_recipe.min - 2;
-			var max_level = target_recipe.max == 99 ? 200 : 2 * target_recipe.max - 2;
+			var min_level = min == 0 ? 2 : 2 * min - 2;
+			var max_level = mid == 99 ? 200 : 2 * mid - 2;
 			
-			var target_combos = _REVERSE_FUSION_CHART[target_recipe.arcana];
+			var target_combos = _REVERSE_FUSION_CHART[arcana];
 			var final_recipes;
 			
 			final_recipes = [];
@@ -100,12 +123,55 @@
 					}
 				}
 			}
+
+            var target_arcana = _MIN_COMPENDIUM[arcana];
+            var ingredients = Object.keys(target_arcana);
+            ingredients.splice(ingredients.indexOf(target_persona), 1);
+            ingredients.sort();
+
+            if (max != 99) {
+                var next_persona = "";
+                
+                for (var persona in target_arcana) {
+                    if (target_arcana[persona] == max) {
+                        next_persona = persona;
+                    }
+                }
+
+                ingredients.splice(ingredients.indexOf(next_persona), 1);
+
+                min_level = 2 * level - 2;
+                max_level = next_max == 99 ? 200 : 2 * next_max - 2;
+
+                for (var i = 0; i < ingredients.length; i++) {
+                    var new_persona = target_arcana[ingredients[i]] + max;
+                    if (min_level <= new_persona &&
+                        new_persona < max_level)
+                    {
+                        final_recipes.push(ingredients[i] + " x " + next_persona);
+                    }
+                }
+            }
+
+            min_level = 2 * level - 2;
+            max_level = max == 99 ? 200 : 2 * max - 2;
 			
+            for (var i = 0; i < ingredients.length; i++) {
+                for (var j = i + 1; j < ingredients.length; j++) {
+                    var new_persona = target_arcana[ingredients[i]] + target_arcana[ingredients[j]];
+                    if (min_level <= new_persona &&
+                        new_persona < max_level)
+                    {
+                        final_recipes.push(ingredients[i] + " x " + ingredients[j]);
+                    }
+                }
+            }
+
 			return final_recipes;
 		}
 
         function calculate_element_fusions(target_persona) {
-            var target_arcana = _NORMAL_RECIPES[target_persona].arcana;
+            var target_arcana = _FULL_COMPENDIUM[target_persona].arcana;
             var target_combos = _ELEMENT_RECIPES[target_persona];
             var target_elements = _ELEMENT_FUSION_CHART[target_arcana];
 
@@ -137,7 +203,7 @@
 				$("#special-recipes").find("td").html(special_recipe_message);
 				$("#special-recipes").show();
 			}
-			else if (persona in _NORMAL_RECIPES) {
+			else if (persona in _FULL_COMPENDIUM) {
 				var reverse_recipes = calculate_reverse_fusions(persona);
 				
 				for (var i = 0; i < reverse_recipes.length; i++) {
@@ -330,6 +396,6 @@
 		</thead>
 		<tbody id="persona-table-body"></tbody>
 		</table>
-		<h6><a href="https://www.youtube.com/watch?v=DdOjKDSHuKw">https://www.youtube.com/watch?v=DdOjKDSHuKw</a><h6>
+		<h6><a href="https://www.youtube.com/watch?v=8eYf3OHqq9s">https://www.youtube.com/watch?v=8eYf3OHqq9s</a><h6>
 	</div>
 </body>  
