@@ -4,7 +4,7 @@ _ELEMENT_FUSION_CHART = {
             "Emperor's Amulet"
         ],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Hope Diamond",
             "Crystal Skull"
@@ -19,7 +19,7 @@ _ELEMENT_FUSION_CHART = {
     "Death": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Orlov",
             "Emperor's Amulet"
         ],
@@ -43,7 +43,7 @@ _ELEMENT_FUSION_CHART = {
             "Crystal Skull"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Orlov"
         ],
@@ -54,7 +54,7 @@ _ELEMENT_FUSION_CHART = {
     "Emperor": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Orlov",
             "Crystal Skull"
@@ -82,7 +82,7 @@ _ELEMENT_FUSION_CHART = {
             "Crystal Skull"
         ],
         "2": [
-            "The Queen's Necklace"
+            "Queen's Necklace"
         ]
     },
     "Fool": {
@@ -93,7 +93,7 @@ _ELEMENT_FUSION_CHART = {
             "Orlov"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Emperor's Amulet",
             "Hope Diamond"
@@ -107,7 +107,7 @@ _ELEMENT_FUSION_CHART = {
             "Orlov"
         ],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Emperor's Amulet",
             "Crystal Skull"
@@ -130,7 +130,7 @@ _ELEMENT_FUSION_CHART = {
         ],
         "1": [
             "Regent",
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Orlov"
         ],
         "2": [
@@ -142,7 +142,7 @@ _ELEMENT_FUSION_CHART = {
             "Crystal Skull"
         ],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Stone of Scone"
         ],
         "1": [
@@ -161,7 +161,7 @@ _ELEMENT_FUSION_CHART = {
             "Koh-i-Noor"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Emperor's Amulet",
             "Hope Diamond",
             "Crystal Skull"
@@ -176,7 +176,7 @@ _ELEMENT_FUSION_CHART = {
         "-2": [],
         "-1": [
             "Regent",
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Hope Diamond",
             "Crystal Skull"
@@ -191,7 +191,7 @@ _ELEMENT_FUSION_CHART = {
     "Justice": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Stone of Scone",
             "Hope Diamond"
         ],
@@ -216,7 +216,7 @@ _ELEMENT_FUSION_CHART = {
             "Emperor's Amulet"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Crystal Skull"
         ],
@@ -225,7 +225,7 @@ _ELEMENT_FUSION_CHART = {
     "Magician": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor"
         ],
         "1": [
@@ -253,7 +253,7 @@ _ELEMENT_FUSION_CHART = {
             "Orlov"
         ],
         "2": [
-            "The Queen's Necklace"
+            "Queen's Necklace"
         ]
     },
     "Priestess": {
@@ -264,7 +264,7 @@ _ELEMENT_FUSION_CHART = {
             "Emperor's Amulet"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Orlov",
             "Hope Diamond",
             "Crystal Skull"
@@ -276,7 +276,7 @@ _ELEMENT_FUSION_CHART = {
     "Star": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Emperor's Amulet"
         ],
@@ -299,7 +299,7 @@ _ELEMENT_FUSION_CHART = {
             "Crystal Skull"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Koh-i-Noor",
             "Orlov",
             "Emperor's Amulet"
@@ -309,7 +309,7 @@ _ELEMENT_FUSION_CHART = {
     "Sun": {
         "-2": [],
         "-1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Stone of Scone",
             "Emperor's Amulet"
         ],
@@ -332,7 +332,7 @@ _ELEMENT_FUSION_CHART = {
             "Hope Diamond"
         ],
         "1": [
-            "The Queen's Necklace",
+            "Queen's Necklace",
             "Orlov",
             "Emperor's Amulet"
         ],
@@ -342,7 +342,7 @@ _ELEMENT_FUSION_CHART = {
     },
     "Tower": {
         "-2": [
-            "The Queen's Necklace"
+            "Queen's Necklace"
         ],
         "-1": [
             "Regent",

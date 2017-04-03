@@ -192,7 +192,7 @@ _SPECIAL_RECIPES = {
     "Stone of Scone": [
         "Recruitment Only"
     ],
-    "The Queen's Necklace": [
+    "Queen's Necklace": [
         "Recruitment Only"
     ],
     "Regent": [

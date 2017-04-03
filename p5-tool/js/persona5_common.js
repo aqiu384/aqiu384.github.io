@@ -6,6 +6,22 @@ function generate_persona_link(persona) {
 	return "<a href=\"personas.html?persona=" + persona + "\">" + persona + "<a>";
 }
 
+function generate_multiple_persona_links(persona) {
+    if (persona == "-") {
+        return "";
+    }
+    if (persona == "Recruitment Only") {
+        return "Recruitment Only";
+    }
+    if (persona.indexOf(", ") != -1) {
+        var personas = persona.split(", ");
+        return generate_persona_link(personas[0]) + ", " + 
+               generate_persona_link(personas[1]);
+    }
+
+    return generate_persona_link(persona);
+}
+
 function generate_skill_cost(skill) {
     if (skill.element != 'passive') {
         if (skill.cost < 100) {
@@ -19,10 +35,6 @@ function generate_skill_cost(skill) {
     {
         return "-"
     }
-}
-
-function generate_persona_levels(personas) {
-
 }
 
 var _RESISTANCES_DICTIONARY = {
@@ -55,7 +67,7 @@ function parse_stats(stats, properties, start_index) {
     }
 }
 
-var _RESISTANCES_LIST = ["phys", "ranged", "fire", "ice", "electric", "wind", "psy", "nuclear", "bless", "curse"];
+var _RESISTANCES_LIST = ["phys", "gun", "fire", "ice", "electric", "wind", "psy", "nuclear", "bless", "curse"];
 function parse_elemental_resistances(resistances, properties, start_index) {
 	for (var i = 0; i < _RESISTANCES_LIST.length; i++) {
 		var curr_resistance = resistances[_RESISTANCES_LIST[i]];

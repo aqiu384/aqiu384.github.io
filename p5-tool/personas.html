@@ -12,6 +12,7 @@
 	<script src="js/normal_recipes.js"></script>
 	<script src="js/special_recipes.js"></script>
     <script src="js/element_recipes.js"></script>
+    <script src="js/double_element_recipes.js"></script>
 	<script src="js/reverse_fusion_chart.js"></script>
     <script src="js/element_fusion_chart.js"></script>
 	
@@ -167,6 +168,10 @@
                 }
             }
 
+            if (target_persona in _DOUBLE_ELEMENT_RECIPES) {
+                final_recipes = final_recipes.concat(_DOUBLE_ELEMENT_RECIPES[target_persona]);
+            }
+
 			return final_recipes;
 		}
 
@@ -197,8 +202,8 @@
 			if (!supports_templating() || persona == null || persona=="") {
 				$("#persona-not-found").show();
 			}	
-			else if (persona in _SPECIAL_RECIPES) {
-				var special_recipe_message = _SPECIAL_RECIPES[persona].map(generate_persona_link).join(' x ');
+			else if (persona in _SPECIAL_RECIPES && _SPECIAL_RECIPES[persona] != "DLC Only") {
+				var special_recipe_message = _SPECIAL_RECIPES[persona].map(generate_multiple_persona_links).join(' x ');
 				
 				$("#special-recipes").find("td").html(special_recipe_message);
 				$("#special-recipes").show();
@@ -324,7 +329,7 @@
 			</tr>
 			<tr>
 				<th><img src="img/icons/phys.png"></th>
-				<th><img src="img/icons/ranged.png"></th>
+				<th><img src="img/icons/gun.png"></th>
 				<th><img src="img/icons/fire.png"></th>
 				<th><img src="img/icons/ice.png"></th>
 				<th><img src="img/icons/electric.png"></th>

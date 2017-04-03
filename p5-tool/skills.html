@@ -17,6 +17,8 @@
 		<td>0</td>
         <td>Effect</td>
         <td>Personas</td>
+        <td>-</td>
+        <td>-</td>
       </tr>
     </template>
 	
@@ -29,7 +31,15 @@
 		
 		function fill_persona_properties(skill, properties, skill_name) {
             properties[0].innerHTML = generate_element_icon(skill.element); 
-			properties[1].innerHTML = skill_name;
+			
+            properties[1].innerHTML = skill_name;
+
+            if ('unique' in skill) {
+                properties[1].setAttribute("style", "color:red");
+            }
+            else {
+                properties[1].setAttribute("style", "color:white");
+            }
 			
             properties[2].innerHTML = generate_skill_cost(skill);
 			properties[3].innerHTML = skill.effect
@@ -43,6 +53,12 @@
 			
 			persona_list.sort()
 			properties[4].innerHTML = persona_list.join(', ');
+
+            var talk_persona = 'talk' in skill ? skill.talk : '-';
+            var fuse_persona = 'fuse' in skill ? skill.fuse : '-';
+        
+            properties[5].innerHTML = generate_multiple_persona_links(talk_persona);
+            properties[6].innerHTML = generate_multiple_persona_links(fuse_persona);
 		}
 	
 		function load_personas(skill_list) {
@@ -86,6 +102,8 @@
 				<th>Cost</th>
 				<th>Effect</th>
                 <th>Personas</th>
+                <th>Skill Card Negotiation</th>
+                <th>Skill Card Fusion</th>
 			</tr>
 		</thead>
 		<tbody id="persona-table-body"></tbody>

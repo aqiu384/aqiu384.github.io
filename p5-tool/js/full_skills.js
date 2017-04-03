@@ -1,4 +1,11 @@
 _FULL_SKILLS = {
+    "Absorb Bless": {
+        "effect": "Absorb Bless attacks.",
+        "element": "passive",
+        "personas": {
+            "Cybele": 77
+        }
+    },
     "Absorb Curse": {
         "effect": "Absorb Curse attacks.",
         "element": "passive",
@@ -25,13 +32,6 @@ _FULL_SKILLS = {
         "element": "passive",
         "personas": {
             "Satan": 98
-        }
-    },
-    "Absorb Bless": {
-        "effect": "Absorb Bless attacks.",
-        "element": "passive",
-        "personas": {
-            "Cybele": 77
         }
     },
     "Absorb Nuclear": {
@@ -64,6 +64,19 @@ _FULL_SKILLS = {
             "Ishtar": 0
         }
     },
+    "Adverse Resolve": {
+        "effect": "Increase critical rate when being ambushed.",
+        "element": "passive",
+        "personas": {
+            "Arsène": 7,
+            "Jikokuten": 31,
+            "Rakshasa": 30,
+            "Raphael": 82,
+            "Thanatos Picaro": 73,
+            "Yamata no Orochi": 67
+        },
+        "talk": "Rakshasa"
+    },
     "Agi": {
         "cost": 400,
         "effect": "Deal weak Fire damage to 1 foe.",
@@ -73,12 +86,14 @@ _FULL_SKILLS = {
             "Jack O'Lantern": 0,
             "Onmoraki": 13,
             "Succubus": 8
-        }
+        },
+        "talk": "Jack O'Lantern"
     },
     "Agidyne": {
         "cost": 1200,
         "effect": "Deal heavy Fire damage to 1 foe.",
         "element": "fire",
+        "fuse": "Cerberus",
         "personas": {
             "Baphomet": 0,
             "Belial": 0,
@@ -91,12 +106,14 @@ _FULL_SKILLS = {
             "Seth": 0,
             "Surt": 0,
             "Yatagarasu": 0
-        }
+        },
+        "talk": "Belial"
     },
     "Agilao": {
         "cost": 800,
         "effect": "Deal medium Fire damage to 1 foe.",
         "element": "fire",
+        "fuse": "Hua Po",
         "personas": {
             "Decarabia": 0,
             "Hell Biker": 0,
@@ -105,12 +122,14 @@ _FULL_SKILLS = {
             "Orpheus": 0,
             "Orthrus": 0,
             "Stone of Scone": 0
-        }
+        },
+        "talk": "Hua Po"
     },
     "Agneyastra": {
         "cost": 24,
         "effect": "Deal 1 to 3 times medium Phys damage to all foes.",
         "element": "phys",
+        "fuse": "Ardha",
         "personas": {
             "Ardha": 87,
             "Messiah Picaro": 0,
@@ -123,7 +142,8 @@ _FULL_SKILLS = {
         "personas": {
             "Dionysus": 63,
             "White Rider": 45
-        }
+        },
+        "talk": "Dionysus"
     },
     "Ali Dance": {
         "effect": "Half hit rate of all incoming attacks.",
@@ -147,22 +167,23 @@ _FULL_SKILLS = {
             "Messiah Picaro": 96
         }
     },
-    "Amnesiac Rush": {
-        "cost": 15,
-        "effect": "Deal medium Phys damage and inflict Forget (low odds) to all foes.",
-        "element": "phys",
+    "Ambient Aid": {
+        "effect": "Greatly increase inflicting rate of all status effects under rainy day or special weather warning.",
+        "element": "passive",
         "personas": {
-            "Eligor": 20,
-            "Jikokuten": 0,
-            "Naga": 0,
-            "Oni": 23,
-            "Quetzalcoatl": 0
+            "Black Ooze": 31,
+            "Black Rider": 60,
+            "Mothman": 36,
+            "Narcissus": 55,
+            "Pazuzu": 45,
+            "Sudama": 20
         }
     },
     "Amrita Drop": {
         "cost": 600,
         "effect": "Cure all ailments of 1 ally except for unique status.",
         "element": "healing",
+        "fuse": "Seiryu",
         "personas": {
             "Fortuna": 50,
             "Melchizedek": 65,
@@ -184,11 +205,13 @@ _FULL_SKILLS = {
             "Mada": 88,
             "Sandalphon": 0,
             "Sraosha": 84
-        }
+        },
+        "talk": "Scathach"
     },
     "Angelic Grace": {
         "effect": "Double evasion rate against all attacks except Bless/Curseness/Almighty.",
         "element": "passive",
+        "fuse": "Sandalphon",
         "personas": {
             "Sandalphon": 77,
             "Sraosha": 83,
@@ -205,11 +228,13 @@ _FULL_SKILLS = {
             "Bicorn": 8,
             "Futsunushi": 80,
             "Sudama": 22
-        }
+        },
+        "talk": "Andras"
     },
     "Arms Master": {
         "effect": "Half HP cost for physical skills.",
         "element": "passive",
+        "fuse": "Chi You",
         "personas": {
             "Ongyo-Ki": 77,
             "Raphael": 83,
@@ -227,7 +252,8 @@ _FULL_SKILLS = {
             "Nue": 25,
             "Take-Minakata": 0,
             "Unicorn": 0
-        }
+        },
+        "talk": "Take-Minakata"
     },
     "Atomic Flare": {
         "cost": 4800,
@@ -237,7 +263,7 @@ _FULL_SKILLS = {
             "Asura-Ou": 0
         }
     },
-    "Attack Lesson": {
+    "Attack Master": {
         "effect": "Automatic Tarukaja at the start of battle.",
         "element": "passive",
         "personas": {
@@ -252,7 +278,7 @@ _FULL_SKILLS = {
         }
     },
     "Auto-Maraku": {
-        "effect": "Automatic Marakukaja at the start of battle. (Overwrites Defense Lesson)",
+        "effect": "Automatic Marakukaja at the start of battle. (Overwrites Defense Master)",
         "element": "passive",
         "personas": {
             "Cybele": 76,
@@ -261,7 +287,7 @@ _FULL_SKILLS = {
         }
     },
     "Auto-Masuku": {
-        "effect": "Automatic Masukukaja at the start of battle. (Overwrites Speed Lesson)",
+        "effect": "Automatic Masukukaja at the start of battle. (Overwrites Speed Master)",
         "element": "passive",
         "personas": {
             "Ardha": 88,
@@ -270,7 +296,7 @@ _FULL_SKILLS = {
         }
     },
     "Auto-Mataru": {
-        "effect": "Automatic Matarukaja at the start of battle. (Overwrites Attack Lesson)",
+        "effect": "Automatic Matarukaja at the start of battle. (Overwrites Attack Master)",
         "element": "passive",
         "personas": {
             "Ariadne Picaro": 43,
@@ -287,6 +313,7 @@ _FULL_SKILLS = {
         "cost": 21,
         "effect": "Deal medium Phys damage and inflict Distress (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Black Rider",
         "personas": {
             "Dakini": 0,
             "Kin-Ki": 30,
@@ -297,6 +324,7 @@ _FULL_SKILLS = {
         "cost": 400,
         "effect": "Cure Burn/Freeze/Shock of 1 ally.",
         "element": "healing",
+        "fuse": "Angel",
         "personas": {
             "Agathion": 0,
             "Angel": 14,
@@ -316,7 +344,8 @@ _FULL_SKILLS = {
             "Pisaca": 32,
             "Trumpeter": 0,
             "Zaou-Gongen": 0
-        }
+        },
+        "talk": "Arahabaki"
     },
     "Black Viper": {
         "cost": 4800,
@@ -327,16 +356,22 @@ _FULL_SKILLS = {
         },
         "unique": "Satan"
     },
-    "Blindfold": {
-        "cost": 500,
-        "effect": "Inflict Dizzy (high odds) to 1 foe.",
-        "element": "ailment",
+    "Bless Amp": {
+        "effect": "Strengthen (non instant death) Bless attacks by 50%.",
+        "element": "passive",
         "personas": {
-            "Angel": 0,
-            "Archangel": 0,
-            "Jack O'Lantern": 5,
-            "Mokoi": 0,
-            "Naga": 27
+            "Cybele": 74,
+            "Metatron": 94,
+            "Throne": 74
+        }
+    },
+    "Bless Boost": {
+        "effect": "Strengthen (non instant death) Bless attacks by 25%.",
+        "element": "passive",
+        "personas": {
+            "Daisoujou": 44,
+            "Mithra": 36,
+            "Principality": 34
         }
     },
     "Blinding Flash": {
@@ -348,12 +383,14 @@ _FULL_SKILLS = {
             "Hariti": 42,
             "Narcissus": 0,
             "Norn": 0
-        }
+        },
+        "talk": "Narcissus"
     },
     "Bloodbath": {
         "cost": 19,
         "effect": "Deal heavy Phys damage and inflict Fear (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Rangda",
         "personas": {
             "Black Rider": 61,
             "Chernobog": 0,
@@ -361,7 +398,8 @@ _FULL_SKILLS = {
             "Magatsu-Izanagi Picaro": 50,
             "Rangda": 0,
             "Uriel": 0
-        }
+        },
+        "talk": "Chernobog"
     },
     "Bloodsuck": {
         "cost": 300,
@@ -372,7 +410,8 @@ _FULL_SKILLS = {
             "Incubus": 0,
             "Legion": 0,
             "Tsukiyomi": 0
-        }
+        },
+        "talk": "Incubus"
     },
     "Brain Buster": {
         "cost": 21,
@@ -381,7 +420,8 @@ _FULL_SKILLS = {
         "personas": {
             "Kurama Tengu": 0,
             "Trumpeter": 0
-        }
+        },
+        "talk": "Kurama Tengu"
     },
     "Brain Jack": {
         "cost": 1200,
@@ -398,10 +438,12 @@ _FULL_SKILLS = {
         "cost": 9,
         "effect": "Deal medium Phys damage and inflict Brainwash (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Inugami",
         "personas": {
             "Inugami": 18,
             "Pale Rider": 0
-        }
+        },
+        "talk": "Inugami"
     },
     "Brainwash Boost": {
         "effect": "Increase chance of inflicting Brainwash.",
@@ -409,33 +451,24 @@ _FULL_SKILLS = {
         "personas": {
             "Succubus": 11,
             "Vasuki": 72
-        }
+        },
+        "talk": "Succubus"
     },
     "Brave Blade": {
         "cost": 24,
         "effect": "Deal grave Phys damage to 1 foe.",
         "element": "phys",
+        "fuse": "Futsunushi",
         "personas": {
             "Futsunushi": 82,
             "Yoshitsune": 0
-        }
-    },
-    "Brooding Sky": {
-        "effect": "Greatly increase inflicting rate of all status effects under rainy day or special weather warning.",
-        "element": "passive",
-        "personas": {
-            "Black Ooze": 31,
-            "Black Rider": 60,
-            "Mothman": 36,
-            "Narcissus": 55,
-            "Pazuzu": 45,
-            "Sudama": 20
         }
     },
     "Bufu": {
         "cost": 400,
         "effect": "Deal weak Ice damage to 1 foe.",
         "element": "ice",
+        "fuse": "Koropokkuru",
         "personas": {
             "Andras": 0,
             "Apsaras": 0,
@@ -445,7 +478,8 @@ _FULL_SKILLS = {
             "Kusi Mitama": 0,
             "Saki Mitama": 0,
             "Silky": 0
-        }
+        },
+        "talk": "Jack Frost"
     },
     "Bufudyne": {
         "cost": 1200,
@@ -459,7 +493,8 @@ _FULL_SKILLS = {
             "Lakshmi": 0,
             "Seiryu": 0,
             "Skadi": 58
-        }
+        },
+        "talk": "King Frost"
     },
     "Bufula": {
         "cost": 800,
@@ -472,11 +507,13 @@ _FULL_SKILLS = {
             "Lilim": 0,
             "Stone of Scone": 0,
             "Sui-Ki": 0
-        }
+        },
+        "talk": "Belphegor"
     },
     "Burn Boost": {
         "effect": "Increase chance of inflicting Burn.",
         "element": "passive",
+        "fuse": "Orthrus",
         "personas": {
             "Asterius": 0,
             "Asterius Picaro": 0,
@@ -500,28 +537,17 @@ _FULL_SKILLS = {
         "cost": 6,
         "effect": "Deal weak Phys damage to 1 foe.",
         "element": "phys",
+        "fuse": "Berith",
         "personas": {
             "Arsène": 2,
             "Berith": 0
-        }
-    },
-    "Coaching": {
-        "effect": "Lower odds of receiving critical hit.",
-        "element": "passive",
-        "personas": {
-            "Eligor": 0,
-            "Ippon-Datara": 16,
-            "Jack O'Lantern": 4,
-            "Oni": 22,
-            "Scathach": 0,
-            "Silky": 10,
-            "Sudama": 0,
-            "Zouchouten": 33
-        }
+        },
+        "talk": "Berith"
     },
     "Cool Breeze": {
         "effect": "Recover 8% HP and SP after a successful battle.",
         "element": "passive",
+        "fuse": "Lakshmi",
         "personas": {
             "Kohryu": 78,
             "Lakshmi": 74,
@@ -542,6 +568,7 @@ _FULL_SKILLS = {
     "Counter": {
         "effect": "10% chance of reflecting Phys attacks.",
         "element": "passive",
+        "fuse": "Setanta",
         "personas": {
             "Ippon-Datara": 18,
             "Jikokuten": 28,
@@ -561,19 +588,8 @@ _FULL_SKILLS = {
             "Rakshasa": 28,
             "Rangda": 0,
             "Valkyrie": 0
-        }
-    },
-    "Crisis Resolve": {
-        "effect": "Increase critical rate when being ambushed.",
-        "element": "passive",
-        "personas": {
-            "Arsène": 7,
-            "Jikokuten": 31,
-            "Rakshasa": 30,
-            "Raphael": 82,
-            "Thanatos Picaro": 73,
-            "Yamata no Orochi": 67
-        }
+        },
+        "talk": "Valkyrie"
     },
     "Cross Slash": {
         "cost": 20,
@@ -617,10 +633,24 @@ _FULL_SKILLS = {
             "Sandalphon": 79
         }
     },
+    "Dazzler": {
+        "cost": 500,
+        "effect": "Inflict Dizzy (high odds) to 1 foe.",
+        "element": "ailment",
+        "fuse": "Archangel",
+        "personas": {
+            "Angel": 0,
+            "Archangel": 0,
+            "Jack O'Lantern": 5,
+            "Mokoi": 0,
+            "Naga": 27
+        }
+    },
     "Deadly Fury": {
         "cost": 18,
         "effect": "Deal severe Phys damage to 1 foe. More powerful under Baton Pass .",
         "element": "phys",
+        "fuse": "Chernobog",
         "personas": {
             "Bishamonten": 68,
             "Chernobog": 0,
@@ -632,6 +662,7 @@ _FULL_SKILLS = {
         "cost": 22,
         "effect": "Deal 1 to 2 times medium Phys damage to all foes.",
         "element": "phys",
+        "fuse": "Dakini",
         "personas": {
             "Abaddon": 0,
             "Chernobog": 64,
@@ -647,6 +678,7 @@ _FULL_SKILLS = {
         "cost": 3000,
         "effect": "Decrease 1 foe's Attack, Defense and Agility for 3 turns.",
         "element": "support",
+        "fuse": "Trumpeter",
         "personas": {
             "Michael": 0,
             "Mother Harlot": 85,
@@ -654,7 +686,7 @@ _FULL_SKILLS = {
             "Trumpeter": 65
         }
     },
-    "Defense Lesson": {
+    "Defense Master": {
         "effect": "Automatic Rakukaja at the start of battle.",
         "element": "passive",
         "personas": {
@@ -670,6 +702,7 @@ _FULL_SKILLS = {
         "cost": 1000,
         "effect": "Negate all -kaja buff effects of all foes.",
         "element": "support",
+        "fuse": "Anzu",
         "personas": {
             "Anzu": 28,
             "Flauros": 0,
@@ -686,6 +719,7 @@ _FULL_SKILLS = {
         "cost": 1000,
         "effect": "Negate all -nda debuff effects of party.",
         "element": "support",
+        "fuse": "Mokoi",
         "personas": {
             "Alice": 0,
             "Angel": 17,
@@ -708,7 +742,8 @@ _FULL_SKILLS = {
             "Lilim": 0,
             "Moloch": 0,
             "Pazuzu": 46
-        }
+        },
+        "talk": "Decarabia"
     },
     "Devil Touch": {
         "cost": 500,
@@ -722,18 +757,21 @@ _FULL_SKILLS = {
             "Skadi": 0,
             "Slime": 0,
             "White Rider": 0
-        }
+        },
+        "talk": "Black Ooze"
     },
     "Dia": {
         "cost": 300,
         "effect": "Slightly restore 1 ally's HP.",
         "element": "healing",
+        "fuse": "Pixie",
         "personas": {
             "Agathion": 0,
             "Angel": 0,
             "Pixie": 0,
             "Silky": 7
-        }
+        },
+        "talk": "Pixie"
     },
     "Diamond Dust": {
         "cost": 4800,
@@ -748,6 +786,7 @@ _FULL_SKILLS = {
         "cost": 1800,
         "effect": "Fully restore 1 ally's HP.",
         "element": "healing",
+        "fuse": "Norn",
         "personas": {
             "Bishamonten": 0,
             "Daisoujou": 45,
@@ -758,12 +797,14 @@ _FULL_SKILLS = {
             "Parvati": 58,
             "Sarasvati": 54,
             "Seiryu": 0
-        }
+        },
+        "talk": "Norn"
     },
     "Diarama": {
         "cost": 600,
         "effect": "Moderately restore 1 ally's HP.",
         "element": "healing",
+        "fuse": "High Pixie",
         "personas": {
             "Ame no Uzume": 0,
             "Feng Huang": 23,
@@ -774,7 +815,8 @@ _FULL_SKILLS = {
             "Neko Shogun": 0,
             "Parvati": 0,
             "Power": 44
-        }
+        },
+        "talk": "High Pixie"
     },
     "Die For Me!": {
         "cost": 4400,
@@ -788,6 +830,7 @@ _FULL_SKILLS = {
     "Distress Boost": {
         "effect": "Increase chance of inflicting Distress.",
         "element": "passive",
+        "fuse": "Lamia",
         "personas": {
             "Lamia": 31,
             "Pisaca": 33
@@ -796,6 +839,7 @@ _FULL_SKILLS = {
     "Divine Grace": {
         "effect": "Effects of healing magic are increased by 50%.",
         "element": "passive",
+        "fuse": "Kikuri-Hime",
         "personas": {
             "Ame no Uzume": 32,
             "Kaguya": 17,
@@ -820,6 +864,14 @@ _FULL_SKILLS = {
         "personas": {
             "Hariti": 45,
             "Narcissus": 53
+        }
+    },
+    "Dodge Bless": {
+        "effect": "Double evasion rate against (non instant death) Bless attacks.",
+        "element": "passive",
+        "personas": {
+            "Koh-i-Noor": 0,
+            "Lilim": 35
         }
     },
     "Dodge Curseness": {
@@ -863,14 +915,6 @@ _FULL_SKILLS = {
             "Koh-i-Noor": 0,
             "Koropokkuru": 11,
             "Orthrus": 0
-        }
-    },
-    "Dodge Bless": {
-        "effect": "Double evasion rate against (non instant death) Bless attacks.",
-        "element": "passive",
-        "personas": {
-            "Koh-i-Noor": 0,
-            "Lilim": 35
         }
     },
     "Dodge Nuclear": {
@@ -921,6 +965,7 @@ _FULL_SKILLS = {
         "cost": 16,
         "effect": "Deal medium Phys damage and inflict Sleep (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Shiki-Ouji",
         "personas": {
             "Flauros": 0,
             "Sandman": 0,
@@ -936,7 +981,8 @@ _FULL_SKILLS = {
             "Hua Po": 0,
             "Sandman": 0,
             "Silky": 0
-        }
+        },
+        "talk": "Sandman"
     },
     "Double Fangs": {
         "cost": 10,
@@ -949,12 +995,14 @@ _FULL_SKILLS = {
             "Naga": 0,
             "Orthrus": 0,
             "Shiisaa": 0
-        }
+        },
+        "talk": "Orthrus"
     },
     "Dream Needle": {
         "cost": 8,
         "effect": "Deal medium Phys damage and inflict Sleep (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Incubus",
         "personas": {
             "Arsène": 5,
             "Feng Huang": 0,
@@ -971,19 +1019,22 @@ _FULL_SKILLS = {
             "Choronzon": 31,
             "Leanan Sidhe": 23,
             "Stone of Scone": 0
-        }
+        },
+        "talk": "Choronzon"
     },
     "Eigaon": {
         "cost": 1200,
         "effect": "Deal heavy Curse damage to 1 foe.",
         "element": "curse",
+        "fuse": "Nebiros",
         "personas": {
             "Emperor's Amulet": 0,
             "Nebiros": 0,
             "Pale Rider": 0,
             "Pazuzu": 48,
             "Rangda": 49
-        }
+        },
+        "talk": "Nebiros"
     },
     "Eiha": {
         "cost": 400,
@@ -1006,6 +1057,7 @@ _FULL_SKILLS = {
     "Electric Amp": {
         "effect": "Strengthen Electric attacks by 50%.",
         "element": "passive",
+        "fuse": "Oberon",
         "personas": {
             "Oberon": 72,
             "Odin": 87,
@@ -1016,6 +1068,7 @@ _FULL_SKILLS = {
     "Electric Boost": {
         "effect": "Strengthen Electric attacks by 25%.",
         "element": "passive",
+        "fuse": "Naga",
         "personas": {
             "Atropos": 43,
             "Naga": 26,
@@ -1044,11 +1097,13 @@ _FULL_SKILLS = {
             "Apsaras": 14,
             "Lachesis": 36,
             "Nekomata": 21
-        }
+        },
+        "talk": "Apsaras"
     },
     "Endure": {
         "effect": "Survive one fatal blow with 1 HP remaining.",
         "element": "passive",
+        "fuse": "Hecatoncheir",
         "personas": {
             "Ganesha": 56,
             "Hecatoncheir": 43,
@@ -1061,6 +1116,7 @@ _FULL_SKILLS = {
     "Enduring Soul": {
         "effect": "Survive one fatal blow with HP completely recovered.",
         "element": "passive",
+        "fuse": "Attis",
         "personas": {
             "Attis": 84,
             "Cerberus": 60,
@@ -1079,6 +1135,7 @@ _FULL_SKILLS = {
         "cost": 400,
         "effect": "Cure Panic/Fear/Distress/Rage/Brainwash of 1 ally.",
         "element": "healing",
+        "fuse": "Mandrake",
         "personas": {
             "Kikuri-Hime": 0,
             "Makami": 0,
@@ -1095,6 +1152,15 @@ _FULL_SKILLS = {
             "Clotho": 30,
             "Hariti": 0,
             "Parvati": 57
+        },
+        "talk": "Parvati"
+    },
+    "Evade Bless": {
+        "effect": "Triple evasion rate against (non instant death) Bless attacks.",
+        "element": "passive",
+        "personas": {
+            "Nebiros": 66,
+            "Pale Rider": 57
         }
     },
     "Evade Curseness": {
@@ -1127,14 +1193,6 @@ _FULL_SKILLS = {
         "element": "passive",
         "personas": {
             "Kali": 79
-        }
-    },
-    "Evade Bless": {
-        "effect": "Triple evasion rate against (non instant death) Bless attacks.",
-        "element": "passive",
-        "personas": {
-            "Nebiros": 66,
-            "Pale Rider": 57
         }
     },
     "Evade Nuclear": {
@@ -1180,6 +1238,7 @@ _FULL_SKILLS = {
     "Fast Heal": {
         "effect": "Half the time needed to recover from ailments.",
         "element": "passive",
+        "fuse": "Fortuna",
         "personas": {
             "Bugs": 55,
             "Hope Diamond": 0,
@@ -1190,25 +1249,16 @@ _FULL_SKILLS = {
     "Fear Boost": {
         "effect": "Increase chance of inflicting Fear.",
         "element": "passive",
+        "fuse": "Kodama",
         "personas": {
             "Chernobog": 66,
             "Kodama": 15
         }
     },
-    "Fingered Beam": {
-        "cost": 9,
-        "effect": "Deal medium Ranged damage to 1 foe.",
-        "element": "ranged",
-        "personas": {
-            "Koppa Tengu": 0,
-            "Obariyon": 0,
-            "Oni": 0,
-            "Shiki-Ouji": 0
-        }
-    },
     "Fire Amp": {
         "effect": "Strengthen Fire attacks by 50%.",
         "element": "passive",
+        "fuse": "Surt",
         "personas": {
             "Asterius": 59,
             "Asterius Picaro": 65,
@@ -1218,6 +1268,7 @@ _FULL_SKILLS = {
     "Fire Boost": {
         "effect": "Strengthen Fire attacks by 25%.",
         "element": "passive",
+        "fuse": "Decarabia",
         "personas": {
             "Decarabia": 35,
             "Hell Biker": 40,
@@ -1233,7 +1284,8 @@ _FULL_SKILLS = {
             "Orobas": 20,
             "Seth": 54,
             "Surt": 0
-        }
+        },
+        "talk": "Orobas"
     },
     "Fire Wall": {
         "cost": 1800,
@@ -1243,7 +1295,8 @@ _FULL_SKILLS = {
             "Atropos": 0,
             "Koropokkuru": 13,
             "Slime": 13
-        }
+        },
+        "talk": "Koropokkuru"
     },
     "Firm Stance": {
         "effect": "Half all incoming damage by sacrificing evasion completely.",
@@ -1259,6 +1312,7 @@ _FULL_SKILLS = {
         "cost": 19,
         "effect": "Deal medium Phys damage and inflict Dizzy (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Jatayu",
         "personas": {
             "Black Ooze": 35,
             "Black Rider": 0,
@@ -1268,6 +1322,7 @@ _FULL_SKILLS = {
     "Forget Boost": {
         "effect": "Increase chance of inflicting Forget.",
         "element": "passive",
+        "fuse": "Kusi Mitama",
         "personas": {
             "Kaiwan": 37,
             "Kusi Mitama": 18
@@ -1277,6 +1332,7 @@ _FULL_SKILLS = {
         "cost": 800,
         "effect": "Increase susceptibility to all ailments of 1 foe.",
         "element": "almighty",
+        "fuse": "Mothman",
         "personas": {
             "Girimehkala": 46,
             "Hecatoncheir": 45,
@@ -1287,12 +1343,14 @@ _FULL_SKILLS = {
     "Freeze Boost": {
         "effect": "Increase chance of inflicting Freeze.",
         "element": "passive",
+        "fuse": "Apsaras",
         "personas": {
             "Baphomet": 63,
             "Jack Frost": 15,
             "King Frost": 62,
             "Lilim": 34
-        }
+        },
+        "talk": "Baphomet"
     },
     "Frei": {
         "cost": 400,
@@ -1301,7 +1359,8 @@ _FULL_SKILLS = {
         "personas": {
             "Makami": 0,
             "Suzaku": 0
-        }
+        },
+        "talk": "Makami"
     },
     "Freidyne": {
         "cost": 1200,
@@ -1313,12 +1372,14 @@ _FULL_SKILLS = {
             "Emperor's Amulet": 0,
             "Mithras": 45,
             "Titania": 0
-        }
+        },
+        "talk": "Titania"
     },
     "Freila": {
         "cost": 800,
         "effect": "Deal medium Nuclear damage to 1 foe.",
         "element": "nuclear",
+        "fuse": "Ara Mitama",
         "personas": {
             "Ara Mitama": 0,
             "Feng Huang": 0,
@@ -1330,6 +1391,7 @@ _FULL_SKILLS = {
         "cost": 300,
         "effect": "Deal weak Wind damage to 1 foe.",
         "element": "wind",
+        "fuse": "Bicorn",
         "personas": {
             "Bicorn": 6,
             "High Pixie": 0,
@@ -1337,12 +1399,14 @@ _FULL_SKILLS = {
             "Kodama": 0,
             "Koppa Tengu": 0,
             "Kusi Mitama": 0
-        }
+        },
+        "talk": "Kelpie"
     },
     "Garudyne": {
         "cost": 1000,
         "effect": "Deal heavy Wind damage to 1 foe.",
         "element": "wind",
+        "fuse": "Kurama Tengu",
         "personas": {
             "Emperor's Amulet": 0,
             "Fortuna": 47,
@@ -1350,12 +1414,14 @@ _FULL_SKILLS = {
             "Kurama Tengu": 57,
             "Norn": 0,
             "Quetzalcoatl": 0
-        }
+        },
+        "talk": "Garuda"
     },
     "Garula": {
         "cost": 600,
         "effect": "Deal medium Wind damage to 1 foe.",
         "element": "wind",
+        "fuse": "Matador",
         "personas": {
             "Anzu": 0,
             "Fuu-Ki": 0,
@@ -1365,7 +1431,8 @@ _FULL_SKILLS = {
             "Sandman": 0,
             "Stone of Scone": 0,
             "Sudama": 23
-        }
+        },
+        "talk": "Isis"
     },
     "Ghastly Wail": {
         "cost": 2800,
@@ -1377,6 +1444,23 @@ _FULL_SKILLS = {
             "Magatsu-Izanagi Picaro": 0,
             "Moloch": 63,
             "Skadi": 56
+        },
+        "talk": "Skadi"
+    },
+    "Giant Slice": {
+        "cost": 9,
+        "effect": "Deal medium Phys damage to 1 foe.",
+        "element": "phys",
+        "fuse": "Valkyrie",
+        "personas": {
+            "Dakini": 0,
+            "Flauros": 0,
+            "Ganesha": 0,
+            "Inugami": 0,
+            "Oni": 21,
+            "Rakshasa": 0,
+            "Setanta": 0,
+            "Zouchouten": 0
         }
     },
     "Gigantomachia": {
@@ -1395,6 +1479,7 @@ _FULL_SKILLS = {
         "cost": 25,
         "effect": "Deal grave Phys damage to 1 foe.",
         "element": "phys",
+        "fuse": "Zaou-Gongen",
         "personas": {
             "Ardha": 0,
             "Bishamonten": 73,
@@ -1403,24 +1488,10 @@ _FULL_SKILLS = {
             "Zaou-Gongen": 0
         }
     },
-    "Great Slash": {
-        "cost": 9,
-        "effect": "Deal medium Phys damage to 1 foe.",
-        "element": "phys",
-        "personas": {
-            "Dakini": 0,
-            "Flauros": 0,
-            "Ganesha": 0,
-            "Inugami": 0,
-            "Oni": 21,
-            "Rakshasa": 0,
-            "Setanta": 0,
-            "Zouchouten": 0
-        }
-    },
     "Growth 1": {
         "effect": "Persona gains 1/4 EXP while inactive.",
         "element": "passive",
+        "fuse": "Koppa Tengu",
         "personas": {
             "Koppa Tengu": 12,
             "Saki Mitama": 7
@@ -1429,6 +1500,7 @@ _FULL_SKILLS = {
     "Growth 2": {
         "effect": "Persona gains 1/2 EXP while inactive.",
         "element": "passive",
+        "fuse": "Thoth",
         "personas": {
             "Ananta": 46,
             "Lachesis": 0,
@@ -1438,6 +1510,7 @@ _FULL_SKILLS = {
     "Growth 3": {
         "effect": "Persona gains full EXP even while inactive.",
         "element": "passive",
+        "fuse": "Izanagi Picaro",
         "personas": {
             "Izanagi": 25,
             "Izanagi Picaro": 28,
@@ -1454,7 +1527,8 @@ _FULL_SKILLS = {
         "personas": {
             "Angel": 0,
             "Archangel": 0
-        }
+        },
+        "talk": "Angel"
     },
     "Hama Boost": {
         "effect": "Increase success rate of instant death by Bless skills.",
@@ -1481,7 +1555,8 @@ _FULL_SKILLS = {
             "Parvati": 0,
             "Power": 0,
             "Unicorn": 44
-        }
+        },
+        "talk": "Anubis"
     },
     "Hassou Tobi": {
         "cost": 25,
@@ -1496,6 +1571,7 @@ _FULL_SKILLS = {
         "cost": 9,
         "effect": "Deal medium Phys damage and inflict Forget (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Slime",
         "personas": {
             "Black Ooze": 32,
             "Slime": 14,
@@ -1506,6 +1582,7 @@ _FULL_SKILLS = {
         "cost": 3000,
         "effect": "Increase 1 ally's Attack, Defense and Agility for 3 turns.",
         "element": "support",
+        "fuse": "Raphael",
         "personas": {
             "Lucifer": 96,
             "Magatsu-Izanagi": 50,
@@ -1538,15 +1615,6 @@ _FULL_SKILLS = {
             "Ose": 47
         }
     },
-    "Herculean Strike": {
-        "cost": 14,
-        "effect": "Deal medium Phys damage to all foes.",
-        "element": "phys",
-        "personas": {
-            "Archangel": 21,
-            "Kin-Ki": 0
-        }
-    },
     "High Counter": {
         "effect": "20% chance of reflecting Phys attacks.",
         "element": "passive",
@@ -1560,7 +1628,8 @@ _FULL_SKILLS = {
             "Siegfried": 0,
             "Surt": 61,
             "Thor": 0
-        }
+        },
+        "talk": "Kali"
     },
     "High Voltage": {
         "effect": "Increase critical rate when beginning battle with preemptive turn.",
@@ -1583,7 +1652,8 @@ _FULL_SKILLS = {
             "Kushinada-Hime": 0,
             "Nekomata": 18,
             "Yaksini": 0
-        }
+        },
+        "talk": "Kumbhanda"
     },
     "Ice Age": {
         "cost": 5400,
@@ -1607,6 +1677,7 @@ _FULL_SKILLS = {
     "Ice Boost": {
         "effect": "Strengthen Ice attacks by 25%.",
         "element": "passive",
+        "fuse": "Lachesis",
         "personas": {
             "Byakko": 51,
             "Lachesis": 40
@@ -1616,6 +1687,7 @@ _FULL_SKILLS = {
         "cost": 1500,
         "effect": "Negate Ice resistances of all foes.",
         "element": "support",
+        "fuse": "Andras",
         "personas": {
             "Andras": 15,
             "Belphegor": 39,
@@ -1632,7 +1704,8 @@ _FULL_SKILLS = {
             "Bicorn": 7,
             "Cu Chulainn": 0,
             "Onmoraki": 0
-        }
+        },
+        "talk": "Onmoraki"
     },
     "Incineration": {
         "cost": 5400,
@@ -1665,6 +1738,7 @@ _FULL_SKILLS = {
     "Invigorate 1": {
         "effect": "Recover 3 SP each turn in battle.",
         "element": "passive",
+        "fuse": "Clotho",
         "personas": {
             "Clotho": 32,
             "Neko Shogun": 31
@@ -1673,6 +1747,7 @@ _FULL_SKILLS = {
     "Invigorate 2": {
         "effect": "Recover 5 SP each turn in battle.",
         "element": "passive",
+        "fuse": "Barong",
         "personas": {
             "Barong": 54,
             "Hope Diamond": 0
@@ -1681,6 +1756,7 @@ _FULL_SKILLS = {
     "Invigorate 3": {
         "effect": "Recover 7 SP each turn in battle.",
         "element": "passive",
+        "fuse": "Throne",
         "personas": {
             "Ardha": 0,
             "Messiah": 84,
@@ -1696,12 +1772,14 @@ _FULL_SKILLS = {
             "Mithra": 0,
             "Stone of Scone": 0,
             "Unicorn": 43
-        }
+        },
+        "talk": "Unicorn"
     },
     "Kougaon": {
         "cost": 1200,
         "effect": "Deal heavy Bless damage to 1 foe.",
         "element": "bless",
+        "fuse": "Horus",
         "personas": {
             "Dominion": 0,
             "Emperor's Amulet": 0,
@@ -1715,30 +1793,14 @@ _FULL_SKILLS = {
         "element": "bless",
         "personas": {
             "Angel": 13
-        }
-    },
-    "Bless Amp": {
-        "effect": "Strengthen (non instant death) Bless attacks by 50%.",
-        "element": "passive",
-        "personas": {
-            "Cybele": 74,
-            "Metatron": 94,
-            "Throne": 74
-        }
-    },
-    "Bless Boost": {
-        "effect": "Strengthen (non instant death) Bless attacks by 25%.",
-        "element": "passive",
-        "personas": {
-            "Daisoujou": 44,
-            "Mithra": 36,
-            "Principality": 34
-        }
+        },
+        "talk": "Archangel"
     },
     "Lucky Punch": {
         "cost": 6,
         "effect": "Deal minuscule Phys damage to 1 foe. High critical rate.",
         "element": "phys",
+        "fuse": "Obariyon",
         "personas": {
             "Inugami": 17,
             "Obariyon": 9,
@@ -1749,6 +1811,7 @@ _FULL_SKILLS = {
         "cost": 1200,
         "effect": "Inflict Sleep (medium odds) to all foes.",
         "element": "ailment",
+        "fuse": "Lilim",
         "personas": {
             "Kikuri-Hime": 0,
             "Lakshmi": 0,
@@ -1765,7 +1828,8 @@ _FULL_SKILLS = {
             "Kelpie": 0,
             "Mandrake": 4,
             "Slime": 0
-        }
+        },
+        "talk": "Bicorn"
     },
     "Mabaisudi": {
         "cost": 800,
@@ -1781,6 +1845,7 @@ _FULL_SKILLS = {
         "cost": 1000,
         "effect": "Deal weak Ice damage to all foes.",
         "element": "ice",
+        "fuse": "Sui-Ki",
         "personas": {
             "Andras": 14,
             "Genbu": 10,
@@ -1788,12 +1853,14 @@ _FULL_SKILLS = {
             "Koropokkuru": 14,
             "Regent": 0,
             "Sui-Ki": 0
-        }
+        },
+        "talk": "Sui-Ki"
     },
     "Mabufudyne": {
         "cost": 2200,
         "effect": "Deal heavy Ice damage to all foes.",
         "element": "ice",
+        "fuse": "Gabriel, Lilith",
         "personas": {
             "Black Frost": 0,
             "Crystal Skull": 0,
@@ -1803,12 +1870,14 @@ _FULL_SKILLS = {
             "Mother Harlot": 0,
             "Seiryu": 65,
             "Yamata no Orochi": 0
-        }
+        },
+        "talk": "Yamata no Orochi"
     },
     "Mabufula": {
         "cost": 1600,
         "effect": "Deal medium Ice damage to all foes.",
         "element": "ice",
+        "fuse": "Belphegor",
         "personas": {
             "Belphegor": 41,
             "Byakko": 0,
@@ -1818,12 +1887,14 @@ _FULL_SKILLS = {
             "Orlov": 0,
             "Skadi": 0,
             "Sui-Ki": 28
-        }
+        },
+        "talk": "Kushinada-Hime"
     },
     "Maeiga": {
         "cost": 1600,
         "effect": "Deal medium Curse damage to all foes.",
         "element": "curse",
+        "fuse": "Pazuzu",
         "personas": {
             "Arahabaki": 38,
             "Orlov": 0,
@@ -1835,6 +1906,7 @@ _FULL_SKILLS = {
         "cost": 2200,
         "effect": "Deal heavy Curse damage to all foes.",
         "element": "curse",
+        "fuse": "Thanatos Picaro",
         "personas": {
             "Beelzebub": 0,
             "Black Rider": 0,
@@ -1844,12 +1916,14 @@ _FULL_SKILLS = {
             "Satanael": 0,
             "Thanatos": 0,
             "Thanatos Picaro": 0
-        }
+        },
+        "talk": "Mara"
     },
     "Maeiha": {
         "cost": 1000,
         "effect": "Deal weak Curse damage to all foes.",
         "element": "curse",
+        "fuse": "Choronzon",
         "personas": {
             "Choronzon": 29,
             "Nue": 0,
@@ -1860,6 +1934,7 @@ _FULL_SKILLS = {
         "cost": 1000,
         "effect": "Deal weak Nuclear damage to all foes.",
         "element": "nuclear",
+        "fuse": "Suzaku",
         "personas": {
             "Makami": 17,
             "Regent": 0,
@@ -1870,6 +1945,7 @@ _FULL_SKILLS = {
         "cost": 2200,
         "effect": "Deal heavy Nuclear damage to all foes.",
         "element": "nuclear",
+        "fuse": "Bishamonten",
         "personas": {
             "Asura-Ou": 79,
             "Bishamonten": 69,
@@ -1887,12 +1963,14 @@ _FULL_SKILLS = {
             "Mithras": 0,
             "Orlov": 0,
             "Thoth": 40
-        }
+        },
+        "talk": "Mithras"
     },
     "Magaru": {
         "cost": 800,
         "effect": "Deal small Wind damage to all foes.",
         "element": "wind",
+        "fuse": "Sudama",
         "personas": {
             "High Pixie": 20,
             "Nekomata": 0,
@@ -1913,7 +1991,8 @@ _FULL_SKILLS = {
             "Magatsu-Izanagi Picaro": 49,
             "Quetzalcoatl": 67,
             "Vishnu": 0
-        }
+        },
+        "talk": "Baal"
     },
     "Magarula": {
         "cost": 1400,
@@ -1926,7 +2005,8 @@ _FULL_SKILLS = {
             "Quetzalcoatl": 0,
             "Sandman": 28,
             "Scathach": 0
-        }
+        },
+        "talk": "Fuu-Ki"
     },
     "Magatsu Mandala": {
         "cost": 3000,
@@ -1952,12 +2032,14 @@ _FULL_SKILLS = {
             "Clotho": 0,
             "Mithra": 0,
             "Unicorn": 0
-        }
+        },
+        "talk": "Power"
     },
     "Mahamaon": {
         "cost": 3400,
         "effect": "medium chance of instantly killing all foes.",
         "element": "bless",
+        "fuse": "Melchizedek",
         "personas": {
             "Asura-Ou": 0,
             "Dominion": 72,
@@ -1974,6 +2056,7 @@ _FULL_SKILLS = {
         "cost": 500,
         "effect": "Inflict Forget (high odds) to 1 foe.",
         "element": "ailment",
+        "fuse": "Makami",
         "personas": {
             "Clotho": 0,
             "Kaiwan": 0,
@@ -1994,7 +2077,8 @@ _FULL_SKILLS = {
             "Orobas": 21,
             "Principality": 0,
             "Queen Mab": 0
-        }
+        },
+        "talk": "Mothman"
     },
     "Makara Break": {
         "cost": 1800,
@@ -2011,6 +2095,7 @@ _FULL_SKILLS = {
         "cost": 3600,
         "effect": "Create a shield on 1 ally to repel 1 magical attack.",
         "element": "support",
+        "fuse": "Abaddon",
         "personas": {
             "Abaddon": 0,
             "Arahabaki": 0,
@@ -2025,6 +2110,7 @@ _FULL_SKILLS = {
         "cost": 1600,
         "effect": "Deal medium Bless damage to all foes.",
         "element": "bless",
+        "fuse": "Daisoujou",
         "personas": {
             "Daisoujou": 0,
             "Mithra": 34,
@@ -2037,6 +2123,7 @@ _FULL_SKILLS = {
         "cost": 2200,
         "effect": "Deal heavy Bless damage to all foes.",
         "element": "bless",
+        "fuse": "Dominion",
         "personas": {
             "Crystal Skull": 0,
             "Cybele": 0,
@@ -2044,12 +2131,14 @@ _FULL_SKILLS = {
             "Metatron": 0,
             "Sraosha": 81,
             "Throne": 73
-        }
+        },
+        "talk": "Dominion"
     },
     "Makouha": {
         "cost": 1000,
         "effect": "Deal weak Bless damage to all foes.",
         "element": "bless",
+        "fuse": "Anubis",
         "personas": {
             "Anubis": 0,
             "Archangel": 19,
@@ -2071,6 +2160,7 @@ _FULL_SKILLS = {
         "cost": 3400,
         "effect": "medium chance of instantly killing all foes.",
         "element": "curse",
+        "fuse": "Alice",
         "personas": {
             "Alice": 0,
             "Beelzebub": 0,
@@ -2092,7 +2182,8 @@ _FULL_SKILLS = {
             "Leanan Sidhe": 22,
             "Regent": 0,
             "Shiki-Ouji": 22
-        }
+        },
+        "talk": "Shiki-Ouji"
     },
     "Mapsydyne": {
         "cost": 2200,
@@ -2104,12 +2195,14 @@ _FULL_SKILLS = {
             "Kali": 81,
             "Kohryu": 0,
             "Parvati": 59
-        }
+        },
+        "talk": "Forneus"
     },
     "Mapsyo": {
         "cost": 1600,
         "effect": "Deal medium Psy damage to all foes.",
         "element": "psy",
+        "fuse": "Kaiwan",
         "personas": {
             "Kaiwan": 40,
             "Okuninushi": 0,
@@ -2121,6 +2214,7 @@ _FULL_SKILLS = {
         "cost": 1000,
         "effect": "Deal weak Fire damage to all foes.",
         "element": "fire",
+        "fuse": "Orobas",
         "personas": {
             "Eligor": 0,
             "Hua Po": 13,
@@ -2132,6 +2226,7 @@ _FULL_SKILLS = {
         "cost": 2200,
         "effect": "Deal heavy Fire damage to all foes.",
         "element": "fire",
+        "fuse": "Mara, Orpheus Picaro",
         "personas": {
             "Asterius": 0,
             "Asterius Picaro": 0,
@@ -2143,12 +2238,14 @@ _FULL_SKILLS = {
             "Mara": 0,
             "Surt": 60,
             "Zaou-Gongen": 0
-        }
+        },
+        "talk": "Lilith"
     },
     "Maragion": {
         "cost": 1600,
         "effect": "Deal medium Fire damage to all foes.",
         "element": "fire",
+        "fuse": "Belial",
         "personas": {
             "Decarabia": 33,
             "Hell Biker": 42,
@@ -2172,12 +2269,14 @@ _FULL_SKILLS = {
             "Odin": 0,
             "Orpheus": 30,
             "Seiryu": 0
-        }
+        },
+        "talk": "Sarasvati"
     },
     "Marakunda": {
         "cost": 2400,
         "effect": "Decrease all foes' Defense for 3 turns.",
         "element": "support",
+        "fuse": "Girimehkala",
         "personas": {
             "Ara Mitama": 33,
             "Girimehkala": 0,
@@ -2196,12 +2295,14 @@ _FULL_SKILLS = {
             "Nebiros": 0,
             "Succubus": 0,
             "Suzaku": 0
-        }
+        },
+        "talk": "Lilim"
     },
     "Masukukaja": {
         "cost": 2400,
         "effect": "Increase party's Agility for 3 turns.",
         "element": "support",
+        "fuse": "Power",
         "personas": {
             "Anzu": 0,
             "Fortuna": 0,
@@ -2213,12 +2314,14 @@ _FULL_SKILLS = {
             "Seth": 0,
             "Siegfried": 0,
             "White Rider": 43
-        }
+        },
+        "talk": "Melchizedek"
     },
     "Masukunda": {
         "cost": 2400,
         "effect": "Decrease all foes' Agility for 3 turns.",
         "element": "support",
+        "fuse": "Forneus",
         "personas": {
             "Bugs": 0,
             "Forneus": 0,
@@ -2232,6 +2335,7 @@ _FULL_SKILLS = {
         "cost": 2400,
         "effect": "Increase party's Attack power for 3 turns.",
         "element": "support",
+        "fuse": "Ose",
         "personas": {
             "Baal": 0,
             "Cu Chulainn": 69,
@@ -2262,12 +2366,14 @@ _FULL_SKILLS = {
             "Rangda": 51,
             "Sarasvati": 53,
             "Suzaku": 24
-        }
+        },
+        "talk": "Rangda"
     },
     "Mazio": {
         "cost": 1000,
         "effect": "Deal weak Electric damage to all foes.",
         "element": "electric",
+        "fuse": "Shiisaa",
         "personas": {
             "Ame no Uzume": 0,
             "Regent": 0
@@ -2288,12 +2394,14 @@ _FULL_SKILLS = {
             "Raja Naga": 59,
             "Shiva": 0,
             "Thor": 67
-        }
+        },
+        "talk": "Thor"
     },
     "Mazionga": {
         "cost": 1600,
         "effect": "Deal medium Electric damage to all foes.",
         "element": "electric",
+        "fuse": "Atropos",
         "personas": {
             "Atropos": 0,
             "Izanagi": 24,
@@ -2304,12 +2412,14 @@ _FULL_SKILLS = {
             "Queen Mab": 0,
             "Take-Minakata": 30,
             "Yurlungur": 0
-        }
+        },
+        "talk": "Queen Mab"
     },
     "Me Patra": {
         "cost": 800,
         "effect": "Cure Dizzy/Forget/Sleep/Hunger of party.",
         "element": "healing",
+        "fuse": "Nigi Mitama",
         "personas": {
             "Clotho": 0,
             "Daisoujou": 46,
@@ -2326,13 +2436,14 @@ _FULL_SKILLS = {
             "High Pixie": 0,
             "Kusi Mitama": 0,
             "Nigi Mitama": 0,
-            "The Queen's Necklace": 0
+            "Queen's Necklace": 0
         }
     },
     "Mediarahan": {
         "cost": 3000,
         "effect": "Fully restore party's HP.",
         "element": "healing",
+        "fuse": "Titania",
         "personas": {
             "Cybele": 0,
             "Ishtar": 0,
@@ -2346,6 +2457,7 @@ _FULL_SKILLS = {
         "cost": 1200,
         "effect": "Moderately restore party's HP.",
         "element": "healing",
+        "fuse": "Sarasvati",
         "personas": {
             "Atropos": 41,
             "Hariti": 44,
@@ -2356,7 +2468,8 @@ _FULL_SKILLS = {
             "Narcissus": 54,
             "Principality": 31,
             "Sarasvati": 0
-        }
+        },
+        "talk": "Kikuri-Hime"
     },
     "Megaton Raid": {
         "cost": 16,
@@ -2369,7 +2482,8 @@ _FULL_SKILLS = {
             "Siegfried": 0,
             "Surt": 0,
             "Thor": 0
-        }
+        },
+        "talk": "Cerberus"
     },
     "Megido": {
         "cost": 1500,
@@ -2379,12 +2493,14 @@ _FULL_SKILLS = {
             "Horus": 0,
             "Thoth": 37,
             "Yurlungur": 0
-        }
+        },
+        "talk": "Thoth"
     },
     "Megidola": {
         "cost": 2400,
         "effect": "Deal heavy Almighty damage to all foes.",
         "element": "almighty",
+        "fuse": "Pale Rider",
         "personas": {
             "Black Rider": 64,
             "Magatsu-Izanagi": 0,
@@ -2410,12 +2526,27 @@ _FULL_SKILLS = {
             "Shiva": 86,
             "Uriel": 84,
             "Vishnu": 0
+        },
+        "talk": "Mot"
+    },
+    "Memory Blow": {
+        "cost": 15,
+        "effect": "Deal medium Phys damage and inflict Forget (low odds) to all foes.",
+        "element": "phys",
+        "fuse": "Jikokuten",
+        "personas": {
+            "Eligor": 20,
+            "Jikokuten": 0,
+            "Naga": 0,
+            "Oni": 23,
+            "Quetzalcoatl": 0
         }
     },
     "Mind Charge": {
         "cost": 1500,
         "effect": "Multiply user's next magical attack damage by 2.5.",
         "element": "support",
+        "fuse": "Mot",
         "personas": {
             "Alice": 83,
             "Atropos": 45,
@@ -2433,6 +2564,7 @@ _FULL_SKILLS = {
         "cost": 19,
         "effect": "Deal medium Phys damage and inflict Panic (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Rakshasa",
         "personas": {
             "Rakshasa": 27
         }
@@ -2441,6 +2573,7 @@ _FULL_SKILLS = {
         "cost": 8,
         "effect": "Deal medium Phys damage to 1 foe. High critical rate.",
         "element": "phys",
+        "fuse": "Ganesha",
         "personas": {
             "Ara Mitama": 0,
             "Ariadne": 0,
@@ -2448,7 +2581,8 @@ _FULL_SKILLS = {
             "Black Frost": 0,
             "Bugs": 0,
             "Ganesha": 0
-        }
+        },
+        "talk": "Ganesha"
     },
     "Morning Star": {
         "cost": 5400,
@@ -2467,7 +2601,8 @@ _FULL_SKILLS = {
             "Nue": 21,
             "Onmoraki": 0,
             "Succubus": 12
-        }
+        },
+        "talk": "Nue"
     },
     "Mudo Boost": {
         "effect": "Increase success rate of instant death by Curse skills.",
@@ -2491,7 +2626,8 @@ _FULL_SKILLS = {
             "Pazuzu": 0,
             "Pisaca": 34,
             "Rangda": 53
-        }
+        },
+        "talk": "Girimehkala"
     },
     "Negative Pile": {
         "cost": 12,
@@ -2500,11 +2636,13 @@ _FULL_SKILLS = {
         "personas": {
             "Legion": 0,
             "Red Rider": 42
-        }
+        },
+        "talk": "Lamia"
     },
     "Nuclear Amp": {
         "effect": "Strengthen Nuclear attacks by 50%.",
         "element": "passive",
+        "fuse": "Moloch",
         "personas": {
             "Bishamonten": 71,
             "Moloch": 65,
@@ -2514,6 +2652,7 @@ _FULL_SKILLS = {
     "Nuclear Boost": {
         "effect": "Strengthen Nuclear attacks by 25%.",
         "element": "passive",
+        "fuse": "Feng Huang",
         "personas": {
             "Ananta": 49,
             "Feng Huang": 27
@@ -2533,6 +2672,13 @@ _FULL_SKILLS = {
         "element": "support",
         "personas": {
             "Koumokuten": 53
+        }
+    },
+    "Null Bless": {
+        "effect": "Impart immunity against Bless attacks.",
+        "element": "passive",
+        "personas": {
+            "Mother Harlot": 83
         }
     },
     "Null Brainwash": {
@@ -2598,13 +2744,6 @@ _FULL_SKILLS = {
         "element": "passive",
         "personas": {}
     },
-    "Null Bless": {
-        "effect": "Impart immunity against Bless attacks.",
-        "element": "passive",
-        "personas": {
-            "Mother Harlot": 83
-        }
-    },
     "Null Nuclear": {
         "effect": "Impart immunity against Nuclear attacks.",
         "element": "passive",
@@ -2656,8 +2795,9 @@ _FULL_SKILLS = {
     },
     "One Shot Kill": {
         "cost": 17,
-        "effect": "Deal severe Ranged damage to 1 foe. High critical rate.",
-        "element": "ranged",
+        "effect": "Deal severe Gun damage to 1 foe. High critical rate.",
+        "element": "gun",
+        "fuse": "Seth",
         "personas": {
             "Black Frost": 0,
             "Mara": 0,
@@ -2670,6 +2810,7 @@ _FULL_SKILLS = {
         "cost": 16,
         "effect": "Deal medium Phys damage and inflict Rage (low odds) to all foes.",
         "element": "phys",
+        "fuse": "Yamata no Orochi",
         "personas": {
             "Cu Chulainn": 0,
             "Ose": 0,
@@ -2677,7 +2818,8 @@ _FULL_SKILLS = {
             "White Rider": 0,
             "Yaksini": 22,
             "Yamata no Orochi": 0
-        }
+        },
+        "talk": "Ose"
     },
     "Oratorio": {
         "cost": 3800,
@@ -2692,6 +2834,7 @@ _FULL_SKILLS = {
     "Panic Boost": {
         "effect": "Increase chance of inflicting Panic.",
         "element": "passive",
+        "fuse": "Onmoraki",
         "personas": {
             "Inugami": 19,
             "Onmoraki": 15
@@ -2709,16 +2852,19 @@ _FULL_SKILLS = {
         "cost": 400,
         "effect": "Cure Dizzy/Forget/Sleep/Hunger of 1 ally.",
         "element": "healing",
+        "fuse": "Genbu",
         "personas": {
             "Genbu": 8,
             "Pixie": 3,
             "Silky": 9
-        }
+        },
+        "talk": "Silky"
     },
     "Power Charge": {
         "cost": 1500,
         "effect": "Multiply user's next Phys attack damage by 2.5.",
         "element": "support",
+        "fuse": "Cu Chulainn",
         "personas": {
             "Ariadne": 36,
             "Ariadne Picaro": 48,
@@ -2746,18 +2892,6 @@ _FULL_SKILLS = {
             "Yoshitsune": 81
         }
     },
-    "Provoke": {
-        "cost": 500,
-        "effect": "Inflict Rage (high odds) to 1 foe.",
-        "element": "ailment",
-        "personas": {
-            "Ara Mitama": 0,
-            "High Pixie": 19,
-            "Koppa Tengu": 13,
-            "Shiki-Ouji": 0,
-            "Thoth": 0
-        }
-    },
     "Psy": {
         "cost": 400,
         "effect": "Deal weak Psy damage to 1 foe.",
@@ -2766,7 +2900,8 @@ _FULL_SKILLS = {
             "Archangel": 0,
             "Kodama": 12,
             "Matador": 0
-        }
+        },
+        "talk": "Kodama"
     },
     "Psy Amp": {
         "effect": "Strengthen Psy attacks by 50%.",
@@ -2786,6 +2921,7 @@ _FULL_SKILLS = {
         "cost": 1500,
         "effect": "Negate Psy resistances of all foes.",
         "element": "support",
+        "fuse": "Red Rider",
         "personas": {
             "Okuninushi": 46,
             "Red Rider": 0
@@ -2798,7 +2934,8 @@ _FULL_SKILLS = {
         "personas": {
             "Oberon": 70,
             "Thoth": 39
-        }
+        },
+        "talk": "Oberon"
     },
     "Psycho Force": {
         "cost": 5400,
@@ -2823,6 +2960,7 @@ _FULL_SKILLS = {
         "cost": 1200,
         "effect": "Deal heavy Psy damage to 1 foe.",
         "element": "psy",
+        "fuse": "Parvati",
         "personas": {
             "Bugs": 0,
             "Dionysus": 0,
@@ -2831,7 +2969,8 @@ _FULL_SKILLS = {
             "Kali": 0,
             "Moloch": 0,
             "Parvati": 0
-        }
+        },
+        "talk": "Moloch"
     },
     "Psyo": {
         "cost": 800,
@@ -2844,7 +2983,8 @@ _FULL_SKILLS = {
             "Neko Shogun": 0,
             "Shiki-Ouji": 26,
             "Stone of Scone": 0
-        }
+        },
+        "talk": "Kaiwan"
     },
     "Pulinpa": {
         "cost": 500,
@@ -2856,7 +2996,8 @@ _FULL_SKILLS = {
             "Mandrake": 0,
             "Nue": 22,
             "Onmoraki": 14
-        }
+        },
+        "talk": "Mandrake"
     },
     "Purgatorial Wing": {
         "cost": 3000,
@@ -2869,20 +3010,10 @@ _FULL_SKILLS = {
         },
         "unique": "Tsukiyomi"
     },
-    "Radiant Arrow": {
-        "cost": 2200,
-        "dlc": true,
-        "effect": "Deal 4 to 8 times weak Bless damage to all foes.",
-        "element": "bless",
-        "personas": {
-            "Kaguya": 0,
-            "Kaguya Picaro": 0
-        },
-        "unique": "Kaguya"
-    },
     "Rage Boost": {
         "effect": "Increase chance of inflicting Rage.",
         "element": "passive",
+        "fuse": "Kumbhanda",
         "personas": {
             "Ara Mitama": 35,
             "Koppa Tengu": 14,
@@ -2894,6 +3025,7 @@ _FULL_SKILLS = {
         "cost": 20,
         "effect": "Deal 2 to 3 times medium Phys damage to 1 foe.",
         "element": "phys",
+        "fuse": "Ongyo-Ki",
         "personas": {
             "Belial": 74,
             "Chernobog": 67,
@@ -2915,33 +3047,21 @@ _FULL_SKILLS = {
             "Nigi Mitama": 24
         }
     },
-    "Raise Slash": {
-        "cost": 14,
-        "effect": "Deal heavy Phys damage to 1 foe. More powerful under Baton Pass .",
-        "element": "phys",
-        "personas": {
-            "Dakini": 0,
-            "Izanagi": 21,
-            "Izanagi Picaro": 24,
-            "Lamia": 0,
-            "Red Rider": 0,
-            "Setanta": 31,
-            "Valkyrie": 0
-        }
-    },
     "Rakukaja": {
         "cost": 800,
         "effect": "Increase 1 ally's Defense for 3 turns.",
         "element": "support",
+        "fuse": "Saki Mitama",
         "personas": {
             "Agathion": 6,
             "Berith": 0,
             "Izanagi Picaro": 0,
             "Kin-Ki": 0,
             "Lamia": 0,
-            "Saki Mitama": 8,
-            "The Queen's Necklace": 0
-        }
+            "Queen's Necklace": 0,
+            "Saki Mitama": 8
+        },
+        "talk": "Agathion"
     },
     "Rakunda": {
         "cost": 800,
@@ -2956,13 +3076,15 @@ _FULL_SKILLS = {
             "Kodama": 0,
             "Koropokkuru": 12,
             "Leanan Sidhe": 0,
-            "The Queen's Necklace": 0
-        }
+            "Queen's Necklace": 0
+        },
+        "talk": "Leanan Sidhe"
     },
     "Rampage": {
         "cost": 13,
         "effect": "Deal 1 to 3 times weak Phys damage to all foes.",
         "element": "phys",
+        "fuse": "Oni",
         "personas": {
             "Choronzon": 0,
             "Ippon-Datara": 15,
@@ -2970,7 +3092,8 @@ _FULL_SKILLS = {
             "Oni": 0,
             "Pisaca": 0,
             "Shiisaa": 18
-        }
+        },
+        "talk": "Oni"
     },
     "Rat Fang": {
         "cost": 10,
@@ -3000,14 +3123,16 @@ _FULL_SKILLS = {
         "cost": 800,
         "effect": "Revive 1 ally with 50% HP recovered.",
         "element": "healing",
+        "fuse": "Leanan Sidhe",
         "personas": {
             "Feng Huang": 25,
-            "The Queen's Necklace": 0
+            "Queen's Necklace": 0
         }
     },
     "Regenerate 1": {
         "effect": "Restore 2% of max HP each turn in battle.",
         "element": "passive",
+        "fuse": "Kin-Ki",
         "personas": {
             "Kin-Ki": 0,
             "Kusi Mitama": 15,
@@ -3017,6 +3142,7 @@ _FULL_SKILLS = {
     "Regenerate 2": {
         "effect": "Recover 4% of max HP each turn in battle.",
         "element": "passive",
+        "fuse": "Koumokuten",
         "personas": {
             "Cerberus": 58,
             "Hecatoncheir": 0,
@@ -3027,6 +3153,7 @@ _FULL_SKILLS = {
     "Regenerate 3": {
         "effect": "Recover 6% of max HP each turn in battle.",
         "element": "passive",
+        "fuse": "Quetzalcoatl",
         "personas": {
             "Futsunushi": 79,
             "Hanuman": 69,
@@ -3035,6 +3162,11 @@ _FULL_SKILLS = {
             "Quetzalcoatl": 66,
             "Satan": 0
         }
+    },
+    "Repel Bless": {
+        "effect": "Repel Bless attacks.",
+        "element": "passive",
+        "personas": {}
     },
     "Repel Curseness": {
         "effect": "Repel Curse attacks.",
@@ -3066,11 +3198,6 @@ _FULL_SKILLS = {
             "Beelzebub": 88,
             "Skadi": 60
         }
-    },
-    "Repel Bless": {
-        "effect": "Repel Bless attacks.",
-        "element": "passive",
-        "personas": {}
     },
     "Repel Nuclear": {
         "effect": "Repel Nuclear attacks.",
@@ -3108,6 +3235,13 @@ _FULL_SKILLS = {
             "Satan": 96,
             "Seth": 56,
             "Trumpeter": 61
+        }
+    },
+    "Resist Bless": {
+        "effect": "Reduce damage from Bless attacks.",
+        "element": "passive",
+        "personas": {
+            "Anubis": 41
         }
     },
     "Resist Brainwash": {
@@ -3171,13 +3305,6 @@ _FULL_SKILLS = {
         "element": "passive",
         "personas": {}
     },
-    "Resist Bless": {
-        "effect": "Reduce damage from Bless attacks.",
-        "element": "passive",
-        "personas": {
-            "Anubis": 41
-        }
-    },
     "Resist Nuclear": {
         "effect": "Reduce damage from Nuclear attacks.",
         "element": "passive",
@@ -3235,18 +3362,35 @@ _FULL_SKILLS = {
     },
     "Riot Gun": {
         "cost": 24,
-        "effect": "Deal severe Ranged damage to all foes.",
-        "element": "ranged",
+        "effect": "Deal severe Gun damage to all foes.",
+        "element": "gun",
+        "fuse": "Vishnu",
         "personas": {
             "Satanael": 0,
             "Shiva": 85,
             "Vishnu": 90
         }
     },
+    "Rising Slash": {
+        "cost": 14,
+        "effect": "Deal heavy Phys damage to 1 foe. More powerful under Baton Pass .",
+        "element": "phys",
+        "personas": {
+            "Dakini": 0,
+            "Izanagi": 21,
+            "Izanagi Picaro": 24,
+            "Lamia": 0,
+            "Red Rider": 0,
+            "Setanta": 31,
+            "Valkyrie": 0
+        },
+        "talk": "Dakini"
+    },
     "Salvation": {
         "cost": 4800,
         "effect": "Fully restore HP and cure all ailments of party except for unique status.",
         "element": "healing",
+        "fuse": "Ishtar",
         "personas": {
             "Ardha": 90,
             "Attis": 0,
@@ -3259,6 +3403,7 @@ _FULL_SKILLS = {
         "cost": 1800,
         "effect": "Revive 1 ally with all HP recovered.",
         "element": "healing",
+        "fuse": "Unicorn",
         "personas": {
             "Attis": 85,
             "Cybele": 0,
@@ -3279,6 +3424,21 @@ _FULL_SKILLS = {
         },
         "unique": "Daisoujou"
     },
+    "Sharp Student": {
+        "effect": "Lower odds of receiving critical hit.",
+        "element": "passive",
+        "fuse": "Zouchouten",
+        "personas": {
+            "Eligor": 0,
+            "Ippon-Datara": 16,
+            "Jack O'Lantern": 4,
+            "Oni": 22,
+            "Scathach": 0,
+            "Silky": 10,
+            "Sudama": 0,
+            "Zouchouten": 33
+        }
+    },
     "Sharpshooter": {
         "effect": "Strengthen Gun attacks by 25%.",
         "element": "passive",
@@ -3287,9 +3447,21 @@ _FULL_SKILLS = {
             "White Rider": 41
         }
     },
+    "Shining Arrows": {
+        "cost": 2200,
+        "dlc": true,
+        "effect": "Deal 4 to 8 times weak Bless damage to all foes.",
+        "element": "bless",
+        "personas": {
+            "Kaguya": 0,
+            "Kaguya Picaro": 0
+        },
+        "unique": "Kaguya"
+    },
     "Shock Boost": {
         "effect": "Increase chance of inflicting Shock.",
         "element": "passive",
+        "fuse": "Baphomet",
         "personas": {
             "Ame no Uzume": 34,
             "Baphomet": 62,
@@ -3301,6 +3473,7 @@ _FULL_SKILLS = {
         "cost": 10,
         "effect": "Deal medium Phys damage and inflict Panic (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Nue",
         "personas": {
             "Mandrake": 7,
             "Mokoi": 0,
@@ -3313,25 +3486,40 @@ _FULL_SKILLS = {
         "cost": 10,
         "effect": "Deal medium Phys damage and inflict Dizzy (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Ippon-Datara",
         "personas": {
             "Berith": 13,
             "Ippon-Datara": 0,
             "Kin-Ki": 28
-        }
+        },
+        "talk": "Ippon-Datara"
     },
     "Sleep Boost": {
         "effect": "Increase chance of inflicting Sleep.",
         "element": "passive",
+        "fuse": "Sandman",
         "personas": {
             "Sandman": 29
         }
+    },
+    "Snap": {
+        "cost": 9,
+        "effect": "Deal medium Gun damage to 1 foe.",
+        "element": "gun",
+        "personas": {
+            "Koppa Tengu": 0,
+            "Obariyon": 0,
+            "Oni": 0,
+            "Shiki-Ouji": 0
+        },
+        "talk": "Mokoi"
     },
     "Soul Chain": {
         "effect": "Recover 20 SP when performing Baton Pass .",
         "element": "passive",
         "personas": {}
     },
-    "Speed Lesson": {
+    "Speed Master": {
         "effect": "Automatic Sukukaja at the start of battle.",
         "element": "passive",
         "personas": {
@@ -3358,6 +3546,7 @@ _FULL_SKILLS = {
         "cost": 300,
         "effect": "Drains SP from 1 foe.",
         "element": "almighty",
+        "fuse": "Hariti",
         "personas": {
             "Abaddon": 0,
             "Arahabaki": 37,
@@ -3373,6 +3562,7 @@ _FULL_SKILLS = {
         "cost": 500,
         "effect": "Increase susceptibility to all ailments of all foes and allies.",
         "element": "almighty",
+        "fuse": "Black Ooze",
         "personas": {
             "Black Ooze": 0,
             "Chernobog": 63,
@@ -3403,8 +3593,9 @@ _FULL_SKILLS = {
             "Matador": 0,
             "Orobas": 0,
             "Power": 0,
-            "The Queen's Necklace": 0
-        }
+            "Queen's Necklace": 0
+        },
+        "talk": "Sudama"
     },
     "Sukunda": {
         "cost": 800,
@@ -3415,9 +3606,10 @@ _FULL_SKILLS = {
             "Eligor": 19,
             "Mandrake": 5,
             "Obariyon": 0,
-            "Sandman": 25,
-            "The Queen's Necklace": 0
-        }
+            "Queen's Necklace": 0,
+            "Sandman": 25
+        },
+        "talk": "Obariyon"
     },
     "Survival Trick": {
         "effect": "Survive one instant death attack with 1 HP remaining.",
@@ -3428,12 +3620,14 @@ _FULL_SKILLS = {
             "Belial": 70,
             "Forneus": 65,
             "Satanael": 0
-        }
+        },
+        "talk": "Abaddon"
     },
     "Swift Strike": {
         "cost": 17,
         "effect": "Deal 3 to 4 times weak Phys damage to all foes.",
         "element": "phys",
+        "fuse": "Byakko",
         "personas": {
             "Byakko": 0,
             "Girimehkala": 0,
@@ -3449,6 +3643,7 @@ _FULL_SKILLS = {
         "cost": 800,
         "effect": "Increase 1 ally's Attack power for 3 turns.",
         "element": "support",
+        "fuse": "Eligor",
         "personas": {
             "Andras": 11,
             "Eligor": 0,
@@ -3460,10 +3655,11 @@ _FULL_SKILLS = {
             "Kodama": 14,
             "Mokoi": 0,
             "Pixie": 5,
+            "Queen's Necklace": 0,
             "Rakshasa": 0,
-            "Shiki-Ouji": 0,
-            "The Queen's Necklace": 0
-        }
+            "Shiki-Ouji": 0
+        },
+        "talk": "Eligor"
     },
     "Tarunda": {
         "cost": 800,
@@ -3474,30 +3670,37 @@ _FULL_SKILLS = {
             "Hua Po": 11,
             "Incubus": 8,
             "Orpheus": 0,
-            "Suzaku": 0,
-            "The Queen's Necklace": 0
-        }
+            "Queen's Necklace": 0,
+            "Suzaku": 0
+        },
+        "talk": "Slime"
     },
-    "Tempest": {
-        "cost": 18,
-        "effect": "Deal medium Phys damage to all foes.",
-        "element": "phys",
+    "Taunt": {
+        "cost": 500,
+        "effect": "Inflict Rage (high odds) to 1 foe.",
+        "element": "ailment",
         "personas": {
-            "Mithras": 0,
-            "Yaksini": 24
-        }
+            "Ara Mitama": 0,
+            "High Pixie": 19,
+            "Koppa Tengu": 13,
+            "Shiki-Ouji": 0,
+            "Thoth": 0
+        },
+        "talk": "Koppa Tengu"
     },
     "Tempest Slash": {
         "cost": 17,
         "effect": "Deal 3 to 5 times minuscule Phys damage to 1 foe.",
         "element": "phys",
+        "fuse": "Scathach",
         "personas": {
             "Hanuman": 0,
             "Kumbhanda": 43,
             "Okuninushi": 0,
             "Ose": 43,
             "Scathach": 0
-        }
+        },
+        "talk": "Hanuman"
     },
     "Tentarafoo": {
         "cost": 1200,
@@ -3518,11 +3721,13 @@ _FULL_SKILLS = {
         "cost": 8,
         "effect": "Deal medium Phys damage and inflict Fear (medium odds) to 1 foe.",
         "element": "phys",
+        "fuse": "Kelpie",
         "personas": {
             "Kelpie": 10,
             "Nekomata": 0,
             "Zouchouten": 32
-        }
+        },
+        "talk": "Nekomata"
     },
     "Tetra Break": {
         "cost": 1800,
@@ -3535,12 +3740,14 @@ _FULL_SKILLS = {
             "Mara": 0,
             "Mithras": 41,
             "Yurlungur": 47
-        }
+        },
+        "talk": "Legion"
     },
     "Tetraja": {
         "cost": 2400,
         "effect": "Create shields on party to nullify one instant death attack of Bless or Curse types.",
         "element": "support",
+        "fuse": "Principality",
         "personas": {
             "Baal": 78,
             "Clotho": 27,
@@ -3565,6 +3772,7 @@ _FULL_SKILLS = {
         "cost": 3000,
         "effect": "Increase party's Attack, Defense and Agility for 3 turns. Only usable if the party is being ambushed.",
         "element": "support",
+        "fuse": "Dionysus",
         "personas": {
             "Attis": 0,
             "Dionysus": 62,
@@ -3619,8 +3827,9 @@ _FULL_SKILLS = {
     },
     "Triple Down": {
         "cost": 16,
-        "effect": "Deal 3 times small Ranged damage to all foes.",
-        "element": "ranged",
+        "effect": "Deal 3 times small Gun damage to all foes.",
+        "element": "gun",
+        "fuse": "White Rider",
         "personas": {
             "Bugs": 52,
             "Vasuki": 0,
@@ -3630,6 +3839,7 @@ _FULL_SKILLS = {
     "Unshaken Will": {
         "effect": "Impart immunity against all psychological ailments.",
         "element": "passive",
+        "fuse": "Mada",
         "personas": {
             "Asura-Ou": 81,
             "Mada": 86,
@@ -3645,6 +3855,26 @@ _FULL_SKILLS = {
             "Vishnu": 85
         }
     },
+    "Vajra Blast": {
+        "cost": 14,
+        "effect": "Deal medium Phys damage to all foes.",
+        "element": "phys",
+        "personas": {
+            "Archangel": 21,
+            "Kin-Ki": 0
+        },
+        "talk": "Kin-Ki"
+    },
+    "Vicious Strike": {
+        "cost": 18,
+        "effect": "Deal medium Phys damage to all foes.",
+        "element": "phys",
+        "fuse": "Yaksini",
+        "personas": {
+            "Mithras": 0,
+            "Yaksini": 24
+        }
+    },
     "Victory Cry": {
         "effect": "Recover full HP and SP after a successful battle.",
         "element": "passive",
@@ -3656,6 +3886,7 @@ _FULL_SKILLS = {
         "cost": 23,
         "effect": "Deal severe Phys damage to all foes.",
         "element": "phys",
+        "fuse": "Siegfried",
         "personas": {
             "Kali": 0,
             "Siegfried": 74,
@@ -3663,7 +3894,7 @@ _FULL_SKILLS = {
             "Tsukiyomi Picaro": 60
         }
     },
-    "War Declaration": {
+    "Wage War": {
         "cost": 1200,
         "effect": "Inflict Rage (medium odds) to all foes.",
         "element": "ailment",
@@ -3674,7 +3905,8 @@ _FULL_SKILLS = {
             "Kumbhanda": 0,
             "Sui-Ki": 27,
             "Yaksini": 0
-        }
+        },
+        "talk": "Yaksini"
     },
     "Weak Spot Aim": {
         "effect": "Strengthen Gun attacks by 50%.",
@@ -3688,6 +3920,7 @@ _FULL_SKILLS = {
     "Wind Amp": {
         "effect": "Strengthen Wind attacks by 50%.",
         "element": "passive",
+        "fuse": "Garuda",
         "personas": {
             "Garuda": 59,
             "Quetzalcoatl": 68,
@@ -3697,6 +3930,7 @@ _FULL_SKILLS = {
     "Wind Boost": {
         "effect": "Strengthen Wind attacks by 25%.",
         "element": "passive",
+        "fuse": "Fuu-Ki",
         "personas": {
             "Fuu-Ki": 25
         }
@@ -3709,12 +3943,14 @@ _FULL_SKILLS = {
             "Anzu": 0,
             "Nekomata": 20,
             "Yatagarasu": 61
-        }
+        },
+        "talk": "Anzu"
     },
     "Wind Wall": {
         "cost": 1800,
         "effect": "Create a shield on 1 ally to reduce damage of Wind attacks for 3 turns.",
         "element": "support",
+        "fuse": "Kushinada-Hime",
         "personas": {
             "Apsaras": 16,
             "Kushinada-Hime": 46,
@@ -3733,12 +3969,14 @@ _FULL_SKILLS = {
             "Decarabia": 0,
             "Lamia": 27,
             "Suzaku": 21
-        }
+        },
+        "talk": "Pisaca"
     },
     "Zio": {
         "cost": 400,
         "effect": "Deal weak Electric damage to 1 foe.",
         "element": "electric",
+        "fuse": "Agathion",
         "personas": {
             "Agathion": 0,
             "Pixie": 0,
@@ -3749,6 +3987,7 @@ _FULL_SKILLS = {
         "cost": 1200,
         "effect": "Deal heavy Electric damage to 1 foe.",
         "element": "electric",
+        "fuse": "Raja Naga",
         "personas": {
             "Baphomet": 61,
             "Barong": 0,
@@ -3758,12 +3997,14 @@ _FULL_SKILLS = {
             "Raja Naga": 0,
             "Thor": 0,
             "Yoshitsune": 0
-        }
+        },
+        "talk": "Barong"
     },
     "Zionga": {
         "cost": 800,
         "effect": "Deal medium Electric damage to 1 foe.",
         "element": "electric",
+        "fuse": "Isis",
         "personas": {
             "Hariti": 0,
             "Isis": 29,
@@ -3773,6 +4014,7 @@ _FULL_SKILLS = {
             "Stone of Scone": 0,
             "Take-Minakata": 0,
             "Zouchouten": 0
-        }
+        },
+        "talk": "Naga"
     }
 }

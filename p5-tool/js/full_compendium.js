@@ -17,7 +17,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "ab",
         "psy": "wk",
-        "ranged": "ab",
+        "gun": "ab",
         "shadow": "底にいる貪欲王",
         "skills": {
             "Absorb Phys": 79,
@@ -75,7 +75,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "ボトル詰めの丁稚",
         "skills": {
             "Baisudi": 0,
@@ -106,7 +106,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Dekunda": 0,
@@ -137,7 +137,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Bufula": 0,
@@ -167,11 +167,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Banishing Wave": 45,
-            "Defense Lesson": 0,
+            "Defense Master": 0,
             "Electric Wall": 0,
             "Freidyne": 48,
             "Growth 2": 46,
@@ -227,7 +227,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "殺気立つフクロウ男",
         "skills": {
             "Apt Pupil": 13,
@@ -275,11 +275,11 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "盲信する御使い",
         "skills": {
             "Baisudi": 14,
-            "Blindfold": 0,
+            "Dazzler": 0,
             "Dekunda": 17,
             "Dia": 0,
             "Dodge Curseness": 15,
@@ -324,7 +324,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "亡者を量る者",
         "skills": {
             "Dekunda": 40,
@@ -383,7 +383,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "墓碑を刻む怪鳥",
         "skills": {
             "Assault Dive": 27,
@@ -461,7 +461,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "水際の遊女",
         "skills": {
             "Bufu": 0,
@@ -491,13 +491,13 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Freila": 0,
             "Marakunda": 33,
             "Miracle Punch": 0,
-            "Provoke": 0,
+            "Taunt": 0,
             "Rage Boost": 35,
             "Rebellion": 32
         },
@@ -564,11 +564,11 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "rp",
         "psy": "wk",
-        "ranged": "rp",
+        "gun": "rp",
         "shadow": "墓から目覚めた祖神",
         "skills": {
             "Banishing Wave": 0,
-            "Defense Lesson": 39,
+            "Defense Master": 39,
             "Maeiga": 38,
             "Makarakarn": 0,
             "Null Brainwash": 0,
@@ -586,7 +586,7 @@ _FULL_COMPENDIUM = {
         "en": "13",
         "fire": "-",
         "ice": "-",
-        "item": "Blindfold",
+        "item": "Dazzler",
         "bless": "nu",
         "lu": "7",
         "lvl": 16,
@@ -607,12 +607,12 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "天の刑罰官",
         "skills": {
-            "Blindfold": 0,
+            "Dazzler": 0,
             "Hama": 0,
-            "Herculean Strike": 21,
+            "Vajra Blast": 21,
             "Makouha": 19,
             "Psy": 0,
             "Rebellion": 18
@@ -637,7 +637,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agneyastra": 87,
@@ -669,11 +669,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "-",
         "psy": "wk",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Apt Pupil": 0,
-            "Attack Lesson": 31,
+            "Attack Master": 31,
             "Evade Physical": 34,
             "High Voltage": 32,
             "Miracle Punch": 0,
@@ -701,7 +701,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "-",
         "psy": "wk",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Apt Pupil": 0,
@@ -732,11 +732,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Cleave": 2,
-            "Crisis Resolve": 7,
+            "Adverse Resolve": 7,
             "Dream Needle": 5,
             "Eiha": 1,
             "Sukunda": 4
@@ -762,7 +762,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Mataru": 57,
@@ -794,7 +794,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Masuku": 63,
@@ -826,7 +826,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rp",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Atomic Flare": 0,
@@ -857,7 +857,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Dodge Fire": 44,
@@ -888,7 +888,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Curse": 86,
@@ -919,7 +919,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "忌まわしき独裁者",
         "skills": {
             "Magarudyne": 0,
@@ -950,7 +950,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Agidyne": 0,
@@ -981,14 +981,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "熱病に踊る獅子",
         "skills": {
             "Electric Break": 0,
             "Invigorate 2": 54,
             "Maziodyne": 57,
             "Null Electric": 55,
-            "War Declaration": 0,
+            "Wage War": 0,
             "Ziodyne": 0
         },
         "st": "33",
@@ -1011,7 +1011,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Curse Amp": 85,
@@ -1043,7 +1043,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "堕落の伝道師",
         "skills": {
             "Agidyne": 0,
@@ -1092,7 +1092,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "不浄の魔神",
         "skills": {
             "Bufula": 0,
@@ -1175,7 +1175,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "暴虐の重騎兵",
         "skills": {
             "Cleave": 0,
@@ -1227,7 +1227,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "穢れた二角獣",
         "skills": {
             "Apt Pupil": 8,
@@ -1256,7 +1256,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Deadly Fury": 68,
@@ -1287,7 +1287,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Diamond Dust": 72,
@@ -1346,11 +1346,11 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "汚泥の脈動",
         "skills": {
             "Brain Jack": 34,
-            "Brooding Sky": 31,
+            "Ambient Aid": 31,
             "Devil Touch": 0,
             "Flash Bomb": 35,
             "Headbutt": 32,
@@ -1377,11 +1377,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Bloodbath": 61,
-            "Brooding Sky": 60,
+            "Ambient Aid": 60,
             "Flash Bomb": 0,
             "Ghastly Wail": 63,
             "Maeigaon": 0,
@@ -1408,7 +1408,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Mataru": 51,
@@ -1439,7 +1439,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Bufudyne": 55,
@@ -1478,7 +1478,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "冥府の番犬",
         "skills": {
             "Agidyne": 0,
@@ -1508,7 +1508,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "黒の報復人",
         "skills": {
             "Bloodbath": 0,
@@ -1540,7 +1540,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "rs",
         "psy": "nu",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Absorb Psy": 90,
@@ -1599,7 +1599,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "群れ集う邪霊",
         "skills": {
             "Bloodsuck": 0,
@@ -1631,7 +1631,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Energy Shower": 30,
@@ -1662,7 +1662,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rp",
         "phys": "rs",
         "psy": "rp",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "-",
         "skills": {
             "Mabufudyne": 0,
@@ -1694,7 +1694,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Deadly Fury": 0,
@@ -1726,7 +1726,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Bless": 77,
@@ -1757,7 +1757,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Diarahan": 45,
@@ -1796,15 +1796,15 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "血祭好きの戦女",
         "skills": {
             "Bad Beat": 0,
             "Deathbound": 53,
-            "Great Slash": 0,
+            "Giant Slice": 0,
             "High Counter": 52,
             "Power Charge": 55,
-            "Raise Slash": 0,
+            "Rising Slash": 0,
             "Rebellion": 54
         },
         "st": "34",
@@ -1860,7 +1860,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "wk",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "陰惨な五芒星",
         "skills": {
             "Agilao": 0,
@@ -1891,7 +1891,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "大言壮語する酔漢",
         "skills": {
             "Ailment Boost": 63,
@@ -1931,7 +1931,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "恩赦無き審問官",
         "skills": {
             "Blinding Flash": 0,
@@ -1980,11 +1980,11 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "戦乱を待つ騎兵",
         "skills": {
-            "Amnesiac Rush": 20,
-            "Coaching": 0,
+            "Memory Blow": 20,
+            "Sharp Student": 0,
             "Double Fangs": 18,
             "Maragi": 0,
             "Sukunda": 19,
@@ -2010,7 +2010,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "ab",
         "phys": "rs",
         "psy": "ab",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "-",
         "skills": {
             "Agidyne": 0,
@@ -2042,7 +2042,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Diarama": 23,
@@ -2071,14 +2071,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Assault Dive": 29,
             "Dekaja": 0,
             "Dodge Physical": 26,
             "Dormin Rush": 0,
-            "Great Slash": 0,
+            "Giant Slice": 0,
             "Heat Up": 30
         },
         "st": "19",
@@ -2109,7 +2109,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "nu",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "奇弁の海の怪魚",
         "skills": {
             "Evade Psy": 68,
@@ -2140,7 +2140,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Drop": 50,
@@ -2172,7 +2172,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Ali Dance": 0,
@@ -2213,7 +2213,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "旋風まとう悪漢",
         "skills": {
             "Dodge Wind": 26,
@@ -2243,7 +2243,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "nu",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Ali Dance": 79,
@@ -2283,11 +2283,11 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "奇運の象神",
         "skills": {
             "Endure": 56,
-            "Great Slash": 0,
+            "Giant Slice": 0,
             "Masukunda": 57,
             "Miracle Punch": 0,
             "Power Charge": 60,
@@ -2322,7 +2322,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "荒ぶる鳥神",
         "skills": {
             "Amrita Shower": 0,
@@ -2353,11 +2353,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Bufu": 0,
-            "Defense Lesson": 12,
+            "Defense Master": 12,
             "Mabufu": 10,
             "Patra": 8,
             "Rakunda": 0,
@@ -2421,7 +2421,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "rp",
         "psy": "-",
-        "ranged": "rp",
+        "gun": "rp",
         "shadow": "反逆する黒ゾウ",
         "skills": {
             "Foul Breath": 46,
@@ -2429,7 +2429,7 @@ _FULL_COMPENDIUM = {
             "Mudoon": 0,
             "Repel Phys": 51,
             "Swift Strike": 0,
-            "War Declaration": 48
+            "Wage War": 48
         },
         "st": "36",
         "wind": "-"
@@ -2459,7 +2459,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "狂騒のサル王子",
         "skills": {
             "Deathbound": 65,
@@ -2497,7 +2497,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Blinding Flash": 42,
@@ -2529,7 +2529,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Endure": 43,
@@ -2560,7 +2560,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agilao": 0,
@@ -2568,7 +2568,7 @@ _FULL_COMPENDIUM = {
             "Mamudoon": 44,
             "Maragion": 42,
             "Mudoon": 0,
-            "Speed Lesson": 0,
+            "Speed Master": 0,
             "Tentarafoo": 41,
             "Trigger Happy": 43
         },
@@ -2610,7 +2610,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "悪戯好きの少女隊長",
         "skills": {
             "Diarama": 18,
@@ -2618,7 +2618,7 @@ _FULL_COMPENDIUM = {
             "Garu": 0,
             "Magaru": 20,
             "Media": 0,
-            "Provoke": 19
+            "Taunt": 19
         },
         "st": "8",
         "wind": "rs"
@@ -2641,7 +2641,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rp",
         "phys": "rs",
         "psy": "rp",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "-",
         "skills": {
             "Auto-Maraku": 0,
@@ -2673,7 +2673,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Diarama": 0,
@@ -2777,7 +2777,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "首絞めの花少女",
         "skills": {
             "Agi": 0,
@@ -2835,7 +2835,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "寝台の精鬼",
         "skills": {
             "Bloodsuck": 0,
@@ -2903,12 +2903,12 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "とり憑く犬霊",
         "skills": {
             "Brain Shake": 18,
             "Dream Needle": 15,
-            "Great Slash": 0,
+            "Giant Slice": 0,
             "Lucky Punch": 17,
             "Panic Boost": 19,
             "Pulinpa": 0,
@@ -2942,10 +2942,10 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "苦渋の鍛冶師",
         "skills": {
-            "Coaching": 16,
+            "Sharp Student": 16,
             "Counter": 18,
             "Rampage": 15,
             "Resist Dizzy": 0,
@@ -2972,7 +2972,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Wind": 0,
@@ -3017,7 +3017,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "生死を巡る女神",
         "skills": {
             "Agilao": 0,
@@ -3049,14 +3049,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Cross Slash": 0,
             "Dodge Physical": 22,
             "Growth 3": 25,
             "Mazionga": 24,
-            "Raise Slash": 21,
+            "Rising Slash": 21,
             "Tarukaja": 0,
             "Zionga": 0
         },
@@ -3081,14 +3081,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Cross Slash": 0,
             "Growth 3": 28,
             "Mazionga": 27,
             "Null Phys": 25,
-            "Raise Slash": 24,
+            "Rising Slash": 24,
             "Rakukaja": 0,
             "Zionga": 0
         },
@@ -3150,7 +3150,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "あざ笑う雪だるま",
         "skills": {
             "Baisudi": 0,
@@ -3223,12 +3223,12 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "地下室のランプ男",
         "skills": {
             "Agi": 0,
-            "Blindfold": 5,
-            "Coaching": 4,
+            "Dazzler": 5,
+            "Sharp Student": 4,
             "Rakunda": 0,
             "Resist Sleep": 7
         },
@@ -3252,7 +3252,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Dodge Psy": 33,
@@ -3261,7 +3261,7 @@ _FULL_COMPENDIUM = {
             "Masukukaja": 0,
             "Rainy Play": 36,
             "Sharpshooter": 35,
-            "Speed Lesson": 38
+            "Speed Master": 38
         },
         "st": "18",
         "wind": "ab"
@@ -3275,7 +3275,7 @@ _FULL_COMPENDIUM = {
         "en": "19",
         "fire": "-",
         "ice": "-",
-        "item": "Amnesiac Rush",
+        "item": "Memory Blow",
         "bless": "rs",
         "lu": "15",
         "lvl": 25,
@@ -3283,13 +3283,13 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
-            "Amnesiac Rush": 0,
+            "Memory Blow": 0,
             "Counter": 28,
-            "Crisis Resolve": 31,
-            "Defense Lesson": 0,
+            "Adverse Resolve": 31,
+            "Defense Master": 0,
             "Dekunda": 27,
             "Matarukaja": 30,
             "Rakunda": 0
@@ -3315,7 +3315,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Shower": 18,
@@ -3323,7 +3323,7 @@ _FULL_COMPENDIUM = {
             "Diarahan": 21,
             "Divine Grace": 17,
             "Mediarama": 0,
-            "Radiant Arrow": 0,
+            "Shining Arrows": 0,
             "Repel Phys": 22
         },
         "st": "11",
@@ -3347,7 +3347,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Shower": 27,
@@ -3355,7 +3355,7 @@ _FULL_COMPENDIUM = {
             "Divine Grace": 26,
             "High Counter": 0,
             "Mediarama": 0,
-            "Radiant Arrow": 0,
+            "Shining Arrows": 0,
             "Repel Phys": 31
         },
         "st": "17",
@@ -3391,7 +3391,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "nu",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "願い無き星",
         "skills": {
             "Forget Boost": 37,
@@ -3400,7 +3400,7 @@ _FULL_COMPENDIUM = {
             "Mapsyo": 40,
             "Marakunda": 41,
             "Psyo": 0,
-            "Speed Lesson": 38
+            "Speed Master": 38
         },
         "st": "23",
         "wind": "-"
@@ -3423,7 +3423,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rp",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "怒りの果ての黒女王",
         "skills": {
             "Absorb Nuclear": 82,
@@ -3467,7 +3467,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "底なし沼の狂い馬",
         "skills": {
             "Garu": 0,
@@ -3504,7 +3504,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "別れ坂の山乙女",
         "skills": {
             "Divine Grace": 45,
@@ -3557,13 +3557,13 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "武者殺しの戦鬼",
         "skills": {
             "Bad Beat": 30,
             "Counterstrike": 31,
             "Dodge Psy": 27,
-            "Herculean Strike": 0,
+            "Vajra Blast": 0,
             "Rakukaja": 0,
             "Regenerate 1": 0,
             "Sledgehammer": 28
@@ -3596,7 +3596,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "氷雪の覇者",
         "skills": {
             "Auto-Mataru": 64,
@@ -3670,7 +3670,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "ふらつく木精",
         "skills": {
             "Devil Touch": 13,
@@ -3701,7 +3701,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "rs",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "",
         "skills": {
             "Dodge Curseness": 0,
@@ -3734,7 +3734,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Cool Breeze": 78,
@@ -3804,15 +3804,15 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "たわけた山伏",
         "skills": {
-            "Fingered Beam": 0,
+            "Snap": 0,
             "Garu": 0,
             "Growth 1": 12,
-            "Provoke": 13,
+            "Taunt": 13,
             "Rage Boost": 14,
-            "War Declaration": 15
+            "Wage War": 15
         },
         "st": "7",
         "wind": "rs"
@@ -3892,7 +3892,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "草隠れの長老",
         "skills": {
             "Bufu": 0,
@@ -3922,11 +3922,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Assault Dive": 0,
-            "Attack Lesson": 51,
+            "Attack Master": 51,
             "Deadly Fury": 55,
             "Enduring Soul": 54,
             "Matarukaja": 52,
@@ -3954,7 +3954,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "精気すする隣人",
         "skills": {
             "Dekaja": 45,
@@ -3963,7 +3963,7 @@ _FULL_COMPENDIUM = {
             "Revolution": 47,
             "Stagnant Air": 0,
             "Tempest Slash": 43,
-            "War Declaration": 0
+            "Wage War": 0
         },
         "st": "29",
         "wind": "-"
@@ -3985,7 +3985,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "幽谷の怪僧",
         "skills": {
             "Brain Buster": 0,
@@ -4015,7 +4015,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "身を嘆く櫛娘",
         "skills": {
             "Amrita Shower": 47,
@@ -4046,7 +4046,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "　",
         "skills": {
             "Bufu": 0,
@@ -4077,7 +4077,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Bufula": 0,
@@ -4108,7 +4108,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Shower": 72,
@@ -4173,14 +4173,14 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "回廊にうねるヘビ女",
         "skills": {
             "Agilao": 0,
             "Distress Boost": 31,
             "Foul Breath": 28,
             "Maragion": 30,
-            "Raise Slash": 0,
+            "Rising Slash": 0,
             "Rakukaja": 0,
             "Word of Calamity": 27
         },
@@ -4237,7 +4237,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "愛して憎む才女",
         "skills": {
             "Eiga": 23,
@@ -4280,7 +4280,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "rs",
         "psy": "rs",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "悪融合する霊",
         "skills": {
             "Bloodsuck": 0,
@@ -4338,7 +4338,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "",
         "skills": {
             "Bufula": 0,
@@ -4369,7 +4369,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "古き本能の大淫婦",
         "skills": {
             "Mabufudyne": 0,
@@ -4400,7 +4400,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Phys": 99,
@@ -4432,7 +4432,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agidyne": 0,
@@ -4465,10 +4465,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
-            "Attack Lesson": 48,
+            "Attack Master": 48,
             "Bloodbath": 46,
             "Ghastly Wail": 0,
             "Heat Riser": 50,
@@ -4497,7 +4497,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Bloodbath": 50,
@@ -4506,7 +4506,7 @@ _FULL_COMPENDIUM = {
             "Magarudyne": 49,
             "Magatsu Mandala": 0,
             "Megidola": 0,
-            "Speed Lesson": 52
+            "Speed Master": 52
         },
         "st": "40",
         "wind": "-"
@@ -4556,7 +4556,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "つけ狙う狼霊",
         "skills": {
             "Dodge Electric": 20,
@@ -4605,7 +4605,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "死刑台の人面花",
         "skills": {
             "Energy Drop": 0,
@@ -4635,7 +4635,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "そびえる煩悩大王",
         "skills": {
             "Firm Stance": 78,
@@ -4666,7 +4666,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Garula": 23,
@@ -4696,7 +4696,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "異端の救世者",
         "skills": {
             "Amrita Drop": 65,
@@ -4728,7 +4728,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Phys": 85,
@@ -4761,7 +4761,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agneyastra": 0,
@@ -4794,7 +4794,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "ab",
         "phys": "-",
         "psy": "ab",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Dancing Blades": 0,
@@ -4826,7 +4826,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Cosmic Flare": 92,
@@ -4857,7 +4857,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Dekunda": 35,
@@ -4906,13 +4906,13 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "闇穴の太陽",
         "skills": {
             "Freidyne": 45,
             "Mafreila": 0,
             "Nuclear Break": 42,
-            "Tempest": 0,
+            "Vicious Strike": 0,
             "Tentarafoo": 0,
             "Tetra Break": 41
         },
@@ -4969,10 +4969,10 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "夜歩く怪戦士",
         "skills": {
-            "Blindfold": 0,
+            "Dazzler": 0,
             "Dekunda": 14,
             "Dodge Electric": 13,
             "Marin Karin": 11,
@@ -4999,7 +4999,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "ab",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "贄を焼く牛面鬼",
         "skills": {
             "Absorb Fire": 64,
@@ -5031,7 +5031,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "石棺に眠る王侯",
         "skills": {
             "Matarukaja": 0,
@@ -5061,7 +5061,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Debilitate": 85,
@@ -5105,10 +5105,10 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "rs",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "這い寄る吸血蛾",
         "skills": {
-            "Brooding Sky": 36,
+            "Ambient Aid": 36,
             "Makajamon": 37,
             "Mazionga": 0,
             "Shock Boost": 0,
@@ -5153,11 +5153,11 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "洞穴のヘビ男",
         "skills": {
-            "Amnesiac Rush": 0,
-            "Blindfold": 27,
+            "Memory Blow": 0,
+            "Dazzler": 27,
             "Double Fangs": 0,
             "Electric Boost": 26,
             "Marakukaja": 29,
@@ -5184,11 +5184,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "己惚れる花形",
         "skills": {
             "Blinding Flash": 0,
-            "Brooding Sky": 55,
+            "Ambient Aid": 55,
             "Dizzy Boost": 53,
             "Energy Drop": 0,
             "Growth 3": 52,
@@ -5215,7 +5215,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "さすらいの反魂師",
         "skills": {
             "Curse Amp": 65,
@@ -5246,10 +5246,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
-            "Defense Lesson": 34,
+            "Defense Master": 34,
             "Diarama": 0,
             "High Voltage": 36,
             "Invigorate 1": 31,
@@ -5291,7 +5291,7 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "若き日の老猫",
         "skills": {
             "Devil Touch": 0,
@@ -5322,7 +5322,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Baisudi": 0,
@@ -5352,7 +5352,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "終末を計測する者",
         "skills": {
             "Amrita Drop": 55,
@@ -5411,7 +5411,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "夜鳴きする合成獣",
         "skills": {
             "Assault Dive": 25,
@@ -5490,11 +5490,11 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "背負いをせがむ小鬼",
         "skills": {
             "Dekaja": 12,
-            "Fingered Beam": 0,
+            "Snap": 0,
             "Lucky Punch": 9,
             "Resist Fear": 10,
             "Sukunda": 0
@@ -5527,7 +5527,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "nu",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "浮気な夢のキング",
         "skills": {
             "Brain Jack": 0,
@@ -5559,7 +5559,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "El Jihad": 84,
@@ -5590,7 +5590,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "nu",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Evade Nuclear": 47,
@@ -5621,7 +5621,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Agneyastra": 81,
@@ -5680,14 +5680,14 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "rs",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "遊侠の獄卒",
         "skills": {
-            "Amnesiac Rush": 23,
-            "Coaching": 22,
+            "Memory Blow": 23,
+            "Sharp Student": 22,
             "Counter": 0,
-            "Fingered Beam": 0,
-            "Great Slash": 21,
+            "Snap": 0,
+            "Giant Slice": 21,
             "Rampage": 0
         },
         "st": "17",
@@ -5788,7 +5788,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "唸るしかばね鳥",
         "skills": {
             "Agi": 13,
@@ -5818,7 +5818,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "rs",
         "psy": "nu",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "-",
         "skills": {
             "Mabufula": 0,
@@ -5863,7 +5863,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "破産を知るウマ男",
         "skills": {
             "Dekaja": 0,
@@ -5894,7 +5894,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Agilao": 0,
@@ -5926,7 +5926,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Agidyne": 32,
@@ -5975,7 +5975,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "隠し金庫の双頭犬",
         "skills": {
             "Agilao": 0,
@@ -6018,7 +6018,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "残忍なる雄ヒョウ",
         "skills": {
             "Counterstrike": 0,
@@ -6047,7 +6047,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Banishing Wave": 0,
@@ -6086,7 +6086,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "滅亡を映す美女",
         "skills": {
             "Diarahan": 58,
@@ -6117,11 +6117,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Bad Beat": 47,
-            "Brooding Sky": 45,
+            "Ambient Aid": 45,
             "Devil Smile": 46,
             "Eigaon": 48,
             "Maeiga": 0,
@@ -6156,7 +6156,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "屍を喰らう屍",
         "skills": {
             "Banishing Wave": 32,
@@ -6215,7 +6215,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "迷いへ誘う少女",
         "skills": {
             "Dia": 0,
@@ -6257,7 +6257,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "",
         "skills": {
             "Diarama": 44,
@@ -6288,7 +6288,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "　",
         "skills": {
             "Bless Boost": 34,
@@ -6326,7 +6326,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "常夜に笑う女傑",
         "skills": {
             "Agidyne": 48,
@@ -6356,10 +6356,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
-            "Amnesiac Rush": 0,
+            "Memory Blow": 0,
             "Garudyne": 0,
             "Growth 3": 65,
             "Magarudyne": 67,
@@ -6387,7 +6387,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Electric Break": 0,
@@ -6436,12 +6436,12 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "無頼の戦闘狂",
         "skills": {
             "Counterstrike": 28,
-            "Crisis Resolve": 30,
-            "Great Slash": 0,
+            "Adverse Resolve": 30,
+            "Giant Slice": 0,
             "Mind Slice": 27,
             "Regenerate 1": 26,
             "Tarukaja": 0,
@@ -6475,7 +6475,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "rp",
         "psy": "-",
-        "ranged": "rp",
+        "gun": "rp",
         "shadow": "闇舞踏の魔女",
         "skills": {
             "Bloodbath": 0,
@@ -6505,11 +6505,11 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "nu",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Arms Master": 83,
-            "Crisis Resolve": 82,
+            "Adverse Resolve": 82,
             "Dancing Blades": 0,
             "Dekaja": 0,
             "Growth 3": 81,
@@ -6536,7 +6536,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Mapsyo": 0,
@@ -6544,7 +6544,7 @@ _FULL_COMPENDIUM = {
             "Pressing Stance": 45,
             "Psy Break": 0,
             "Rage Boost": 46,
-            "Raise Slash": 0,
+            "Rising Slash": 0,
             "Resist Panic": 44
         },
         "st": "26",
@@ -6567,7 +6567,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Mabufu": 0,
@@ -6599,7 +6599,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Bufu": 0,
@@ -6630,7 +6630,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Amrita Shower": 0,
@@ -6678,7 +6678,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "眠気の袋を持つ男",
         "skills": {
             "Dormin Rush": 0,
@@ -6709,7 +6709,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "水わななく琵琶女",
         "skills": {
             "Dekaja": 52,
@@ -6740,7 +6740,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Absorb Ice": 98,
@@ -6773,7 +6773,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "rs",
         "psy": "rs",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "-",
         "skills": {
             "Cosmic Flare": 96,
@@ -6823,11 +6823,11 @@ _FULL_COMPENDIUM = {
         "personality": "Upbeat",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "影を統べる呪術師",
         "skills": {
-            "Attack Lesson": 49,
-            "Coaching": 0,
+            "Attack Master": 49,
+            "Sharp Student": 0,
             "Endure": 50,
             "Magarula": 0,
             "Maragion": 46,
@@ -6854,7 +6854,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Drop": 66,
@@ -6885,14 +6885,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Counter": 0,
             "Dormin Rush": 0,
-            "Great Slash": 0,
+            "Giant Slice": 0,
             "Power Charge": 34,
-            "Raise Slash": 31,
+            "Rising Slash": 31,
             "Rebellion": 32
         },
         "st": "20",
@@ -6915,7 +6915,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agidyne": 0,
@@ -6945,7 +6945,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "",
         "skills": {
             "Dodge Curseness": 20,
@@ -6998,14 +6998,14 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "nu",
         "psy": "-",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "凶事まねく憑代",
         "skills": {
             "Dekaja": 24,
-            "Fingered Beam": 0,
+            "Snap": 0,
             "Mapsy": 22,
             "Oni Kagura": 27,
-            "Provoke": 0,
+            "Taunt": 0,
             "Psyo": 26,
             "Tarukaja": 0
         },
@@ -7029,7 +7029,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "ab",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Mataru": 87,
@@ -7060,7 +7060,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "nu",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Mataru": 72,
@@ -7143,11 +7143,11 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "不和を呼ぶ家政婦",
         "skills": {
             "Bufu": 0,
-            "Coaching": 10,
+            "Sharp Student": 10,
             "Dia": 7,
             "Dormina": 0,
             "Patra": 9
@@ -7172,7 +7172,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "地響きの影女",
         "skills": {
             "Bufudyne": 58,
@@ -7221,7 +7221,7 @@ _FULL_COMPENDIUM = {
         "personality": "Timid",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "死にぞこないの粘着肉",
         "skills": {
             "Devil Touch": 0,
@@ -7250,7 +7250,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Amrita Shower": 84,
@@ -7281,7 +7281,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "nu",
         "phys": "nu",
         "psy": "nu",
-        "ranged": "nu",
+        "gun": "nu",
         "shadow": "スクーンの石",
         "skills": {
             "Agilao": 0,
@@ -7346,7 +7346,7 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "黄昏の女娼",
         "skills": {
             "Agi": 8,
@@ -7376,12 +7376,12 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "ざわめく山精",
         "skills": {
             "Apt Pupil": 22,
-            "Brooding Sky": 20,
-            "Coaching": 0,
+            "Ambient Aid": 20,
+            "Sharp Student": 0,
             "Garula": 23,
             "Lucky Punch": 0,
             "Magaru": 0,
@@ -7415,7 +7415,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "激水に遊ぶ怪童",
         "skills": {
             "Bufula": 0,
@@ -7424,7 +7424,7 @@ _FULL_COMPENDIUM = {
             "Mabufu": 0,
             "Mabufula": 28,
             "Null Nuclear": 26,
-            "War Declaration": 27
+            "Wage War": 27
         },
         "st": "16",
         "wind": "-"
@@ -7446,7 +7446,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agidyne": 0,
@@ -7476,14 +7476,14 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
             "Frei": 0,
             "Mafrei": 22,
             "Marin Karin": 0,
             "Matarunda": 24,
-            "Speed Lesson": 23,
+            "Speed Master": 23,
             "Tarunda": 0,
             "Word of Calamity": 21
         },
@@ -7531,11 +7531,11 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "復讐する落人",
         "skills": {
             "Assault Dive": 0,
-            "Defense Lesson": 32,
+            "Defense Master": 32,
             "Electric Boost": 34,
             "Electric Break": 0,
             "Mazionga": 30,
@@ -7562,7 +7562,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Curse Amp": 66,
@@ -7594,10 +7594,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
-            "Crisis Resolve": 73,
+            "Adverse Resolve": 73,
             "Door of Hades": 0,
             "Enduring Soul": 74,
             "Maeigaon": 0,
@@ -7608,7 +7608,7 @@ _FULL_COMPENDIUM = {
         "st": "45",
         "wind": "-"
     },
-    "The Queen's Necklace": {
+    "Queen's Necklace": {
         "ag": "15",
         "arcana": "Empress",
         "curse": "rs",
@@ -7625,7 +7625,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "rs",
         "psy": "rs",
-        "ranged": "wk",
+        "gun": "wk",
         "shadow": "-",
         "skills": {
             "Media": 0,
@@ -7657,10 +7657,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "闇夜の雷帝",
         "skills": {
-            "Attack Lesson": 70,
+            "Attack Master": 70,
             "Electric Amp": 66,
             "Heat Up": 68,
             "High Counter": 0,
@@ -7717,7 +7717,7 @@ _FULL_COMPENDIUM = {
         "personality": "Gloomy",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "呪文詠唱するヒヒ",
         "skills": {
             "Freila": 0,
@@ -7725,7 +7725,7 @@ _FULL_COMPENDIUM = {
             "Mafreila": 40,
             "Masukunda": 0,
             "Megido": 37,
-            "Provoke": 0,
+            "Taunt": 0,
             "Psy Wall": 39
         },
         "st": "21",
@@ -7748,7 +7748,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Auto-Maraku": 76,
@@ -7779,7 +7779,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "rs",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "　",
         "skills": {
             "Freidyne": 0,
@@ -7809,7 +7809,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Banishing Wave": 0,
@@ -7841,7 +7841,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Curse": 0,
@@ -7873,7 +7873,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Absorb Curse": 0,
@@ -7912,7 +7912,7 @@ _FULL_COMPENDIUM = {
         "personality": "Unknown",
         "phys": "-",
         "psy": "rs",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "無表情の一角獣",
         "skills": {
             "Assault Dive": 0,
@@ -7943,7 +7943,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "ab",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Angelic Grace": 85,
@@ -7966,7 +7966,7 @@ _FULL_COMPENDIUM = {
         "en": "28",
         "fire": "-",
         "ice": "-",
-        "item": "Great Slash",
+        "item": "Giant Slice",
         "bless": "nu",
         "lu": "25",
         "lvl": 44,
@@ -7974,15 +7974,15 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "rs",
+        "gun": "rs",
         "shadow": "葬送の女騎士",
         "skills": {
-            "Attack Lesson": 45,
+            "Attack Master": 45,
             "Counterstrike": 0,
             "Deathbound": 46,
             "Dodge Physical": 49,
             "Matarukaja": 47,
-            "Raise Slash": 0
+            "Rising Slash": 0
         },
         "st": "33",
         "wind": "-"
@@ -8004,7 +8004,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Brain Jack": 0,
@@ -8036,7 +8036,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Ali Dance": 0,
@@ -8068,7 +8068,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Ailment Boost": 45,
@@ -8092,7 +8092,7 @@ _FULL_COMPENDIUM = {
         "en": "13",
         "fire": "-",
         "ice": "rs",
-        "item": "Tempest",
+        "item": "Vicious Strike",
         "bless": "-",
         "lu": "13",
         "lvl": 20,
@@ -8143,15 +8143,15 @@ _FULL_COMPENDIUM = {
         "personality": "Irritable",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "人食いの女鬼",
         "skills": {
-            "Attack Lesson": 23,
+            "Attack Master": 23,
             "Counter": 0,
             "Hysterical Slap": 0,
             "Oni Kagura": 22,
-            "Tempest": 24,
-            "War Declaration": 0
+            "Vicious Strike": 24,
+            "Wage War": 0
         },
         "st": "14",
         "wind": "-"
@@ -8173,10 +8173,10 @@ _FULL_COMPENDIUM = {
         "nuclear": "wk",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "酔いどれる多頭蛇",
         "skills": {
-            "Crisis Resolve": 67,
+            "Adverse Resolve": 67,
             "Deathbound": 0,
             "Mabufudyne": 0,
             "Oni Kagura": 0,
@@ -8203,7 +8203,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Agidyne": 0,
@@ -8234,7 +8234,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "nu",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Brave Blade": 0,
@@ -8265,7 +8265,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "wk",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Brain Jack": 0,
@@ -8296,7 +8296,7 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "-",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "-",
         "skills": {
             "Banishing Wave": 0,
@@ -8319,7 +8319,7 @@ _FULL_COMPENDIUM = {
         "en": "24",
         "fire": "-",
         "ice": "-",
-        "item": "Coaching",
+        "item": "Sharp Student",
         "bless": "-",
         "lu": "17",
         "lvl": 31,
@@ -8327,12 +8327,12 @@ _FULL_COMPENDIUM = {
         "nuclear": "-",
         "phys": "rs",
         "psy": "-",
-        "ranged": "-",
+        "gun": "-",
         "shadow": "",
         "skills": {
-            "Attack Lesson": 36,
-            "Coaching": 33,
-            "Great Slash": 0,
+            "Attack Master": 36,
+            "Sharp Student": 33,
+            "Giant Slice": 0,
             "Resist Fear": 34,
             "Swift Strike": 35,
             "Terror Claw": 32,

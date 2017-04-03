@@ -24,7 +24,7 @@
         <td>Lu</td>
 
 		<td>Phys</td>
-		<td>Ranged</td>
+		<td>Gun</td>
 		<td>Fire</td>
 		<td>Ice</td>
 		<td>Electric</td>
@@ -54,8 +54,16 @@
 			properties[0].innerHTML = persona.arcana;
 			properties[1].innerHTML = persona.lvl;
 			properties[2].innerHTML = generate_persona_link(persona_name);
-		}
-		
+            properties[0].setAttribute("style", "color:white");
+
+            if (persona_name in _SPECIAL_RECIPES) {
+                var fusion_condition = _SPECIAL_RECIPES[persona_name][0];
+                if (fusion_condition == "DLC Only") {
+                    properties[0].setAttribute("style", "color:red");
+                }
+            }
+        }
+
 		function fill_persona_properties(persona_name, persona, properties) {
 			parse_persona_info(persona_name, persona, properties);
 			
@@ -118,7 +126,7 @@
                 <th>Ag</th>
                 <th>Lu</th>
 				<th><img src="img/icons/phys.png"></th>
-				<th><img src="img/icons/ranged.png"></th>
+				<th><img src="img/icons/gun.png"></th>
 				<th><img src="img/icons/fire.png"></th>
 				<th><img src="img/icons/ice.png"></th>
 				<th><img src="img/icons/electric.png"></th>

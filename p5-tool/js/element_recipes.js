@@ -1,11 +1,10 @@
 _ELEMENT_RECIPES = {
     "Abaddon": [
         "Anubis x 2",
-        "Messiah Picaro x -1",
+        "Messiah Picaro x -2",
         "Messiah x -1",
-        "Michael x -1",
-        "Satan x -1",
-        "Shiva x -1",
+        "Michael x -2",
+        "Shiva x -2",
         "Trumpeter x 2",
         "Yamata no Orochi x 1"
     ],
@@ -73,18 +72,38 @@ _ELEMENT_RECIPES = {
         "Power x -2",
         "Principality x -1"
     ],
+    "Ariadne": [
+        "Atropos x -2",
+        "Clotho x 1",
+        "Lachesis x -1"
+    ],
+    "Ariadne Picaro": [
+        "Atropos x 1",
+        "Fortuna x -1",
+        "Lachesis x 2",
+        "Norn x -2"
+    ],
     "Arsène": [
         "High Pixie x -2",
         "Obariyon x -1",
         "Obariyon x -2"
     ],
+    "Asterius": [
+        "Asterius Picaro x -1",
+        "Fortuna x 2",
+        "Lakshmi x -2",
+        "Norn x 1"
+    ],
+    "Asterius Picaro": [
+        "Asterius x 1",
+        "Lakshmi x -1",
+        "Norn x 2"
+    ],
     "Atropos": [
         "Ariadne Picaro x -1",
         "Ariadne x 2",
-        "Clotho x 2",
-        "Fortuna x -1",
-        "Lachesis x 1",
-        "Norn x -2"
+        "Fortuna x -2",
+        "Lachesis x 1"
     ],
     "Attis": [
         "Hecatoncheir x 2",
@@ -121,12 +140,9 @@ _ELEMENT_RECIPES = {
         "Nebiros x 1"
     ],
     "Belphegor": [
-        "Black Rider x -2",
         "Jatayu x 1",
-        "Magatsu-Izanagi Picaro x -2",
         "Magatsu-Izanagi x -2",
-        "Red Rider x -1",
-        "Seth x -2"
+        "Red Rider x -1"
     ],
     "Berith": [
         "Feng Huang x -2",
@@ -148,16 +164,13 @@ _ELEMENT_RECIPES = {
         "Girimehkala x -2",
         "Kaguya Picaro x 1",
         "Mothman x -1",
-        "Nue x 2",
-        "Sui-Ki x 1"
+        "Sui-Ki x 2"
     ],
     "Black Rider": [
-        "Belphegor x 2",
         "Mada x -2",
         "Magatsu-Izanagi Picaro x 1",
-        "Magatsu-Izanagi x 1",
+        "Magatsu-Izanagi x 2",
         "Mara x -1",
-        "Red Rider x 1",
         "Seth x 1",
         "Yoshitsune x -2"
     ],
@@ -174,11 +187,9 @@ _ELEMENT_RECIPES = {
         "White Rider x 1"
     ],
     "Chernobog": [
-        "Alice x -2",
         "Hell Biker x 2",
-        "Mot x -1",
         "Pale Rider x 1",
-        "Thanatos Picaro x -1",
+        "Thanatos Picaro x -2",
         "Thanatos x -1"
     ],
     "Choronzon": [
@@ -190,8 +201,6 @@ _ELEMENT_RECIPES = {
     "Clotho": [
         "Ariadne x -1",
         "Ariadne x -2",
-        "Atropos x -2",
-        "Lachesis x -1",
         "Lachesis x -2"
     ],
     "Cu Chulainn": [
@@ -219,13 +228,9 @@ _ELEMENT_RECIPES = {
         "Titania x -1"
     ],
     "Decarabia": [
-        "High Pixie x 1",
-        "Izanagi Picaro x 1",
-        "Izanagi x 1",
         "Legion x -1",
-        "Obariyon x 2",
         "Orpheus Picaro x 1",
-        "Orpheus x 1",
+        "Orpheus x 2",
         "Ose x -2"
     ],
     "Dionysus": [
@@ -262,11 +267,8 @@ _ELEMENT_RECIPES = {
     ],
     "Fortuna": [
         "Ariadne Picaro x 1",
-        "Asterius Picaro x -2",
         "Asterius x -2",
-        "Atropos x 1",
-        "Lachesis x 2",
-        "Lakshmi x -2",
+        "Atropos x 2",
         "Norn x -1"
     ],
     "Futsunushi": [
@@ -305,10 +307,8 @@ _ELEMENT_RECIPES = {
     ],
     "Girimehkala": [
         "Black Ooze x 2",
-        "Lilith x -1",
         "Mothman x 1",
-        "Sandalphon x -2",
-        "Tsukiyomi Picaro x -1",
+        "Tsukiyomi Picaro x -2",
         "Tsukiyomi x -1"
     ],
     "Hanuman": [
@@ -339,13 +339,9 @@ _ELEMENT_RECIPES = {
     ],
     "High Pixie": [
         "Arsène x 2",
-        "Decarabia x -1",
-        "Izanagi Picaro x -1",
+        "Izanagi Picaro x -2",
         "Izanagi x -1",
-        "Legion x -2",
-        "Obariyon x 1",
-        "Orpheus Picaro x -1",
-        "Orpheus x -1"
+        "Obariyon x 1"
     ],
     "Horus": [
         "Ganesha x -1",
@@ -386,6 +382,18 @@ _ELEMENT_RECIPES = {
         "Scathach x -2",
         "Silky x 2"
     ],
+    "Izanagi": [
+        "High Pixie x 1",
+        "Izanagi Picaro x -1",
+        "Obariyon x 2",
+        "Orpheus x -2"
+    ],
+    "Izanagi Picaro": [
+        "High Pixie x 2",
+        "Izanagi x 1",
+        "Orpheus Picaro x -2",
+        "Orpheus x -1"
+    ],
     "Jack Frost": [
         "Jack O'Lantern x 1",
         "Nekomata x -1",
@@ -406,6 +414,18 @@ _ELEMENT_RECIPES = {
         "Makami x 2",
         "Mithra x -1",
         "Nigi Mitama x 1"
+    ],
+    "Kaguya": [
+        "Nue x -1",
+        "Onmoraki x 1",
+        "Succubus x 2",
+        "Sui-Ki x -2"
+    ],
+    "Kaguya Picaro": [
+        "Black Ooze x -1",
+        "Mothman x -2",
+        "Nue x 2",
+        "Sui-Ki x 1"
     ],
     "Kaiwan": [
         "Ananta x -1",
@@ -491,17 +511,12 @@ _ELEMENT_RECIPES = {
         "Ariadne Picaro x -2",
         "Ariadne x 1",
         "Atropos x -1",
-        "Clotho x 1",
-        "Fortuna x -2"
+        "Clotho x 2"
     ],
     "Lakshmi": [
         "Asterius Picaro x 1",
         "Asterius Picaro x 2",
-        "Asterius x 1",
-        "Asterius x 2",
-        "Fortuna x 2",
-        "Norn x 1",
-        "Norn x 2"
+        "Asterius x 2"
     ],
     "Lamia": [
         "Dakini x -2",
@@ -518,11 +533,7 @@ _ELEMENT_RECIPES = {
         "Bugs x -2",
         "Decarabia x 1",
         "Dionysus x -2",
-        "High Pixie x 2",
-        "Izanagi Picaro x 2",
-        "Izanagi x 2",
         "Orpheus Picaro x 2",
-        "Orpheus x 2",
         "Ose x -1"
     ],
     "Lilim": [
@@ -533,11 +544,9 @@ _ELEMENT_RECIPES = {
         "Pazuzu x -1"
     ],
     "Lilith": [
-        "Girimehkala x 1",
-        "Mothman x 2",
         "Sandalphon x -1",
         "Tsukiyomi Picaro x 1",
-        "Tsukiyomi x 1"
+        "Tsukiyomi x 2"
     ],
     "Mada": [
         "Black Rider x 2",
@@ -545,6 +554,20 @@ _ELEMENT_RECIPES = {
         "Mara x 2",
         "Yoshitsune x 1",
         "Yoshitsune x 2"
+    ],
+    "Magatsu-Izanagi": [
+        "Belphegor x 2",
+        "Black Rider x -2",
+        "Magatsu-Izanagi Picaro x -1",
+        "Red Rider x 1",
+        "Seth x -2"
+    ],
+    "Magatsu-Izanagi Picaro": [
+        "Black Rider x -1",
+        "Magatsu-Izanagi x 1",
+        "Mara x -2",
+        "Red Rider x 2",
+        "Seth x -1"
     ],
     "Makami": [
         "Genbu x 2",
@@ -561,8 +584,6 @@ _ELEMENT_RECIPES = {
         "Black Rider x 1",
         "Mada x -1",
         "Magatsu-Izanagi Picaro x 2",
-        "Magatsu-Izanagi x 2",
-        "Red Rider x 2",
         "Seth x 2",
         "Yoshitsune x -1"
     ],
@@ -578,6 +599,21 @@ _ELEMENT_RECIPES = {
         "Principality x 2",
         "Throne x -2",
         "Uriel x -2"
+    ],
+    "Messiah": [
+        "Abaddon x 1",
+        "Messiah Picaro x -1",
+        "Michael x -1",
+        "Satan x -2",
+        "Shiva x -1",
+        "Yamata no Orochi x 2"
+    ],
+    "Messiah Picaro": [
+        "Abaddon x 2",
+        "Messiah x 1",
+        "Michael x 1",
+        "Satan x -1",
+        "Shiva x 1"
     ],
     "Mithra": [
         "Byakko x -1",
@@ -603,12 +639,8 @@ _ELEMENT_RECIPES = {
     ],
     "Mot": [
         "Alice x -1",
-        "Chernobog x 1",
-        "Chernobog x 2",
-        "Pale Rider x 2",
         "Thanatos Picaro x 1",
         "Thanatos Picaro x 2",
-        "Thanatos x 1",
         "Thanatos x 2"
     ],
     "Mother Harlot": [
@@ -620,9 +652,6 @@ _ELEMENT_RECIPES = {
         "Black Ooze x 1",
         "Girimehkala x -1",
         "Kaguya Picaro x 2",
-        "Lilith x -2",
-        "Sui-Ki x 2",
-        "Tsukiyomi Picaro x -2",
         "Tsukiyomi x -2"
     ],
     "Naga": [
@@ -657,28 +686,20 @@ _ELEMENT_RECIPES = {
     ],
     "Norn": [
         "Ariadne Picaro x 2",
-        "Asterius Picaro x -1",
+        "Asterius Picaro x -2",
         "Asterius x -1",
-        "Atropos x 2",
-        "Fortuna x 1",
-        "Lakshmi x -1"
+        "Fortuna x 1"
     ],
     "Nue": [
-        "Black Ooze x -2",
         "Kaguya Picaro x -2",
         "Kaguya x 1",
-        "Onmoraki x 1",
-        "Succubus x 2",
+        "Onmoraki x 2",
         "Sui-Ki x -1"
     ],
     "Obariyon": [
         "Arsène x 1",
-        "Decarabia x -2",
         "High Pixie x -1",
-        "Izanagi Picaro x -2",
-        "Izanagi x -2",
-        "Orpheus Picaro x -2",
-        "Orpheus x -2"
+        "Izanagi x -2"
     ],
     "Oberon": [
         "Baal x -1",
@@ -705,14 +726,25 @@ _ELEMENT_RECIPES = {
     ],
     "Onmoraki": [
         "Kaguya x -1",
-        "Nue x -1",
-        "Succubus x 1",
-        "Sui-Ki x -2"
+        "Nue x -2",
+        "Succubus x 1"
     ],
     "Orobas": [
         "Anzu x -2",
         "Berith x 1",
         "Feng Huang x -1"
+    ],
+    "Orpheus": [
+        "Decarabia x -2",
+        "Izanagi Picaro x 1",
+        "Izanagi x 2",
+        "Orpheus Picaro x -1"
+    ],
+    "Orpheus Picaro": [
+        "Decarabia x -1",
+        "Izanagi Picaro x 2",
+        "Legion x -2",
+        "Orpheus x 1"
     ],
     "Orthrus": [
         "Hecatoncheir x -2",
@@ -731,9 +763,7 @@ _ELEMENT_RECIPES = {
     "Pale Rider": [
         "Chernobog x -1",
         "Hell Biker x 1",
-        "Mot x -2",
         "Pisaca x 2",
-        "Thanatos Picaro x -2",
         "Thanatos x -2"
     ],
     "Parvati": [
@@ -809,12 +839,9 @@ _ELEMENT_RECIPES = {
     ],
     "Red Rider": [
         "Belphegor x 1",
-        "Black Rider x -1",
         "Jatayu x 2",
-        "Magatsu-Izanagi Picaro x -1",
-        "Magatsu-Izanagi x -1",
-        "Mara x -2",
-        "Seth x -1"
+        "Magatsu-Izanagi Picaro x -2",
+        "Magatsu-Izanagi x -1"
     ],
     "Saki Mitama": [
         "Ame no Uzume x -2",
@@ -822,11 +849,9 @@ _ELEMENT_RECIPES = {
         "Pixie x 1"
     ],
     "Sandalphon": [
-        "Girimehkala x 2",
         "Lilith x 1",
         "Lilith x 2",
-        "Tsukiyomi Picaro x 2",
-        "Tsukiyomi x 2"
+        "Tsukiyomi Picaro x 2"
     ],
     "Sandman": [
         "Choronzon x -1",
@@ -841,17 +866,11 @@ _ELEMENT_RECIPES = {
         "Skadi x -1"
     ],
     "Satan": [
-        "Abaddon x 1",
-        "Abaddon x 2",
         "Messiah Picaro x 1",
         "Messiah Picaro x 2",
-        "Messiah x 1",
         "Messiah x 2",
-        "Michael x 1",
         "Michael x 2",
-        "Shiva x 1",
-        "Shiva x 2",
-        "Yamata no Orochi x 2"
+        "Shiva x 2"
     ],
     "Scathach": [
         "Isis x 2",
@@ -904,7 +923,6 @@ _ELEMENT_RECIPES = {
     ],
     "Succubus": [
         "Kaguya x -2",
-        "Nue x -2",
         "Onmoraki x -1",
         "Onmoraki x -2"
     ],
@@ -915,12 +933,10 @@ _ELEMENT_RECIPES = {
         "Naga x -1"
     ],
     "Sui-Ki": [
-        "Black Ooze x -1",
+        "Black Ooze x -2",
         "Kaguya Picaro x -1",
         "Kaguya x 2",
-        "Mothman x -2",
-        "Nue x 1",
-        "Onmoraki x 2"
+        "Nue x 1"
     ],
     "Surt": [
         "Futsunushi x -1",
@@ -937,6 +953,18 @@ _ELEMENT_RECIPES = {
         "Inugami x 2",
         "Moloch x -2",
         "Orthrus x 1"
+    ],
+    "Thanatos": [
+        "Chernobog x 1",
+        "Mot x -2",
+        "Pale Rider x 2",
+        "Thanatos Picaro x -1"
+    ],
+    "Thanatos Picaro": [
+        "Alice x -2",
+        "Chernobog x 2",
+        "Mot x -1",
+        "Thanatos x 1"
     ],
     "Thor": [
         "Cerberus x 1",
@@ -955,6 +983,18 @@ _ELEMENT_RECIPES = {
         "Hariti x 2",
         "Kali x -1",
         "Mother Harlot x -2"
+    ],
+    "Tsukiyomi": [
+        "Girimehkala x 1",
+        "Lilith x -2",
+        "Mothman x 2",
+        "Tsukiyomi Picaro x -1"
+    ],
+    "Tsukiyomi Picaro": [
+        "Girimehkala x 2",
+        "Lilith x -1",
+        "Sandalphon x -2",
+        "Tsukiyomi x 1"
     ],
     "Unicorn": [
         "Anzu x 1",
@@ -999,11 +1039,7 @@ _ELEMENT_RECIPES = {
     "Yamata no Orochi": [
         "Abaddon x -1",
         "Anubis x 1",
-        "Messiah Picaro x -2",
         "Messiah x -2",
-        "Michael x -2",
-        "Satan x -2",
-        "Shiva x -2",
         "Trumpeter x 1"
     ],
     "Yatagarasu": [
