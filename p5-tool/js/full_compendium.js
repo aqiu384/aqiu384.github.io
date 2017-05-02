@@ -31,19 +31,19 @@ _FULL_COMPENDIUM = {
         "wind": "-"
     },
     "Agathion": {
-        "ag": "12",
+        "ag": "7",
         "arcana": "Chariot",
         "curse": "-",
         "drop": "コルクの樹皮",
         "electric": "rs",
-        "en": "9",
+        "en": "5",
         "fire": "-",
         "ice": "-",
         "item": "Zio",
         "bless": "-",
         "lu": "3",
         "lvl": 3,
-        "ma": "6",
+        "ma": "4",
         "negotiations": [
             {
                 "うるさい": "nothing",
@@ -80,12 +80,12 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Baisudi": 0,
             "Dia": 0,
-            "Dodge Electric": 8,
+            "Dodge Elec": 8,
             "Lunge": 4,
             "Rakukaja": 6,
             "Zio": 0
         },
-        "st": "4",
+        "st": "3",
         "wind": "wk"
     },
     "Alice": {
@@ -113,7 +113,7 @@ _FULL_COMPENDIUM = {
             "Die For Me!": 81,
             "Mamudoon": 0,
             "Megidolaon": 82,
-            "Mind Charge": 83,
+            "Concentrate": 83,
             "Mudo Boost": 0,
             "Survival Trick": 84
         },
@@ -170,14 +170,14 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Banishing Wave": 45,
+            "Abysmal Surge": 45,
             "Defense Master": 0,
-            "Electric Wall": 0,
+            "Elec Wall": 0,
             "Freidyne": 48,
             "Growth 2": 46,
             "Mafreila": 0,
             "Marakukaja": 47,
-            "Nuclear Boost": 49
+            "Nuke Boost": 49
         },
         "st": "24",
         "wind": "-"
@@ -282,7 +282,7 @@ _FULL_COMPENDIUM = {
             "Dazzler": 0,
             "Dekunda": 17,
             "Dia": 0,
-            "Dodge Curseness": 15,
+            "Dodge Curse": 15,
             "Hama": 0,
             "Kouha": 13
         },
@@ -465,7 +465,7 @@ _FULL_COMPENDIUM = {
         "shadow": "水際の遊女",
         "skills": {
             "Bufu": 0,
-            "Electric Wall": 14,
+            "Elec Wall": 14,
             "Ice Wall": 0,
             "Media": 13,
             "Rebellion": 0,
@@ -567,7 +567,7 @@ _FULL_COMPENDIUM = {
         "gun": "rp",
         "shadow": "墓から目覚めた祖神",
         "skills": {
-            "Banishing Wave": 0,
+            "Abysmal Surge": 0,
             "Defense Master": 39,
             "Maeiga": 38,
             "Makarakarn": 0,
@@ -614,7 +614,7 @@ _FULL_COMPENDIUM = {
             "Hama": 0,
             "Vajra Blast": 21,
             "Makouha": 19,
-            "Psy": 0,
+            "Psi": 0,
             "Rebellion": 18
         },
         "st": "13",
@@ -677,7 +677,7 @@ _FULL_COMPENDIUM = {
             "Evade Physical": 34,
             "High Voltage": 32,
             "Miracle Punch": 0,
-            "Power Charge": 36,
+            "Charge": 36,
             "String Art Beast": 0
         },
         "st": "23",
@@ -709,7 +709,7 @@ _FULL_COMPENDIUM = {
             "Evade Physical": 46,
             "Heat Up": 44,
             "Miracle Punch": 0,
-            "Power Charge": 48,
+            "Charge": 48,
             "String Art Beast": 0
         },
         "st": "36",
@@ -861,12 +861,12 @@ _FULL_COMPENDIUM = {
         "shadow": "",
         "skills": {
             "Dodge Fire": 44,
-            "Electric Boost": 43,
-            "Electric Break": 0,
+            "Elec Boost": 43,
+            "Elec Break": 0,
             "Fire Wall": 0,
             "Mazionga": 0,
             "Mediarama": 41,
-            "Mind Charge": 45
+            "Concentrate": 45
         },
         "st": "23",
         "wind": "nu"
@@ -893,7 +893,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Absorb Curse": 86,
             "Enduring Soul": 84,
-            "Incineration": 88,
+            "Blazing Hell": 88,
             "Maragidyne": 0,
             "Salvation": 0,
             "Samarecarm": 85,
@@ -925,10 +925,10 @@ _FULL_COMPENDIUM = {
             "Magarudyne": 0,
             "Matarukaja": 0,
             "Panta Rhei": 77,
-            "Power Charge": 79,
+            "Charge": 79,
             "Revolution": 0,
             "Tetraja": 78,
-            "Thunderbolt": 80
+            "Ayamur": 80
         },
         "st": "48",
         "wind": "ab"
@@ -984,10 +984,10 @@ _FULL_COMPENDIUM = {
         "gun": "rs",
         "shadow": "熱病に踊る獅子",
         "skills": {
-            "Electric Break": 0,
+            "Elec Break": 0,
             "Invigorate 2": 54,
             "Maziodyne": 57,
-            "Null Electric": 55,
+            "Null Elec": 55,
             "Wage War": 0,
             "Ziodyne": 0
         },
@@ -1016,11 +1016,11 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Curse Amp": 85,
             "Devil Smile": 0,
-            "Evil Judgement": 87,
+            "Demonic Decree": 87,
             "Maeigaon": 0,
             "Mamudoon": 0,
             "Megidolaon": 89,
-            "Mind Charge": 86,
+            "Concentrate": 86,
             "Repel Ice": 88
         },
         "st": "55",
@@ -1051,7 +1051,7 @@ _FULL_COMPENDIUM = {
             "Mamudoon": 0,
             "Maragidyne": 71,
             "Matarunda": 0,
-            "Rainy Death": 74,
+            "Myriad Slashes": 74,
             "Survival Trick": 70
         },
         "st": "45",
@@ -1099,7 +1099,7 @@ _FULL_COMPENDIUM = {
             "Dodge Fire": 0,
             "Ice Break": 39,
             "Mabufula": 41,
-            "Mind Charge": 44,
+            "Concentrate": 44,
             "Null Rage": 38
         },
         "st": "25",
@@ -1264,7 +1264,7 @@ _FULL_COMPENDIUM = {
             "Freidyne": 0,
             "God's Hand": 73,
             "Mafreidyne": 69,
-            "Nuclear Amp": 71,
+            "Nuke Amp": 71,
             "Tetrakarn": 72
         },
         "st": "49",
@@ -1294,7 +1294,7 @@ _FULL_COMPENDIUM = {
             "Ice Amp": 70,
             "Mabufudyne": 0,
             "Miracle Punch": 0,
-            "One Shot Kill": 0,
+            "One-shot Kill": 0,
             "Repel Fire": 71
         },
         "st": "44",
@@ -1351,7 +1351,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Brain Jack": 34,
             "Ambient Aid": 31,
-            "Devil Touch": 0,
+            "Evil Touch": 0,
             "Flash Bomb": 35,
             "Headbutt": 32,
             "Matarunda": 0,
@@ -1416,7 +1416,7 @@ _FULL_COMPENDIUM = {
             "Fast Heal": 55,
             "Masukunda": 0,
             "Miracle Punch": 0,
-            "Psydyne": 0,
+            "Psiodyne": 0,
             "Triple Down": 52
         },
         "st": "35",
@@ -1516,7 +1516,7 @@ _FULL_COMPENDIUM = {
             "Deathbound": 64,
             "Fear Boost": 66,
             "Mudoon": 0,
-            "Rainy Death": 67,
+            "Myriad Slashes": 67,
             "Stagnant Air": 63
         },
         "st": "40",
@@ -1545,11 +1545,11 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Absorb Psy": 90,
             "Gigantomachia": 0,
-            "Mind Charge": 92,
-            "Psycho Force": 89,
-            "Psychokinesis": 0,
+            "Concentrate": 92,
+            "Psycho Blast": 89,
+            "Psycho Force": 0,
             "Repel Phys": 0,
-            "Resist Ailment": 88
+            "Fortify Spirit": 88
         },
         "st": "54",
         "wind": "-"
@@ -1604,7 +1604,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Bloodsuck": 0,
             "Curse Boost": 32,
-            "Dodge Electric": 30,
+            "Dodge Elec": 30,
             "Eiga": 31,
             "Maeiha": 29,
             "Pulinpa": 0,
@@ -1670,7 +1670,7 @@ _FULL_COMPENDIUM = {
             "Mafreidyne": 0,
             "Magarudyne": 0,
             "Makougaon": 0,
-            "Mapsydyne": 0,
+            "Mapsoidyne": 0,
             "Maragidyne": 0,
             "Maziodyne": 0
         },
@@ -1686,7 +1686,7 @@ _FULL_COMPENDIUM = {
         "en": "44",
         "fire": "-",
         "ice": "-",
-        "item": "Power Charge",
+        "item": "Charge",
         "bless": "nu",
         "lu": "34",
         "lvl": 67,
@@ -1703,7 +1703,7 @@ _FULL_COMPENDIUM = {
             "Ice Wall": 0,
             "Matarukaja": 69,
             "Oni Kagura": 0,
-            "Power Charge": 71
+            "Charge": 71
         },
         "st": "47",
         "wind": "rp"
@@ -1803,7 +1803,7 @@ _FULL_COMPENDIUM = {
             "Deathbound": 53,
             "Giant Slice": 0,
             "High Counter": 52,
-            "Power Charge": 55,
+            "Charge": 55,
             "Rising Slash": 0,
             "Rebellion": 54
         },
@@ -1869,7 +1869,7 @@ _FULL_COMPENDIUM = {
             "Maragion": 33,
             "Null Fire": 36,
             "Tetrakarn": 38,
-            "Word of Calamity": 0
+            "Ominous Words": 0
         },
         "st": "21",
         "wind": "-"
@@ -1896,10 +1896,10 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Ailment Boost": 63,
             "Amrita Shower": 66,
-            "Banishing Wave": 0,
+            "Abysmal Surge": 0,
             "Heat Wave": 0,
             "Maragidyne": 65,
-            "Psydyne": 0,
+            "Psiodyne": 0,
             "Thermopylae": 62
         },
         "st": "35",
@@ -1934,8 +1934,8 @@ _FULL_COMPENDIUM = {
         "gun": "wk",
         "shadow": "恩赦無き審問官",
         "skills": {
-            "Blinding Flash": 0,
-            "Evade Curseness": 73,
+            "Nocturnal Flash": 0,
+            "Evade Curse": 73,
             "Hama Boost": 71,
             "Hamaon": 0,
             "Kougaon": 0,
@@ -2019,13 +2019,13 @@ _FULL_COMPENDIUM = {
             "Freidyne": 0,
             "Garudyne": 0,
             "Kougaon": 0,
-            "Psydyne": 0,
+            "Psiodyne": 0,
             "Ziodyne": 0
         },
         "st": "35",
         "wind": "ab"
     },
-    "Feng Huang": {
+    "Phoenix": {
         "ag": "18",
         "arcana": "Hierophant",
         "curse": "-",
@@ -2034,7 +2034,7 @@ _FULL_COMPENDIUM = {
         "en": "15",
         "fire": "-",
         "ice": "rs",
-        "item": "Nuclear Boost",
+        "item": "Nuke Boost",
         "bless": "-",
         "lu": "11",
         "lvl": 22,
@@ -2048,7 +2048,7 @@ _FULL_COMPENDIUM = {
             "Diarama": 23,
             "Dream Needle": 0,
             "Freila": 0,
-            "Nuclear Boost": 27,
+            "Nuke Boost": 27,
             "Recarm": 25
         },
         "st": "14",
@@ -2113,10 +2113,10 @@ _FULL_COMPENDIUM = {
         "shadow": "奇弁の海の怪魚",
         "skills": {
             "Evade Psy": 68,
-            "Mapsydyne": 67,
+            "Mapsoidyne": 67,
             "Marin Karin": 0,
             "Masukunda": 0,
-            "Psydyne": 0,
+            "Psiodyne": 0,
             "Stagnant Air": 66,
             "Survival Trick": 65
         },
@@ -2144,12 +2144,12 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Amrita Drop": 50,
-            "Evade Electric": 51,
+            "Evade Elec": 51,
             "Garudyne": 47,
             "Magarula": 0,
             "Masukukaja": 0,
             "Tetraja": 0,
-            "Touch and Go": 49
+            "Touch n' Go": 49
         },
         "st": "23",
         "wind": "nu"
@@ -2180,8 +2180,8 @@ _FULL_COMPENDIUM = {
             "Brave Blade": 82,
             "Firm Stance": 81,
             "Matarukaja": 0,
-            "Power Charge": 78,
-            "Rainy Death": 0,
+            "Charge": 78,
+            "Myriad Slashes": 0,
             "Regenerate 3": 79
         },
         "st": "54",
@@ -2248,12 +2248,12 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Ali Dance": 79,
             "Divine Judgement": 78,
-            "Evade Curseness": 80,
+            "Evade Curse": 80,
             "Ice Amp": 82,
             "Mabufudyne": 0,
             "Maziodyne": 0,
             "Salvation": 83,
-            "Touch and Go": 81
+            "Touch n' Go": 81
         },
         "st": "43",
         "wind": "-"
@@ -2290,7 +2290,7 @@ _FULL_COMPENDIUM = {
             "Giant Slice": 0,
             "Masukunda": 57,
             "Miracle Punch": 0,
-            "Power Charge": 60,
+            "Charge": 60,
             "Rebellion": 0,
             "Tetraja": 55
         },
@@ -2326,7 +2326,7 @@ _FULL_COMPENDIUM = {
         "shadow": "荒ぶる鳥神",
         "skills": {
             "Amrita Shower": 0,
-            "Evade Electric": 55,
+            "Evade Elec": 55,
             "Garudyne": 0,
             "Heat Wave": 0,
             "Magarudyne": 57,
@@ -2500,7 +2500,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Blinding Flash": 42,
+            "Nocturnal Flash": 42,
             "Dizzy Boost": 45,
             "Energy Shower": 0,
             "Mabaisudi": 0,
@@ -2512,7 +2512,7 @@ _FULL_COMPENDIUM = {
         "st": "24",
         "wind": "wk"
     },
-    "Hecatoncheir": {
+    "Hecatoncheires": {
         "ag": "25",
         "arcana": "Hanged Man",
         "curse": "nu",
@@ -2535,7 +2535,7 @@ _FULL_COMPENDIUM = {
             "Endure": 43,
             "Foul Breath": 45,
             "High Voltage": 46,
-            "Power Charge": 48,
+            "Charge": 48,
             "Regenerate 2": 0,
             "Swift Strike": 0,
             "Tarukaja": 0
@@ -2682,7 +2682,7 @@ _FULL_COMPENDIUM = {
             "Kougaon": 0,
             "Masukukaja": 52,
             "Megido": 0,
-            "Touch and Go": 51
+            "Touch n' Go": 51
         },
         "st": "30",
         "wind": "-"
@@ -2839,8 +2839,8 @@ _FULL_COMPENDIUM = {
         "shadow": "寝台の精鬼",
         "skills": {
             "Bloodsuck": 0,
-            "Devil Touch": 0,
-            "Dodge Curseness": 9,
+            "Evil Touch": 0,
+            "Dodge Curse": 9,
             "Eiha": 7,
             "Tarunda": 8
         },
@@ -2910,7 +2910,7 @@ _FULL_COMPENDIUM = {
             "Dream Needle": 15,
             "Giant Slice": 0,
             "Lucky Punch": 17,
-            "Panic Boost": 19,
+            "Confuse Boost": 19,
             "Pulinpa": 0,
             "Tarukaja": 0
         },
@@ -3370,7 +3370,7 @@ _FULL_COMPENDIUM = {
         "en": "24",
         "fire": "-",
         "ice": "-",
-        "item": "Mapsyo",
+        "item": "Mapsio",
         "bless": "-",
         "lu": "20",
         "lvl": 36,
@@ -3397,9 +3397,9 @@ _FULL_COMPENDIUM = {
             "Forget Boost": 37,
             "Makajam": 0,
             "Makajamon": 39,
-            "Mapsyo": 40,
+            "Mapsio": 40,
             "Marakunda": 41,
-            "Psyo": 0,
+            "Psio": 0,
             "Speed Master": 38
         },
         "st": "23",
@@ -3426,11 +3426,11 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "怒りの果ての黒女王",
         "skills": {
-            "Absorb Nuclear": 82,
+            "Absorb Nuke": 82,
             "Evade Ice": 79,
             "High Counter": 80,
-            "Mapsydyne": 81,
-            "Psydyne": 0,
+            "Mapsoidyne": 81,
+            "Psiodyne": 0,
             "Tentarafoo": 0,
             "Vorpal Blade": 0
         },
@@ -3605,7 +3605,7 @@ _FULL_COMPENDIUM = {
             "Ice Amp": 67,
             "Ice Break": 0,
             "Megaton Raid": 0,
-            "Null Distress": 65
+            "Null Despair": 65
         },
         "st": "38",
         "wind": "-"
@@ -3673,10 +3673,10 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "ふらつく木精",
         "skills": {
-            "Devil Touch": 13,
+            "Evil Touch": 13,
             "Fear Boost": 15,
             "Garu": 0,
-            "Psy": 12,
+            "Psi": 12,
             "Rakunda": 0,
             "Resist Fear": 17,
             "Tarukaja": 14
@@ -3704,12 +3704,12 @@ _FULL_COMPENDIUM = {
         "gun": "rs",
         "shadow": "",
         "skills": {
-            "Dodge Curseness": 0,
-            "Dodge Electric": 0,
+            "Dodge Curse": 0,
+            "Dodge Elec": 0,
             "Dodge Fire": 0,
             "Dodge Ice": 0,
             "Dodge Bless": 0,
-            "Dodge Nuclear": 0,
+            "Dodge Nuke": 0,
             "Dodge Psy": 0,
             "Dodge Wind": 0
         },
@@ -3737,12 +3737,12 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Cool Breeze": 78,
-            "Mapsydyne": 0,
+            "Life Aid": 78,
+            "Mapsoidyne": 0,
             "Mediarahan": 0,
-            "Mind Charge": 79,
+            "Concentrate": 79,
             "Psy Amp": 80,
-            "Psychokinesis": 0,
+            "Psycho Force": 0,
             "Spell Master": 82
         },
         "st": "43",
@@ -3930,7 +3930,7 @@ _FULL_COMPENDIUM = {
             "Deadly Fury": 55,
             "Enduring Soul": 54,
             "Matarukaja": 52,
-            "Nuclear Wall": 53,
+            "Nuke Wall": 53,
             "Regenerate 2": 0,
             "Revolution": 0
         },
@@ -4081,7 +4081,7 @@ _FULL_COMPENDIUM = {
         "shadow": "",
         "skills": {
             "Bufula": 0,
-            "Electric Wall": 36,
+            "Elec Wall": 36,
             "Growth 2": 0,
             "Ice Boost": 40,
             "Mabaisudi": 0,
@@ -4100,7 +4100,7 @@ _FULL_COMPENDIUM = {
         "en": "43",
         "fire": "wk",
         "ice": "rs",
-        "item": "Cool Breeze",
+        "item": "Life Aid",
         "bless": "rs",
         "lu": "38",
         "lvl": 69,
@@ -4113,7 +4113,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Amrita Shower": 72,
             "Bufudyne": 0,
-            "Cool Breeze": 74,
+            "Life Aid": 74,
             "Diarahan": 0,
             "Lullaby": 0,
             "Mediarahan": 70,
@@ -4131,7 +4131,7 @@ _FULL_COMPENDIUM = {
         "en": "18",
         "fire": "-",
         "ice": "wk",
-        "item": "Distress Boost",
+        "item": "Despair Boost",
         "bless": "-",
         "lu": "12",
         "lvl": 26,
@@ -4177,12 +4177,12 @@ _FULL_COMPENDIUM = {
         "shadow": "回廊にうねるヘビ女",
         "skills": {
             "Agilao": 0,
-            "Distress Boost": 31,
+            "Despair Boost": 31,
             "Foul Breath": 28,
             "Maragion": 30,
             "Rising Slash": 0,
             "Rakukaja": 0,
-            "Word of Calamity": 27
+            "Ominous Words": 27
         },
         "st": "21",
         "wind": "-"
@@ -4242,9 +4242,9 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Eiga": 23,
             "Mamudo": 21,
-            "Mapsy": 22,
+            "Mapsi": 22,
             "Marin Karin": 20,
-            "Psyo": 0,
+            "Psio": 0,
             "Rakunda": 0
         },
         "st": "9",
@@ -4286,7 +4286,7 @@ _FULL_COMPENDIUM = {
             "Bloodsuck": 0,
             "Negative Pile": 0,
             "Null Dizzy": 42,
-            "Psyo": 39,
+            "Psio": 39,
             "Rampage": 0,
             "Tetra Break": 40
         },
@@ -4407,7 +4407,7 @@ _FULL_COMPENDIUM = {
             "Gigantomachia": 0,
             "Heat Riser": 96,
             "High Voltage": 97,
-            "Incineration": 0,
+            "Blazing Hell": 0,
             "Insta-Heal": 98,
             "Morning Star": 94,
             "Spell Master": 95
@@ -4440,7 +4440,7 @@ _FULL_COMPENDIUM = {
             "Burn Boost": 0,
             "Enduring Soul": 90,
             "Fire Amp": 0,
-            "Incineration": 87,
+            "Blazing Hell": 87,
             "Spell Master": 91,
             "Unshaken Will": 86
         },
@@ -4559,13 +4559,13 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "つけ狙う狼霊",
         "skills": {
-            "Dodge Electric": 20,
+            "Dodge Elec": 20,
             "Double Fangs": 0,
             "Energy Drop": 0,
             "Frei": 0,
             "Mafrei": 17,
             "Makajam": 18,
-            "Resist Distress": 19
+            "Resist Despair": 19
         },
         "st": "13",
         "wind": "rs"
@@ -4642,8 +4642,8 @@ _FULL_COMPENDIUM = {
             "Heat Up": 77,
             "Maeigaon": 76,
             "Maragidyne": 0,
-            "One Shot Kill": 0,
-            "Power Charge": 74,
+            "One-shot Kill": 0,
+            "Charge": 74,
             "Tetra Break": 0
         },
         "st": "47",
@@ -4671,7 +4671,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Garula": 23,
             "Null Dizzy": 0,
-            "Psy": 0,
+            "Psi": 0,
             "Sukukaja": 0,
             "Swift Strike": 20,
             "Trigger Happy": 22
@@ -4766,7 +4766,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Agneyastra": 0,
             "Almighty Boost": 96,
-            "Cool Breeze": 93,
+            "Life Aid": 93,
             "Enduring Soul": 92,
             "Firm Stance": 94,
             "Insta-Heal": 91,
@@ -4797,14 +4797,14 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Dancing Blades": 0,
+            "Sword Dance": 0,
             "Divine Judgement": 95,
             "Hama Boost": 92,
             "Bless Amp": 94,
             "Mahamaon": 0,
             "Makougaon": 0,
             "Megidolaon": 91,
-            "Mind Charge": 93
+            "Concentrate": 93
         },
         "st": "54",
         "wind": "rp"
@@ -4830,7 +4830,7 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Cosmic Flare": 92,
-            "Dancing Blades": 89,
+            "Sword Dance": 89,
             "Debilitate": 0,
             "Divine Judgement": 0,
             "Mabufudyne": 0,
@@ -4911,7 +4911,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Freidyne": 45,
             "Mafreila": 0,
-            "Nuclear Break": 42,
+            "Nuke Break": 42,
             "Vicious Strike": 0,
             "Tentarafoo": 0,
             "Tetra Break": 41
@@ -4974,7 +4974,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dazzler": 0,
             "Dekunda": 14,
-            "Dodge Electric": 13,
+            "Dodge Elec": 13,
             "Marin Karin": 11,
             "Skull Cracker": 0,
             "Tarukaja": 0
@@ -4991,7 +4991,7 @@ _FULL_COMPENDIUM = {
         "en": "42",
         "fire": "rp",
         "ice": "wk",
-        "item": "Nuclear Amp",
+        "item": "Nuke Amp",
         "bless": "-",
         "lu": "37",
         "lvl": 60,
@@ -5006,8 +5006,8 @@ _FULL_COMPENDIUM = {
             "Agidyne": 62,
             "Devil Smile": 0,
             "Ghastly Wail": 63,
-            "Nuclear Amp": 65,
-            "Psydyne": 0,
+            "Nuke Amp": 65,
+            "Psiodyne": 0,
             "Stagnant Air": 0
         },
         "st": "32",
@@ -5022,7 +5022,7 @@ _FULL_COMPENDIUM = {
         "en": "48",
         "fire": "-",
         "ice": "-",
-        "item": "Mind Charge",
+        "item": "Concentrate",
         "bless": "-",
         "lu": "39",
         "lvl": 72,
@@ -5038,8 +5038,8 @@ _FULL_COMPENDIUM = {
             "Maziodyne": 0,
             "Megidola": 0,
             "Megidolaon": 76,
-            "Mind Charge": 74,
-            "Repel Electric": 77
+            "Concentrate": 74,
+            "Repel Elec": 77
         },
         "st": "43",
         "wind": "wk"
@@ -5127,7 +5127,7 @@ _FULL_COMPENDIUM = {
         "en": "15",
         "fire": "-",
         "ice": "-",
-        "item": "Electric Boost",
+        "item": "Elec Boost",
         "bless": "-",
         "lu": "15",
         "lvl": 24,
@@ -5159,7 +5159,7 @@ _FULL_COMPENDIUM = {
             "Memory Blow": 0,
             "Dazzler": 27,
             "Double Fangs": 0,
-            "Electric Boost": 26,
+            "Elec Boost": 26,
             "Marakukaja": 29,
             "Mazionga": 28,
             "Zionga": 0
@@ -5187,7 +5187,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "己惚れる花形",
         "skills": {
-            "Blinding Flash": 0,
+            "Nocturnal Flash": 0,
             "Ambient Aid": 55,
             "Dizzy Boost": 53,
             "Energy Drop": 0,
@@ -5254,7 +5254,7 @@ _FULL_COMPENDIUM = {
             "High Voltage": 36,
             "Invigorate 1": 31,
             "Masukukaja": 0,
-            "Psyo": 0,
+            "Psio": 0,
             "Rat Fang": 33
         },
         "st": "19",
@@ -5294,9 +5294,9 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "若き日の老猫",
         "skills": {
-            "Devil Touch": 0,
-            "Dodge Electric": 22,
-            "Electric Wall": 21,
+            "Evil Touch": 0,
+            "Dodge Elec": 22,
+            "Elec Wall": 21,
             "Hysterical Slap": 18,
             "Magaru": 0,
             "Terror Claw": 0,
@@ -5356,7 +5356,7 @@ _FULL_COMPENDIUM = {
         "shadow": "終末を計測する者",
         "skills": {
             "Amrita Drop": 55,
-            "Blinding Flash": 0,
+            "Nocturnal Flash": 0,
             "Diarahan": 54,
             "Garudyne": 0,
             "Samarecarm": 57,
@@ -5511,7 +5511,7 @@ _FULL_COMPENDIUM = {
         "en": "43",
         "fire": "-",
         "ice": "-",
-        "item": "Electric Amp",
+        "item": "Elec Amp",
         "bless": "-",
         "lu": "35",
         "lvl": 66,
@@ -5531,7 +5531,7 @@ _FULL_COMPENDIUM = {
         "shadow": "浮気な夢のキング",
         "skills": {
             "Brain Jack": 0,
-            "Electric Amp": 72,
+            "Elec Amp": 72,
             "Heat Wave": 0,
             "Matarukaja": 68,
             "Maziodyne": 69,
@@ -5562,12 +5562,12 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "El Jihad": 84,
-            "Electric Amp": 87,
+            "Wild Thunder": 84,
+            "Elec Amp": 87,
             "Fast Heal": 86,
             "Marakukaja": 0,
-            "Mind Charge": 85,
-            "Rainy Death": 0,
+            "Concentrate": 85,
+            "Myriad Slashes": 0,
             "Thunder Reign": 0
         },
         "st": "53",
@@ -5593,9 +5593,9 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Evade Nuclear": 47,
+            "Evade Nuke": 47,
             "Heat Wave": 49,
-            "Mapsyo": 0,
+            "Mapsio": 0,
             "Matarukaja": 0,
             "Psy Boost": 45,
             "Psy Break": 46,
@@ -5613,7 +5613,7 @@ _FULL_COMPENDIUM = {
         "en": "47",
         "fire": "-",
         "ice": "-",
-        "item": "Rainy Death",
+        "item": "Myriad Slashes",
         "bless": "rp",
         "lu": "39",
         "lvl": 75,
@@ -5629,7 +5629,7 @@ _FULL_COMPENDIUM = {
             "Firm Stance": 79,
             "Makajamon": 0,
             "Pressing Stance": 0,
-            "Rainy Death": 0,
+            "Myriad Slashes": 0,
             "Regenerate 3": 78
         },
         "st": "56",
@@ -5702,7 +5702,7 @@ _FULL_COMPENDIUM = {
         "en": "7",
         "fire": "rs",
         "ice": "-",
-        "item": "Panic Boost",
+        "item": "Confuse Boost",
         "bless": "wk",
         "lu": "5",
         "lvl": 12,
@@ -5794,7 +5794,7 @@ _FULL_COMPENDIUM = {
             "Agi": 13,
             "Ice Wall": 0,
             "Mudo": 0,
-            "Panic Boost": 15,
+            "Confuse Boost": 15,
             "Pulinpa": 14,
             "Resist Fear": 17
         },
@@ -5826,7 +5826,7 @@ _FULL_COMPENDIUM = {
             "Mafreila": 0,
             "Magarula": 0,
             "Makouga": 0,
-            "Mapsyo": 0,
+            "Mapsio": 0,
             "Maragion": 0,
             "Mazionga": 0
         },
@@ -6050,7 +6050,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Banishing Wave": 0,
+            "Abysmal Surge": 0,
             "Brain Shake": 0,
             "Curse Boost": 55,
             "Deathbound": 58,
@@ -6070,7 +6070,7 @@ _FULL_COMPENDIUM = {
         "en": "33",
         "fire": "-",
         "ice": "rp",
-        "item": "Psydyne",
+        "item": "Psiodyne",
         "bless": "rs",
         "lu": "31",
         "lvl": 56,
@@ -6094,8 +6094,8 @@ _FULL_COMPENDIUM = {
             "Energy Shower": 57,
             "Hama Boost": 61,
             "Hamaon": 0,
-            "Mapsydyne": 59,
-            "Psydyne": 0
+            "Mapsoidyne": 59,
+            "Psiodyne": 0
         },
         "st": "33",
         "wind": "-"
@@ -6159,8 +6159,8 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "屍を喰らう屍",
         "skills": {
-            "Banishing Wave": 32,
-            "Distress Boost": 33,
+            "Abysmal Surge": 32,
+            "Despair Boost": 33,
             "Dream Needle": 0,
             "Mamudo": 30,
             "Mudoon": 34,
@@ -6220,7 +6220,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dia": 0,
             "Patra": 3,
-            "Resist Panic": 6,
+            "Resist Confuse": 6,
             "Tarukaja": 5,
             "Zio": 0
         },
@@ -6264,7 +6264,7 @@ _FULL_COMPENDIUM = {
             "Hamaon": 0,
             "Makouga": 43,
             "Masukukaja": 45,
-            "Null Curseness": 46,
+            "Null Curse": 46,
             "Sukukaja": 0,
             "Swift Strike": 42
         },
@@ -6390,7 +6390,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Electric Break": 0,
+            "Elec Break": 0,
             "Evade Wind": 60,
             "Makarakarn": 58,
             "Maziodyne": 59,
@@ -6510,11 +6510,11 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Arms Master": 83,
             "Adverse Resolve": 82,
-            "Dancing Blades": 0,
+            "Sword Dance": 0,
             "Dekaja": 0,
             "Growth 3": 81,
             "Heat Riser": 80,
-            "Power Charge": 0
+            "Charge": 0
         },
         "st": "57",
         "wind": "-"
@@ -6539,13 +6539,13 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Mapsyo": 0,
+            "Mapsio": 0,
             "Negative Pile": 42,
             "Pressing Stance": 45,
             "Psy Break": 0,
             "Rage Boost": 46,
             "Rising Slash": 0,
-            "Resist Panic": 44
+            "Resist Confuse": 44
         },
         "st": "26",
         "wind": "-"
@@ -6575,7 +6575,7 @@ _FULL_COMPENDIUM = {
             "Mafrei": 0,
             "Magaru": 0,
             "Makouha": 0,
-            "Mapsy": 0,
+            "Mapsi": 0,
             "Maragi": 0,
             "Mazio": 0
         },
@@ -6635,7 +6635,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Amrita Shower": 0,
             "Angelic Grace": 77,
-            "Dancing Blades": 79,
+            "Sword Dance": 79,
             "Mahamaon": 0,
             "Repel Curseness": 78,
             "Samarecarm": 0
@@ -6748,9 +6748,9 @@ _FULL_COMPENDIUM = {
             "Diamond Dust": 0,
             "Ice Age": 0,
             "Invigorate 3": 95,
-            "Mind Charge": 97,
+            "Concentrate": 97,
             "Regenerate 3": 0,
-            "Resist Ailment": 96
+            "Fortify Spirit": 96
         },
         "st": "62",
         "wind": "-"
@@ -6863,7 +6863,7 @@ _FULL_COMPENDIUM = {
             "Mabufudyne": 65,
             "Makarakarn": 67,
             "Marakukaja": 0,
-            "Repel Nuclear": 63
+            "Repel Nuke": 63
         },
         "st": "38",
         "wind": "-"
@@ -6891,7 +6891,7 @@ _FULL_COMPENDIUM = {
             "Counter": 0,
             "Dormin Rush": 0,
             "Giant Slice": 0,
-            "Power Charge": 34,
+            "Charge": 34,
             "Rising Slash": 31,
             "Rebellion": 32
         },
@@ -6907,7 +6907,7 @@ _FULL_COMPENDIUM = {
         "en": "33",
         "fire": "rp",
         "ice": "-",
-        "item": "One Shot Kill",
+        "item": "One-shot Kill",
         "bless": "wk",
         "lu": "31",
         "lvl": 51,
@@ -6921,9 +6921,9 @@ _FULL_COMPENDIUM = {
             "Agidyne": 0,
             "Fire Break": 54,
             "Masukukaja": 0,
-            "One Shot Kill": 0,
-            "Resist Ailment": 56,
-            "Weak Spot Aim": 53
+            "One-shot Kill": 0,
+            "Fortify Spirit": 56,
+            "Cripple": 53
         },
         "st": "34",
         "wind": "nu"
@@ -6948,8 +6948,8 @@ _FULL_COMPENDIUM = {
         "gun": "rs",
         "shadow": "",
         "skills": {
-            "Dodge Curseness": 20,
-            "Dodge Electric": 21,
+            "Dodge Curse": 20,
+            "Dodge Elec": 21,
             "Double Fangs": 0,
             "Rampage": 18,
             "Skull Cracker": 0,
@@ -7003,10 +7003,10 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Dekaja": 24,
             "Snap": 0,
-            "Mapsy": 22,
+            "Mapsi": 22,
             "Oni Kagura": 27,
             "Taunt": 0,
-            "Psyo": 26,
+            "Psio": 26,
             "Tarukaja": 0
         },
         "st": "21",
@@ -7036,8 +7036,8 @@ _FULL_COMPENDIUM = {
             "Enduring Soul": 0,
             "Maziodyne": 0,
             "Megidolaon": 86,
-            "Psycho Force": 88,
-            "Psychokinesis": 0,
+            "Psycho Blast": 88,
+            "Psycho Force": 0,
             "Riot Gun": 85
         },
         "st": "55",
@@ -7067,7 +7067,7 @@ _FULL_COMPENDIUM = {
             "High Counter": 0,
             "Masukukaja": 0,
             "Megaton Raid": 0,
-            "Power Charge": 70,
+            "Charge": 70,
             "Vorpal Blade": 74
         },
         "st": "51",
@@ -7176,10 +7176,10 @@ _FULL_COMPENDIUM = {
         "shadow": "地響きの影女",
         "skills": {
             "Bufudyne": 58,
-            "Devil Touch": 0,
+            "Evil Touch": 0,
             "Ghastly Wail": 56,
             "Mabufula": 0,
-            "Null Distress": 0,
+            "Null Despair": 0,
             "Repel Ice": 60,
             "Spirit Drain": 59
         },
@@ -7224,7 +7224,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "死にぞこないの粘着肉",
         "skills": {
-            "Devil Touch": 0,
+            "Evil Touch": 0,
             "Eiha": 11,
             "Fire Wall": 13,
             "Headbutt": 14,
@@ -7290,7 +7290,7 @@ _FULL_COMPENDIUM = {
             "Freila": 0,
             "Garula": 0,
             "Kouga": 0,
-            "Psyo": 0,
+            "Psio": 0,
             "Zionga": 0
         },
         "st": "20",
@@ -7423,7 +7423,7 @@ _FULL_COMPENDIUM = {
             "Headbutt": 0,
             "Mabufu": 0,
             "Mabufula": 28,
-            "Null Nuclear": 26,
+            "Null Nuke": 26,
             "Wage War": 27
         },
         "st": "16",
@@ -7485,7 +7485,7 @@ _FULL_COMPENDIUM = {
             "Matarunda": 24,
             "Speed Master": 23,
             "Tarunda": 0,
-            "Word of Calamity": 21
+            "Ominous Words": 21
         },
         "st": "11",
         "wind": "-"
@@ -7536,8 +7536,8 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Assault Dive": 0,
             "Defense Master": 32,
-            "Electric Boost": 34,
-            "Electric Break": 0,
+            "Elec Boost": 34,
+            "Elec Break": 0,
             "Mazionga": 30,
             "Zionga": 0
         },
@@ -7571,7 +7571,7 @@ _FULL_COMPENDIUM = {
             "High Voltage": 69,
             "Maeigaon": 0,
             "Mamudoon": 0,
-            "One Shot Kill": 68
+            "One-shot Kill": 68
         },
         "st": "43",
         "wind": "-"
@@ -7603,7 +7603,7 @@ _FULL_COMPENDIUM = {
             "Maeigaon": 0,
             "Mamudoon": 0,
             "Mudo Boost": 70,
-            "One Shot Kill": 72
+            "One-shot Kill": 72
         },
         "st": "45",
         "wind": "-"
@@ -7661,7 +7661,7 @@ _FULL_COMPENDIUM = {
         "shadow": "闇夜の雷帝",
         "skills": {
             "Attack Master": 70,
-            "Electric Amp": 66,
+            "Elec Amp": 66,
             "Heat Up": 68,
             "High Counter": 0,
             "Maziodyne": 67,
@@ -7752,7 +7752,7 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Auto-Maraku": 76,
-            "Evade Curseness": 75,
+            "Evade Curse": 75,
             "Hama Boost": 0,
             "Invigorate 3": 0,
             "Bless Amp": 74,
@@ -7787,7 +7787,7 @@ _FULL_COMPENDIUM = {
             "Mafreidyne": 58,
             "Makara Break": 0,
             "Mediarahan": 61,
-            "Nuclear Amp": 60
+            "Nuke Amp": 60
         },
         "st": "32",
         "wind": "-"
@@ -7812,13 +7812,13 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Banishing Wave": 0,
+            "Abysmal Surge": 0,
             "Brain Buster": 0,
-            "Cool Breeze": 64,
+            "Life Aid": 64,
             "Debilitate": 65,
             "Mafreidyne": 0,
-            "Resist Ailment": 61,
-            "Weak Spot Aim": 62
+            "Fortify Spirit": 61,
+            "Cripple": 62
         },
         "st": "33",
         "wind": "-"
@@ -7849,7 +7849,7 @@ _FULL_COMPENDIUM = {
             "Bloodsuck": 0,
             "Curse Amp": 53,
             "Purgatorial Wing": 0,
-            "Rainy Death": 0,
+            "Myriad Slashes": 0,
             "Vorpal Blade": 55
         },
         "st": "38",
@@ -7879,7 +7879,7 @@ _FULL_COMPENDIUM = {
             "Absorb Curse": 0,
             "Curse Amp": 58,
             "Purgatorial Wing": 0,
-            "Rainy Death": 0,
+            "Myriad Slashes": 0,
             "Spell Master": 61,
             "Spirit Drain": 0,
             "Vorpal Blade": 60
@@ -7950,8 +7950,8 @@ _FULL_COMPENDIUM = {
             "Bloodbath": 0,
             "Deathbound": 0,
             "Megidolaon": 84,
-            "Rainy Death": 0,
-            "Repel Nuclear": 83,
+            "Myriad Slashes": 0,
+            "Repel Nuke": 83,
             "Spell Master": 86
         },
         "st": "50",
@@ -8042,7 +8042,7 @@ _FULL_COMPENDIUM = {
             "Ali Dance": 0,
             "Magarudyne": 0,
             "Megidolaon": 0,
-            "Power Charge": 86,
+            "Charge": 86,
             "Repel Fire": 87,
             "Riot Gun": 90,
             "Vacuum Wave": 85,
@@ -8072,7 +8072,7 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Ailment Boost": 45,
-            "Devil Touch": 0,
+            "Evil Touch": 0,
             "Foul Breath": 44,
             "Maeiga": 42,
             "Masukukaja": 43,
@@ -8238,10 +8238,10 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Brave Blade": 0,
-            "Electric Amp": 84,
+            "Elec Amp": 84,
             "Fast Heal": 82,
             "Hassou Tobi": 86,
-            "Power Charge": 0,
+            "Charge": 0,
             "Pressing Stance": 81,
             "Ziodyne": 0
         },
@@ -8269,8 +8269,8 @@ _FULL_COMPENDIUM = {
         "shadow": "-",
         "skills": {
             "Brain Jack": 0,
-            "Electric Boost": 48,
-            "Electric Break": 45,
+            "Elec Boost": 48,
+            "Elec Break": 45,
             "Mazionga": 0,
             "Megido": 0,
             "Revolution": 44,
@@ -8299,13 +8299,13 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "-",
         "skills": {
-            "Banishing Wave": 0,
+            "Abysmal Surge": 0,
             "Enduring Soul": 83,
             "Evade Physical": 82,
             "God's Hand": 0,
-            "Incineration": 86,
+            "Blazing Hell": 86,
             "Maragidyne": 0,
-            "Weak Spot Aim": 84
+            "Cripple": 84
         },
         "st": "57",
         "wind": "-"

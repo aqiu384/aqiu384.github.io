@@ -100,8 +100,8 @@
             }
 
 			var target_recipe = _NORMAL_RECIPES[target_persona];
-			var min_level = min == 0 ? 2 : 2 * min - 2;
-			var max_level = mid == 99 ? 200 : 2 * mid - 2;
+			var min_level = 2 * min;
+			var max_level = 2 * mid;
 			
 			var target_combos = _REVERSE_FUSION_CHART[arcana];
 			var final_recipes;
@@ -141,8 +141,8 @@
 
                 ingredients.splice(ingredients.indexOf(next_persona), 1);
 
-                min_level = 2 * level - 2;
-                max_level = next_max == 99 ? 200 : 2 * next_max - 2;
+                min_level = 2 * level;
+                max_level = 2 * next_max;
 
                 for (var i = 0; i < ingredients.length; i++) {
                     var new_persona = target_arcana[ingredients[i]] + max;
@@ -154,8 +154,8 @@
                 }
             }
 
-            min_level = 2 * level - 2;
-            max_level = max == 99 ? 200 : 2 * max - 2;
+            min_level = 2 * level;
+            max_level = 2 * max;
 			
             for (var i = 0; i < ingredients.length; i++) {
                 for (var j = i + 1; j < ingredients.length; j++) {

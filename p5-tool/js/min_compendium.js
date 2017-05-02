@@ -86,7 +86,7 @@ _MIN_COMPENDIUM = {
     },
     "Hanged Man": {
         "Attis": 82,
-        "Hecatoncheir": 42,
+        "Hecatoncheires": 42,
         "Hua Po": 9,
         "Inugami": 14,
         "Moloch": 60,
@@ -111,7 +111,7 @@ _MIN_COMPENDIUM = {
         "Berith": 9,
         "Bishamonten": 67,
         "Daisoujou": 42,
-        "Feng Huang": 22,
+        "Phoenix": 22,
         "Forneus": 63,
         "Kohryu": 76,
         "Orobas": 17,
