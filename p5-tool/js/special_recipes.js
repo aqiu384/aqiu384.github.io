@@ -14,7 +14,7 @@ _SPECIAL_RECIPES = {
         "Jikokuten"
     ],
     "Black Frost": [
-        "Jack O'Lantern",
+        "Jack-o'-Lantern",
         "Jack Frost",
         "King Frost"
     ],
@@ -73,7 +73,7 @@ _SPECIAL_RECIPES = {
         "Fuu-Ki"
     ],
     "Satanael": [
-        "Arsène",
+        "Arsene",
         "Anzu",
         "Ishtar",
         "Satan",

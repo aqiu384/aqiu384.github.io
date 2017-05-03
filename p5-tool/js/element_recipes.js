@@ -6,13 +6,13 @@ _ELEMENT_RECIPES = {
         "Michael x -2",
         "Shiva x -2",
         "Trumpeter x 2",
-        "Yamata no Orochi x 1"
+        "Yamata-no-Orochi x 1"
     ],
     "Agathion": [
         "Shiisaa x -2",
         "Slime x -1"
     ],
-    "Ame no Uzume": [
+    "Ame-no-Uzume": [
         "Kushinada-Hime x -1",
         "Leanan Sidhe x 1",
         "Narcissus x -2",
@@ -38,7 +38,7 @@ _ELEMENT_RECIPES = {
     "Anubis": [
         "Abaddon x -2",
         "Trumpeter x -1",
-        "Yamata no Orochi x -1"
+        "Yamata-no-Orochi x -1"
     ],
     "Anzu": [
         "Daisoujou x -2",
@@ -79,7 +79,7 @@ _ELEMENT_RECIPES = {
         "Lachesis x 2",
         "Norn x -2"
     ],
-    "Arsène": [
+    "Arsene": [
         "High Pixie x -2",
         "Obariyon x -1"
     ],
@@ -314,7 +314,7 @@ _ELEMENT_RECIPES = {
         "Pisaca x 1"
     ],
     "High Pixie": [
-        "Arsène x 2",
+        "Arsene x 2",
         "Izanagi Picaro x -2",
         "Izanagi x -1",
         "Obariyon x 1"
@@ -368,11 +368,11 @@ _ELEMENT_RECIPES = {
         "Orpheus x -1"
     ],
     "Jack Frost": [
-        "Jack O'Lantern x 1",
+        "Jack-o'-Lantern x 1",
         "Nekomata x -1",
         "Sandman x -2"
     ],
-    "Jack O'Lantern": [
+    "Jack-o'-Lantern": [
         "Jack Frost x -1",
         "Nekomata x -2"
     ],
@@ -465,7 +465,7 @@ _ELEMENT_RECIPES = {
         "Ongyo-Ki x -1"
     ],
     "Kushinada-Hime": [
-        "Ame no Uzume x 1",
+        "Ame-no-Uzume x 1",
         "Leanan Sidhe x 2",
         "Narcissus x -1",
         "Parvati x -2"
@@ -491,7 +491,7 @@ _ELEMENT_RECIPES = {
         "Yaksini x 1"
     ],
     "Leanan Sidhe": [
-        "Ame no Uzume x -1",
+        "Ame-no-Uzume x -1",
         "Kushinada-Hime x -2",
         "Pixie x 2",
         "Saki Mitama x 1"
@@ -570,7 +570,7 @@ _ELEMENT_RECIPES = {
         "Michael x -1",
         "Satan x -2",
         "Shiva x -1",
-        "Yamata no Orochi x 2"
+        "Yamata-no-Orochi x 2"
     ],
     "Messiah Picaro": [
         "Abaddon x 2",
@@ -623,7 +623,7 @@ _ELEMENT_RECIPES = {
         "Sudama x 1"
     ],
     "Narcissus": [
-        "Ame no Uzume x 2",
+        "Ame-no-Uzume x 2",
         "Kushinada-Hime x 1",
         "Parvati x -1",
         "Raphael x -2"
@@ -637,7 +637,7 @@ _ELEMENT_RECIPES = {
     "Nekomata": [
         "Choronzon x -2",
         "Jack Frost x 1",
-        "Jack O'Lantern x 2",
+        "Jack-o'-Lantern x 2",
         "Sandman x -1"
     ],
     "Nigi Mitama": [
@@ -659,7 +659,7 @@ _ELEMENT_RECIPES = {
         "Sui-Ki x -1"
     ],
     "Obariyon": [
-        "Arsène x 1",
+        "Arsene x 1",
         "High Pixie x -1",
         "Izanagi x -2"
     ],
@@ -809,7 +809,7 @@ _ELEMENT_RECIPES = {
         "Magatsu-Izanagi x -1"
     ],
     "Saki Mitama": [
-        "Ame no Uzume x -2",
+        "Ame-no-Uzume x -2",
         "Leanan Sidhe x -1",
         "Pixie x 1"
     ],
@@ -990,7 +990,7 @@ _ELEMENT_RECIPES = {
         "Hariti x -2",
         "Lamia x -1"
     ],
-    "Yamata no Orochi": [
+    "Yamata-no-Orochi": [
         "Abaddon x -1",
         "Anubis x 1",
         "Messiah x -2",

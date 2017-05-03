@@ -56,7 +56,7 @@ _MIN_COMPENDIUM = {
         "Yaksini": 20
     },
     "Fool": {
-        "Arsène": 1,
+        "Arsene": 1,
         "Black Frost": 67,
         "Bugs": 49,
         "Decarabia": 32,
@@ -126,7 +126,7 @@ _MIN_COMPENDIUM = {
         "Satan": 92,
         "Shiva": 82,
         "Trumpeter": 59,
-        "Yamata no Orochi": 64
+        "Yamata-no-Orochi": 64
     },
     "Justice": {
         "Angel": 12,
@@ -140,7 +140,7 @@ _MIN_COMPENDIUM = {
         "Uriel": 81
     },
     "Lovers": {
-        "Ame no Uzume": 29,
+        "Ame-no-Uzume": 29,
         "Ishtar": 85,
         "Kushinada-Hime": 42,
         "Leanan Sidhe": 19,
@@ -154,7 +154,7 @@ _MIN_COMPENDIUM = {
         "Choronzon": 28,
         "Futsunushi": 76,
         "Jack Frost": 11,
-        "Jack O'Lantern": 2,
+        "Jack-o'-Lantern": 2,
         "Nekomata": 17,
         "Queen Mab": 43,
         "Rangda": 48,

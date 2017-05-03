@@ -120,7 +120,7 @@ _FULL_COMPENDIUM = {
         "st": "43",
         "wind": "-"
     },
-    "Ame no Uzume": {
+    "Ame-no-Uzume": {
         "ag": "20",
         "arcana": "Lovers",
         "curse": "-",
@@ -715,7 +715,7 @@ _FULL_COMPENDIUM = {
         "st": "36",
         "wind": "-"
     },
-    "Arsène": {
+    "Arsene": {
         "ag": "3",
         "arcana": "Fool",
         "curse": "rs",
@@ -1602,7 +1602,7 @@ _FULL_COMPENDIUM = {
         "gun": "-",
         "shadow": "群れ集う邪霊",
         "skills": {
-            "Bloodsuck": 0,
+            "Life Drain": 0,
             "Curse Boost": 32,
             "Dodge Elec": 30,
             "Eiga": 31,
@@ -2838,7 +2838,7 @@ _FULL_COMPENDIUM = {
         "gun": "wk",
         "shadow": "寝台の精鬼",
         "skills": {
-            "Bloodsuck": 0,
+            "Life Drain": 0,
             "Evil Touch": 0,
             "Dodge Curse": 9,
             "Eiha": 7,
@@ -3163,7 +3163,7 @@ _FULL_COMPENDIUM = {
         "st": "8",
         "wind": "-"
     },
-    "Jack O'Lantern": {
+    "Jack-o'-Lantern": {
         "ag": "3",
         "arcana": "Magician",
         "curse": "-",
@@ -3260,7 +3260,7 @@ _FULL_COMPENDIUM = {
             "Garula": 0,
             "Masukukaja": 0,
             "Rainy Play": 36,
-            "Sharpshooter": 35,
+            "Snipe": 35,
             "Speed Master": 38
         },
         "st": "18",
@@ -4283,7 +4283,7 @@ _FULL_COMPENDIUM = {
         "gun": "rs",
         "shadow": "悪融合する霊",
         "skills": {
-            "Bloodsuck": 0,
+            "Life Drain": 0,
             "Negative Pile": 0,
             "Null Dizzy": 42,
             "Psio": 39,
@@ -6637,7 +6637,7 @@ _FULL_COMPENDIUM = {
             "Angelic Grace": 77,
             "Sword Dance": 79,
             "Mahamaon": 0,
-            "Repel Curseness": 78,
+            "Repel Curse": 78,
             "Samarecarm": 0
         },
         "st": "46",
@@ -7846,7 +7846,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Absorb Curse": 0,
             "Arms Master": 56,
-            "Bloodsuck": 0,
+            "Life Drain": 0,
             "Curse Amp": 53,
             "Purgatorial Wing": 0,
             "Myriad Slashes": 0,
@@ -8077,7 +8077,7 @@ _FULL_COMPENDIUM = {
             "Maeiga": 42,
             "Masukukaja": 43,
             "Oni Kagura": 0,
-            "Sharpshooter": 41,
+            "Snipe": 41,
             "Triple Down": 0
         },
         "st": "24",
@@ -8156,7 +8156,7 @@ _FULL_COMPENDIUM = {
         "st": "14",
         "wind": "-"
     },
-    "Yamata no Orochi": {
+    "Yamata-no-Orochi": {
         "ag": "36",
         "arcana": "Judgement",
         "curse": "rs",

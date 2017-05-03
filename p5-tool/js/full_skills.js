@@ -68,12 +68,12 @@ _FULL_SKILLS = {
         "effect": "Increase critical rate when being ambushed.",
         "element": "passive",
         "personas": {
-            "Arsène": 7,
+            "Arsene": 7,
             "Jikokuten": 31,
             "Rakshasa": 30,
             "Raphael": 82,
             "Thanatos Picaro": 73,
-            "Yamata no Orochi": 67
+            "Yamata-no-Orochi": 67
         },
         "talk": "Rakshasa"
     },
@@ -83,11 +83,11 @@ _FULL_SKILLS = {
         "element": "fire",
         "personas": {
             "Hua Po": 0,
-            "Jack O'Lantern": 0,
+            "Jack-o'-Lantern": 0,
             "Onmoraki": 13,
             "Succubus": 8
         },
-        "talk": "Jack O'Lantern"
+        "talk": "Jack-o'-Lantern"
     },
     "Agidyne": {
         "cost": 1200,
@@ -209,7 +209,7 @@ _FULL_SKILLS = {
         "talk": "Scathach"
     },
     "Angelic Grace": {
-        "effect": "Double evasion rate against all attacks except Bless/Curseness/Almighty.",
+        "effect": "Double evasion rate against all attacks except Bless/Curse/Almighty.",
         "element": "passive",
         "fuse": "Sandalphon",
         "personas": {
@@ -401,9 +401,9 @@ _FULL_SKILLS = {
         },
         "talk": "Chernobog"
     },
-    "Bloodsuck": {
+    "Life Drain": {
         "cost": 300,
-        "effect": "Drains ? HP and ? SP from 1 foe.",
+        "effect": "Drains HP from 1 foe.",
         "element": "almighty",
         "personas": {
             "Choronzon": 0,
@@ -501,7 +501,7 @@ _FULL_SKILLS = {
         "effect": "Deal medium Ice damage to 1 foe.",
         "element": "ice",
         "personas": {
-            "Ame no Uzume": 0,
+            "Ame-no-Uzume": 0,
             "Belphegor": 0,
             "Lachesis": 0,
             "Lilim": 0,
@@ -539,7 +539,7 @@ _FULL_SKILLS = {
         "element": "phys",
         "fuse": "Berith",
         "personas": {
-            "Arsène": 2,
+            "Arsene": 2,
             "Berith": 0
         },
         "talk": "Berith"
@@ -641,7 +641,7 @@ _FULL_SKILLS = {
         "personas": {
             "Angel": 0,
             "Archangel": 0,
-            "Jack O'Lantern": 5,
+            "Jack-o'-Lantern": 5,
             "Mokoi": 0,
             "Naga": 27
         }
@@ -671,7 +671,7 @@ _FULL_SKILLS = {
             "Pale Rider": 58,
             "Uriel": 0,
             "Valkyrie": 46,
-            "Yamata no Orochi": 0
+            "Yamata-no-Orochi": 0
         }
     },
     "Debilitate": {
@@ -806,7 +806,7 @@ _FULL_SKILLS = {
         "element": "healing",
         "fuse": "High Pixie",
         "personas": {
-            "Ame no Uzume": 0,
+            "Ame-no-Uzume": 0,
             "Phoenix": 23,
             "High Pixie": 18,
             "Horus": 0,
@@ -841,7 +841,7 @@ _FULL_SKILLS = {
         "element": "passive",
         "fuse": "Kikuri-Hime",
         "personas": {
-            "Ame no Uzume": 32,
+            "Ame-no-Uzume": 32,
             "Kaguya": 17,
             "Kaguya Picaro": 26,
             "Kikuri-Hime": 45,
@@ -1004,7 +1004,7 @@ _FULL_SKILLS = {
         "element": "phys",
         "fuse": "Incubus",
         "personas": {
-            "Arsène": 5,
+            "Arsene": 5,
             "Phoenix": 0,
             "Inugami": 15,
             "Pisaca": 0
@@ -1041,7 +1041,7 @@ _FULL_SKILLS = {
         "effect": "Deal weak Curse damage to 1 foe.",
         "element": "curse",
         "personas": {
-            "Arsène": 1,
+            "Arsene": 1,
             "Incubus": 7,
             "Slime": 11
         }
@@ -1871,9 +1871,9 @@ _FULL_SKILLS = {
             "Michael": 0,
             "Mother Harlot": 0,
             "Seiryu": 65,
-            "Yamata no Orochi": 0
+            "Yamata-no-Orochi": 0
         },
-        "talk": "Yamata no Orochi"
+        "talk": "Yamata-no-Orochi"
     },
     "Mabufula": {
         "cost": 1600,
@@ -2377,7 +2377,7 @@ _FULL_SKILLS = {
         "element": "electric",
         "fuse": "Shiisaa",
         "personas": {
-            "Ame no Uzume": 0,
+            "Ame-no-Uzume": 0,
             "Regent": 0
         }
     },
@@ -2812,14 +2812,14 @@ _FULL_SKILLS = {
         "cost": 16,
         "effect": "Deal medium Phys damage and inflict Rage (low odds) to all foes.",
         "element": "phys",
-        "fuse": "Yamata no Orochi",
+        "fuse": "Yamata-no-Orochi",
         "personas": {
             "Cu Chulainn": 0,
             "Ose": 0,
             "Shiki-Ouji": 27,
             "White Rider": 0,
             "Yaksini": 22,
-            "Yamata no Orochi": 0
+            "Yamata-no-Orochi": 0
         },
         "talk": "Ose"
     },
@@ -3073,7 +3073,7 @@ _FULL_SKILLS = {
             "Andras": 0,
             "Genbu": 0,
             "Jack Frost": 13,
-            "Jack O'Lantern": 0,
+            "Jack-o'-Lantern": 0,
             "Jikokuten": 0,
             "Kodama": 0,
             "Koropokkuru": 12,
@@ -3170,7 +3170,7 @@ _FULL_SKILLS = {
         "element": "passive",
         "personas": {}
     },
-    "Repel Curseness": {
+    "Repel Curse": {
         "effect": "Repel Curse attacks.",
         "element": "passive",
         "personas": {
@@ -3190,7 +3190,7 @@ _FULL_SKILLS = {
         "personas": {
             "Black Frost": 71,
             "Vishnu": 87,
-            "Yamata no Orochi": 66
+            "Yamata-no-Orochi": 66
         }
     },
     "Repel Ice": {
@@ -3341,7 +3341,7 @@ _FULL_SKILLS = {
         "effect": "Reduce susceptibility to Sleep.",
         "element": "passive",
         "personas": {
-            "Jack O'Lantern": 7
+            "Jack-o'-Lantern": 7
         }
     },
     "Resist Wind": {
@@ -3433,7 +3433,7 @@ _FULL_SKILLS = {
         "personas": {
             "Eligor": 0,
             "Ippon-Datara": 16,
-            "Jack O'Lantern": 4,
+            "Jack-o'-Lantern": 4,
             "Oni": 22,
             "Scathach": 0,
             "Silky": 10,
@@ -3441,7 +3441,7 @@ _FULL_SKILLS = {
             "Zouchouten": 33
         }
     },
-    "Sharpshooter": {
+    "Snipe": {
         "effect": "Strengthen Gun attacks by 25%.",
         "element": "passive",
         "personas": {
@@ -3465,7 +3465,7 @@ _FULL_SKILLS = {
         "element": "passive",
         "fuse": "Baphomet",
         "personas": {
-            "Ame no Uzume": 34,
+            "Ame-no-Uzume": 34,
             "Baphomet": 62,
             "Mothman": 0,
             "Raja Naga": 57
@@ -3605,7 +3605,7 @@ _FULL_SKILLS = {
         "effect": "Decrease 1 foe's Agility for 3 turns.",
         "element": "support",
         "personas": {
-            "Arsène": 4,
+            "Arsene": 4,
             "Eligor": 19,
             "Mandrake": 5,
             "Obariyon": 0,
@@ -3710,7 +3710,7 @@ _FULL_SKILLS = {
         "effect": "Inflict Confuse (medium odds) to all foes.",
         "element": "ailment",
         "personas": {
-            "Ame no Uzume": 31,
+            "Ame-no-Uzume": 31,
             "Hell Biker": 41,
             "Kali": 0,
             "Mithras": 0,
@@ -3840,14 +3840,14 @@ _FULL_SKILLS = {
         }
     },
     "Unshaken Will": {
-        "effect": "Impart immunity against all psychological ailments.",
+        "effect": "Impart immunity against Confuse, Fear, and Rage.",
         "element": "passive",
         "fuse": "Mada",
         "personas": {
             "Asura-Ou": 81,
             "Mada": 86,
             "Satanael": 98,
-            "Yamata no Orochi": 69
+            "Yamata-no-Orochi": 69
         }
     },
     "Vacuum Wave": {
