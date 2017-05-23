@@ -644,7 +644,7 @@ _FULL_COMPENDIUM = {
             "Auto-Masuku": 88,
             "Cosmic Flare": 0,
             "God's Hand": 0,
-            "High Voltage": 89,
+            "Fortified Moxy": 89,
             "Invigorate 3": 0,
             "Salvation": 90
         },
@@ -675,10 +675,10 @@ _FULL_COMPENDIUM = {
             "Apt Pupil": 0,
             "Attack Master": 31,
             "Evade Physical": 34,
-            "High Voltage": 32,
+            "Fortified Moxy": 32,
             "Miracle Punch": 0,
             "Charge": 36,
-            "String Art Beast": 0
+            "Beast Weaver": 0
         },
         "st": "23",
         "wind": "-"
@@ -710,7 +710,7 @@ _FULL_COMPENDIUM = {
             "Heat Up": 44,
             "Miracle Punch": 0,
             "Charge": 48,
-            "String Art Beast": 0
+            "Beast Weaver": 0
         },
         "st": "36",
         "wind": "-"
@@ -2534,7 +2534,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Endure": 43,
             "Foul Breath": 45,
-            "High Voltage": 46,
+            "Fortified Moxy": 46,
             "Charge": 48,
             "Regenerate 2": 0,
             "Swift Strike": 0,
@@ -4406,7 +4406,7 @@ _FULL_COMPENDIUM = {
             "Absorb Phys": 99,
             "Gigantomachia": 0,
             "Heat Riser": 96,
-            "High Voltage": 97,
+            "Fortified Moxy": 97,
             "Blazing Hell": 0,
             "Insta-Heal": 98,
             "Morning Star": 94,
@@ -5251,7 +5251,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Defense Master": 34,
             "Diarama": 0,
-            "High Voltage": 36,
+            "Fortified Moxy": 36,
             "Invigorate 1": 31,
             "Masukukaja": 0,
             "Psio": 0,
@@ -7568,7 +7568,7 @@ _FULL_COMPENDIUM = {
             "Curse Amp": 66,
             "Door of Hades": 0,
             "Enduring Soul": 70,
-            "High Voltage": 69,
+            "Fortified Moxy": 69,
             "Maeigaon": 0,
             "Mamudoon": 0,
             "One-shot Kill": 68
@@ -7848,7 +7848,7 @@ _FULL_COMPENDIUM = {
             "Arms Master": 56,
             "Life Drain": 0,
             "Curse Amp": 53,
-            "Purgatorial Wing": 0,
+            "Abyssal Wings": 0,
             "Myriad Slashes": 0,
             "Vorpal Blade": 55
         },
@@ -7878,7 +7878,7 @@ _FULL_COMPENDIUM = {
         "skills": {
             "Absorb Curse": 0,
             "Curse Amp": 58,
-            "Purgatorial Wing": 0,
+            "Abyssal Wings": 0,
             "Myriad Slashes": 0,
             "Spell Master": 61,
             "Spirit Drain": 0,

@@ -209,7 +209,7 @@ _FULL_SKILLS = {
         "talk": "Scathach"
     },
     "Angelic Grace": {
-        "effect": "Double evasion rate against all attacks except Bless/Curse/Almighty.",
+        "effect": "Double evasion against Fire/Ice/Elec/Wind/Nuke/Psy/Bless/Curse attacks.",
         "element": "passive",
         "fuse": "Sandalphon",
         "personas": {
@@ -1632,7 +1632,7 @@ _FULL_SKILLS = {
         },
         "talk": "Kali"
     },
-    "High Voltage": {
+    "Fortified Moxy": {
         "effect": "Increase critical rate when beginning battle with preemptive turn.",
         "element": "passive",
         "personas": {
@@ -3001,7 +3001,7 @@ _FULL_SKILLS = {
         },
         "talk": "Mandrake"
     },
-    "Purgatorial Wing": {
+    "Abyssal Wings": {
         "cost": 3000,
         "dlc": true,
         "effect": "Deal severe Curse damage to all foes.",
@@ -3575,7 +3575,7 @@ _FULL_SKILLS = {
             "Pisaca": 0
         }
     },
-    "String Art Beast": {
+    "Beast Weaver": {
         "cost": 20,
         "dlc": true,
         "effect": "Deal grave Phys damage to 1 foe and user is debuffed with Tarunda.",
