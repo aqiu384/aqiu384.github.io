@@ -865,7 +865,7 @@ _ELEMENT_RECIPES = {
     ],
     "Mahamayuri": [
         "Hachiman x Undine",
-        "Omoteotl x Salamander"
+        "Ometeotl x Salamander"
     ],
     "Makami": [
         "Kamapua'a x Undine",
@@ -1093,7 +1093,7 @@ _ELEMENT_RECIPES = {
         "Kushinada-Hime x Undine",
         "Sukuna-Hikona x Undine"
     ],
-    "Omoteotl": [
+    "Ometeotl": [
         "Mahamayuri x Undine",
         "Osiris x Salamander"
     ],
@@ -1143,7 +1143,7 @@ _ELEMENT_RECIPES = {
     ],
     "Osiris": [
         "Lord Nandou x Salamander",
-        "Omoteotl x Undine"
+        "Ometeotl x Undine"
     ],
     "Oumitsunu": [
         "Arahabaki x Salamander"
