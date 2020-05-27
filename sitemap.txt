@@ -88,7 +88,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Ariadne Picaro
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Arsene
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Asterius
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Asterius Picaro
-https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Asura-Ou
+https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Asura
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Atavaka
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Athena
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Athena Picaro
@@ -103,7 +103,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Belphegor
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Berith
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Bicorn
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Bishamonten
-https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Biyarky
+https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Byakhee
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Black Frost
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Black Ooze
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Black Rider
@@ -180,7 +180,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Koropokkuru
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Koumokuten
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Kumbhanda
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Kurama Tengu
-https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Kushinada-Hime
+https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Kushinada
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Kusi Mitama
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Lachesis
 https://aqiu384.github.io/megaten-fusion-tool/p5r/personas/Lakshmi
