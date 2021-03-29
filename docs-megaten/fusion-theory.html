@@ -9,7 +9,104 @@
 <body>
 <div>
 <h1 id="megamitenseifusiontoolsfusiontheory">Megami Tensei Fusion Tools - Fusion Theory</h1>
-<p>TODO</p>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/home">All Fusion Tools</a></li>
+<li><a href="https://aqiu384.github.io/docs-megaten/how-to-use">How to Use</a></li>
+<li><a href="https://github.com/aqiu384/megaten-fusion-tool/issues">Report Issue</a></li>
+</ul>
+<h2 id="basicfusionrules">Basic Fusion Rules</h2>
+<h3 id="normalfusion">Normal Fusion</h3>
+<h4 id="formula">Formula</h4>
+<ol>
+<li>Ingredient A x Ingredient B = ?<ul>
+<li>Consult the game's corresponding demon list to obtain each ingredient's race and base level</li></ul></li>
+<li>Determine Race R<ul>
+<li>Consult the game's corresponding normal fusion chart</li>
+<li>Find the row that starts or ends with Race A</li>
+<li>Find the column that starts or ends with Race B</li>
+<li>Race R = Intersection of the two</li>
+<li>If Race R = None, the fusion is invalid</li>
+<li>For Persona series only: Intersection must lie in upper-right half of chart, if it does not, flip Race A and Race B</li></ul></li>
+<li>Determine Result R<ul>
+<li>Consult the game's corresponding demon list</li>
+<li>Level R = Math.floor((Base Level A + Base Level B) / 2) + Game-specific Normal Level Modifier</li>
+<li>Result R = Next-highest non-special result (neither red nor green) with Race R with base level &gt;= Level R</li>
+<li>If Level R &gt; All non-special results with Race R, the fusion is invalid</li></ul></li>
+<li>Ingredient A x Ingredient B = Result R</li>
+</ol>
+<h4 id="example1">Example 1</h4>
+<ol>
+<li>Persona 4 Golden: Current Level 50 Girimehkala x Current Level 31 Mithra = ?<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/personas">List of Personas - Persona 4 Golden</a></li>
+<li>Girimehkala: Race A = Moon, Base Level A = 48</li>
+<li>Mithra: Race B = Temperance, Base Level B = 31</li></ul></li>
+<li>Determine Race R<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/chart">Fusion Chart - Persona 4 Golden</a></li>
+<li>Moon (row) x Temperance (column) does not lie in upper-right half of chart, so lookup Temperance (row) x Moon (column) instead</li>
+<li>Race R = Temperance (row) x Moon (column) = Hanged (upper-right)</li></ul></li>
+<li>Determine Result R<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/personas">List of Personas - Persona 4 Golden</a></li>
+<li>Persona 4 Golden Normal Level Modifier = 1</li>
+<li>Level R = Math.floor((48 + 31) / 2) + 1 = 40</li>
+<li>Next-highest Hanged persona with base level &gt;= 40 is Yatsufusa at level 49, but Yatsufusa is green indicating a special fusion</li>
+<li>Result R = Next-next-highest Hanged persona with base level &gt;= 40, Taowu at Level 56</li></ul></li>
+<li>Persona 4 Golden: Current Level 50 Girimehkala x Current Level 31 Mithra = Base Level 56 Taowu</li>
+</ol>
+<h3 id="triplefusion">Triple Fusion</h3>
+<h4 id="formula-1">Formula</h4>
+<ol>
+<li>Ingredient A x Ingredient B x Ingredient C = ?<ul>
+<li>Consult the game's corresponding demon list to obtain each ingredient's race and base level</li>
+<li>Ingredient C = Ingredient with the highest current level</li>
+<li>If multiple ingredients are tied for the highest current level, Ingredient C = Ingredient with the highest-priority race</li>
+<li>Consult the game's corresponding demon list for race priority: By default, demons are sorted from higher to lower-priority races</li></ul></li>
+<li>Determine Race AB<ul>
+<li>Consult the game's corresponding normal fusion chart</li>
+<li>Find the row that starts or ends with Race A</li>
+<li>Find the column that starts or ends with Race B</li>
+<li>Race AB = Intersection of the two</li>
+<li>If Race R = None, the fusion is invalid</li>
+<li>For Persona series only: Intersection must lie in upper-right half of chart, if it does not, flip Race A and Race B</li></ul></li>
+<li>Determine Race R<ul>
+<li>Consult the game's corresponding triple fusion chart</li>
+<li>Find the row that starts or ends with Race AB</li>
+<li>Find the column that starts or ends with Race C</li>
+<li>Race R = Intersection of the two</li>
+<li>If Race R = None, the fusion is invalid</li>
+<li>For Persona series only: Intersection must lie in lower-left half of chart, if it does not, flip Race AB and Race C</li></ul></li>
+<li>Determine Result R<ul>
+<li>Consult the game's corresponding demon list</li>
+<li>Level R = Math.floor((Level A + Level B + Level C) / 3) + Game-specific Triple Level Modifier</li>
+<li>Result R = Next-highest non-special result (neither red nor green) with Race R with base level &gt;= Level R</li>
+<li>If Level R &gt; All non-special results with Race R, the fusion is invalid</li></ul></li>
+<li>Ingredient A x Ingredient B x Ingredient C = Result R</li>
+</ol>
+<h4 id="example1-1">Example 1</h4>
+<ol>
+<li>Persona 4 Golden: Current Level 32 King Frost x Current Level 27 Makami x Current Level 32 Neko Shogun = ?<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/personas">List of Personas - Persona 4 Golden</a></li>
+<li>Ingredient C must be Neko Shogun or King Frost</li>
+<li>Because King Frost comes before Neko Shogun in the persona list, Ingredient C = King Frost</li>
+<li>Makami x Neko Shogun x King Frost = ?</li>
+<li>Makami: Race A = Hanged, Base Level A = 27</li>
+<li>Neko Shogun: Race B = Star, Base Level B = 32</li>
+<li>King Frost: Race C = Emperor, Base Level C = 22</li></ul></li>
+<li>Determine Race AB<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/chart">Fusion Chart - Persona 4 Golden</a></li>
+<li>Race AB = Hanged (row) x Star (column) = Empress (upper-right)</li></ul></li>
+<li>Determine Race R<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/chart">Fusion Chart - Persona 4 Golden</a></li>
+<li>Empress (row) x Emperor (column) does not lie in lower-left half of chart, so lookup Emperor (column) x Empress (row) instead</li>
+<li>Race R = Emperor (column) x Empress (row) = Fool (lower-left)</li></ul></li>
+<li>Determine Result R<ul>
+<li><a href="https://aqiu384.github.io/megaten-fusion-tool/p4g/personas">List of Personas - Persona 4 Golden</a></li>
+<li>Persona 4 Golden Triple Level Modifier = 5</li>
+<li>Level R = Math.floor((32 + 27 + 22) / 3) + 5 = 32</li>
+<li>Next-highest Fool persona with base level &gt;= 32 is Black Frost at Level 38, but Black Frost is green indicating a special fusion</li>
+<li>Result R = Next-next-highest Fool persona with base level &gt;= 32, Decarabia at Level 46</li></ul></li>
+<li>Persona 4 Golden: Current Level 32 King Frost x Current Level 27 Makami x Current Level 32 Neko Shogun = Base Level 46 Decarabia</li>
+</ol>
 </div>
 </body>
 </html>
