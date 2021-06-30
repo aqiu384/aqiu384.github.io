@@ -20,6 +20,8 @@ https://aqiu384.github.io/megaten-fusion-tool/smt4
 https://aqiu384.github.io/megaten-fusion-tool/smt4/skills
 https://aqiu384.github.io/megaten-fusion-tool/smt4f
 https://aqiu384.github.io/megaten-fusion-tool/smt4f/skills
+https://aqiu384.github.io/megaten-fusion-tool/smt5
+https://aqiu384.github.io/megaten-fusion-tool/smt5/skills
 https://aqiu384.github.io/megaten-fusion-tool/dsum
 https://aqiu384.github.io/megaten-fusion-tool/dsum/skills
 https://aqiu384.github.io/megaten-fusion-tool/dssh
@@ -764,7 +766,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Lucifer
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mara
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Metatron
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Milady
-https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mithra
+https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mitra
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mithras
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mokoi
 https://aqiu384.github.io/megaten-fusion-tool/p5s/personas/Mothman
