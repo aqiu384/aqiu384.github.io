@@ -32,8 +32,10 @@ https://aqiu384.github.io/megaten-fusion-tool/krch
 https://aqiu384.github.io/megaten-fusion-tool/krch/skills
 https://aqiu384.github.io/megaten-fusion-tool/krao
 https://aqiu384.github.io/megaten-fusion-tool/krao/skills
-https://aqiu384.github.io/megaten-fusion-tool/mib
-https://aqiu384.github.io/megaten-fusion-tool/mib/skills
+https://aqiu384.github.io/megaten-fusion-tool/sh2
+https://aqiu384.github.io/megaten-fusion-tool/sh2/skills
+https://aqiu384.github.io/megaten-fusion-tool/p1
+https://aqiu384.github.io/megaten-fusion-tool/p1/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3
 https://aqiu384.github.io/megaten-fusion-tool/p3/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3fes
