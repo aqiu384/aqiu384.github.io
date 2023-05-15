@@ -36,6 +36,10 @@ https://aqiu384.github.io/megaten-fusion-tool/sh2
 https://aqiu384.github.io/megaten-fusion-tool/sh2/skills
 https://aqiu384.github.io/megaten-fusion-tool/p1
 https://aqiu384.github.io/megaten-fusion-tool/p1/skills
+https://aqiu384.github.io/megaten-fusion-tool/p2t
+https://aqiu384.github.io/megaten-fusion-tool/p2t/skills
+https://aqiu384.github.io/megaten-fusion-tool/p2b
+https://aqiu384.github.io/megaten-fusion-tool/p2b/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3
 https://aqiu384.github.io/megaten-fusion-tool/p3/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3fes
