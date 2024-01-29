@@ -44,16 +44,22 @@ https://aqiu384.github.io/megaten-fusion-tool/p2t/chart
 https://aqiu384.github.io/megaten-fusion-tool/p2t/demons
 https://aqiu384.github.io/megaten-fusion-tool/p2t/personas
 https://aqiu384.github.io/megaten-fusion-tool/p2t/skills
-https://aqiu384.github.io/megaten-fusion-tool/p3aeg/chart
-https://aqiu384.github.io/megaten-fusion-tool/p3aeg/personas
-https://aqiu384.github.io/megaten-fusion-tool/p3aeg/shadows
-https://aqiu384.github.io/megaten-fusion-tool/p3aeg/skills
+https://aqiu384.github.io/megaten-fusion-tool/p3a/chart
+https://aqiu384.github.io/megaten-fusion-tool/p3a/personas
+https://aqiu384.github.io/megaten-fusion-tool/p3a/shadows
+https://aqiu384.github.io/megaten-fusion-tool/p3a/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3/chart
-https://aqiu384.github.io/megaten-fusion-tool/p3fes/chart
-https://aqiu384.github.io/megaten-fusion-tool/p3fes/personas
-https://aqiu384.github.io/megaten-fusion-tool/p3fes/shadows
-https://aqiu384.github.io/megaten-fusion-tool/p3fes/skills
+https://aqiu384.github.io/megaten-fusion-tool/p3f/chart
+https://aqiu384.github.io/megaten-fusion-tool/p3f/personas
+https://aqiu384.github.io/megaten-fusion-tool/p3f/shadows
+https://aqiu384.github.io/megaten-fusion-tool/p3f/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3p/chart
+https://aqiu384.github.io/megaten-fusion-tool/p3r/chart
+https://aqiu384.github.io/megaten-fusion-tool/p3r/personas
+https://aqiu384.github.io/megaten-fusion-tool/p3r/recipes
+https://aqiu384.github.io/megaten-fusion-tool/p3r/settings
+https://aqiu384.github.io/megaten-fusion-tool/p3r/shadows
+https://aqiu384.github.io/megaten-fusion-tool/p3r/skills
 https://aqiu384.github.io/megaten-fusion-tool/p3/personas
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Abaddon
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Alice
@@ -167,7 +173,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Nigi Mitama
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Norn
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Oberon
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Odin
-https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Okuninushi
+https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Oukuninushi
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Omoikane
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Orobas
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Orpheus
@@ -187,7 +193,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Principality
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Pyro Jack
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Queen Mab
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Quetzalcoatl
-https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Raja Naga
+https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Naga Raja
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Rakshasa
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Rangda
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Raphael
@@ -199,7 +205,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Satan
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Sati
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Saturnus
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Scathach
-https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Seiryu
+https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Seiryuu
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Seiten Taisei
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Setanta
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Seth
@@ -211,7 +217,7 @@ https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Slime
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Succubus
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Suparna
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Surt
-https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Susanoo
+https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Susano-o
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Suzaku
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Take-Mikazuchi
 https://aqiu384.github.io/megaten-fusion-tool/p3p/personas/Take-Minakata
