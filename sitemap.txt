@@ -768,6 +768,11 @@ https://aqiu384.github.io/megaten-fusion-tool/smt5/demons
 https://aqiu384.github.io/megaten-fusion-tool/smt5/recipes
 https://aqiu384.github.io/megaten-fusion-tool/smt5/settings
 https://aqiu384.github.io/megaten-fusion-tool/smt5/skills
+https://aqiu384.github.io/megaten-fusion-tool/smt5v/chart
+https://aqiu384.github.io/megaten-fusion-tool/smt5v/demons
+https://aqiu384.github.io/megaten-fusion-tool/smt5v/recipes
+https://aqiu384.github.io/megaten-fusion-tool/smt5v/settings
+https://aqiu384.github.io/megaten-fusion-tool/smt5v/skills
 https://aqiu384.github.io/megaten-fusion-tool/smt9/chart
 https://aqiu384.github.io/megaten-fusion-tool/smt9/demons
 https://aqiu384.github.io/megaten-fusion-tool/smt9/skills
